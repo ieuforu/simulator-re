@@ -21,6 +21,11 @@ static void dumpClass(const char *name) {
     objc_property_t *ps = class_copyPropertyList(c, &n);
     for (unsigned i = 0; i < n; i++) printf("  . %s\n", property_getName(ps[i]));
     free(ps);
+    unsigned ni = 0;
+    Ivar *ivs = class_copyIvarList(c, &ni);
+    for (unsigned i = 0; i < ni; i++)
+        printf("  i %ld %s %s\n", (long)ivar_getOffset(ivs[i]), ivar_getName(ivs[i]), ivar_getTypeEncoding(ivs[i]) ?: "");
+    free(ivs);
     dumpMethods(object_getClass(c), '+');
     dumpMethods(c, '-');
 }

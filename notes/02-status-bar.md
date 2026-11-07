@@ -114,3 +114,58 @@ App 用的是 `setData:` 完整快照，理论上会替换其他来源的覆盖�
 | 蜂窝 type | 0 none，1 1x，2 GPRS，3 Edge，4 UMTS，5 4G，6 LTE，7 5GE，8 LTEA，9 LTEPlus，10 5G，11 5GPlus，12 5GUWB，13 5GUC，14 Satellite，15 5GA |
 
 注意这里的数值和 `SimDevice` 的枚举不同，比如 `SimDevice` 的电池 2 是 charged，网络类型 8 是 LTE。
+
+# 05 电池图标的实现（逆向还原）
+
+Apple 没有公开源码。下面是根据 iOS 27.0 反汇编和实测写的**伪代码**，不是原始代码。完整版见 `notes/03-battery-view.md`。
+
+方法：lldb 附加自己的 StatusBarLab。它和 SpringBoard 加载同一份 UIKitCore，而且不受 SIP 限制，符号都能解析。
+
+继承：`STUIStatusBarStaticBatteryView` → `_UIStaticBatteryView` → `_UIBatteryView` → `UIView`。
+
+```
+// _UIBatteryView
+batteryFillColor():
+    if saverModeActive:  return systemYellow
+    if isLowBattery():   return systemRed
+    if chargingState != 0 and != 4: return systemGreen
+    return fillColor
+
+isLowBattery():
+    if 手动指定了低电量状态 != 0: return 该状态 == 2
+    return chargePercent <= lowBatteryChargePercentThreshold
+
+// _UIStaticBatteryView 重写
+updateBatteryFillColor():
+    percentFillLayer.contentsMultiplyColor = batteryFillColor().CGColor
+    percentFillLayer.opacity = ...
+    updateBodyColors()
+```
+
+子类只重写了“把颜色应用到哪个图层”，选色仍走父类的 `_batteryFillColor`。
+
+## 实测验证
+
+| 条件 | 外观 |
+|---|---|
+| 电量 20 / 21（放电） | 红色 / 普通色，阈值确认为 ≤20% |
+| 15%，充电 | 红色加闪电 |
+| 15%，省电 | 黄色 |
+| 15%，充电加省电 | 黄色加闪电 |
+| 80%，省电 | 黄色 |
+| 80%，充电加省电 | 黄色加闪电 |
+| 80%，notCharging | 普通色加灰色闪电 |
+| 15%，notCharging | 红色加灰色闪电 |
+
+优先级：省电 > 低电量 > 充电 > 默认色。闪电是否显示和颜色分开判断。
+
+## 补充（已解码）
+
+- entry `state` 到 `chargingState` 的查找表是 `(0, 1, 3, 4, 0)`，所以 `chargingState` 的 3 是已充满，4 是未充电。
+- 绿色条件是 `chargingState != 0 && != 4`，灰色闪电条件是 `chargingState > 2`。
+- 容量换算：`capacity / 100`，≤0.01 时按 0 处理。
+- 完整还原代码见 `notes/03-battery-view.md`，工具是 `tools/lldb/annotate.py`。
+
+## 未解码
+
+- 闪电路径 `+_boltBezierPathForSize:`、填充图层几何 `_fillLayerFrame:cornerRadius:` 还没读。
