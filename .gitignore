@@ -1,0 +1,9 @@
+# Apple 二进制和导出的头文件不入库
+dumps/
+*.dylib
+*.dyld_cache
+.DS_Store
+.build/
+.swiftpm/
+DerivedData/
+xcuserdata/
