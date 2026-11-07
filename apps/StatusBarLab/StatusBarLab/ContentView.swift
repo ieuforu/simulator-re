@@ -31,67 +31,43 @@ struct ContentView: View {
             bridge.publishEntries(overrides.entries)
             refreshDomain()
         }
+        #if DEBUG
+        .task { await playDemoIfRequested() }
+        #endif
     }
+
+    #if DEBUG
+    /// 用 --demo 启动时自动切换预设，用于录制 README 演示。
+    private func playDemoIfRequested() async {
+        guard CommandLine.arguments.contains("--demo") else { return }
+        func hold() async { try? await Task.sleep(for: .seconds(1.6)) }
+        await hold()
+        for preset in Preset.allCases {
+            preset.apply(to: &overrides)
+            await hold()
+        }
+        overrides.time = "hello"
+        await hold()
+        overrides = Overrides()
+        await hold()
+    }
+    #endif
 
     private var presetSection: some View {
         Section("快捷预设") {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack {
-                    preset("截图用", "camera") {
-                        $0.timeEnabled = true
-                        $0.time = "9:41"
-                        $0.batteryEnabled = true
-                        $0.batteryLevel = 100
-                        $0.batteryState = .draining
-                        $0.lowPowerMode = false
-                        $0.wifiEnabled = true
-                        $0.wifiHidden = false
-                        $0.wifiBars = 3
-                        $0.wifiStatus = .connected
-                        $0.cellularEnabled = true
-                        $0.cellularHidden = false
-                        $0.cellularBars = 4
-                        $0.cellularStatus = .connected
-                    }
-                    preset("低电量", "battery.25") {
-                        $0.batteryEnabled = true
-                        $0.batteryLevel = 15
-                        $0.batteryState = .draining
-                        $0.lowPowerMode = false
-                    }
-                    preset("省电模式", "bolt.circle") {
-                        $0.batteryEnabled = true
-                        $0.batteryLevel = 18
-                        $0.batteryState = .draining
-                        $0.lowPowerMode = true
-                    }
-                    preset("充电中", "battery.100.bolt") {
-                        $0.batteryEnabled = true
-                        $0.batteryLevel = 42
-                        $0.batteryState = .charging
-                        $0.lowPowerMode = false
-                    }
-                    preset("无信号", "wifi.slash") {
-                        $0.wifiEnabled = true
-                        $0.wifiHidden = true
-                        $0.cellularEnabled = true
-                        $0.cellularHidden = false
-                        $0.cellularBars = 0
-                        $0.cellularStatus = .searching
-                        $0.cellularType = .none
+                    ForEach(Preset.allCases) { preset in
+                        Button {
+                            preset.apply(to: &overrides)
+                        } label: {
+                            Label(preset.title, systemImage: preset.icon)
+                        }
+                        .buttonStyle(.bordered)
                     }
                 }
             }
         }
-    }
-
-    private func preset(_ title: String, _ icon: String, apply: @escaping (inout Overrides) -> Void) -> some View {
-        Button {
-            apply(&overrides)
-        } label: {
-            Label(title, systemImage: icon)
-        }
-        .buttonStyle(.bordered)
     }
 
     private var timeSection: some View {

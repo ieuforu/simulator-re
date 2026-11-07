@@ -114,3 +114,71 @@ struct Overrides: Equatable {
         return result
     }
 }
+
+enum Preset: CaseIterable, Identifiable {
+    case screenshot, lowBattery, lowPowerMode, charging, noSignal
+    var id: Self { self }
+
+    var title: String {
+        switch self {
+        case .screenshot: "截图用"
+        case .lowBattery: "低电量"
+        case .lowPowerMode: "省电模式"
+        case .charging: "充电中"
+        case .noSignal: "无信号"
+        }
+    }
+
+    var icon: String {
+        switch self {
+        case .screenshot: "camera"
+        case .lowBattery: "battery.25"
+        case .lowPowerMode: "bolt.circle"
+        case .charging: "battery.100.bolt"
+        case .noSignal: "wifi.slash"
+        }
+    }
+
+    func apply(to o: inout Overrides) {
+        switch self {
+        case .screenshot:
+            o.timeEnabled = true
+            o.time = "9:41"
+            o.batteryEnabled = true
+            o.batteryLevel = 100
+            o.batteryState = .draining
+            o.lowPowerMode = false
+            o.wifiEnabled = true
+            o.wifiHidden = false
+            o.wifiBars = 3
+            o.wifiStatus = .connected
+            o.cellularEnabled = true
+            o.cellularHidden = false
+            o.cellularBars = 4
+            o.cellularStatus = .connected
+        case .lowBattery:
+            o.batteryEnabled = true
+            o.batteryLevel = 15
+            o.batteryState = .draining
+            o.lowPowerMode = false
+        case .lowPowerMode:
+            o.batteryEnabled = true
+            o.batteryLevel = 18
+            o.batteryState = .draining
+            o.lowPowerMode = true
+        case .charging:
+            o.batteryEnabled = true
+            o.batteryLevel = 42
+            o.batteryState = .charging
+            o.lowPowerMode = false
+        case .noSignal:
+            o.wifiEnabled = true
+            o.wifiHidden = true
+            o.cellularEnabled = true
+            o.cellularHidden = false
+            o.cellularBars = 0
+            o.cellularStatus = .searching
+            o.cellularType = .none
+        }
+    }
+}
