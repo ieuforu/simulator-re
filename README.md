@@ -14,6 +14,7 @@
 | 状态栏实验室 | SwiftUI App，在模拟器内直接写系统的覆盖数据，不依赖 host |
 | 低电量模式 | 黄色电池，`simctl status_bar` 和 `SimDevice` 都做不到 |
 | 电池图标还原 | 从反汇编还原选色、闪电、填充宽度的逻辑，并逐项实测 |
+| 电池像素级还原 | iOS 17.4 和 iOS 27 的几何、贴图、闪电和百分比，独立重绘与真实状态栏逐像素比对 |
 
 ## 电池图标的状态
 
@@ -86,6 +87,7 @@ xcrun simctl launch <设备> dev.ieuforu.StatusBarLab --demo
 | `tools/sbtrace/` | 注入 SpringBoard，追踪状态栏更新 |
 | `tools/lldb/annotate.py` | 让反汇编显示常量和实例变量名 |
 | `tools/ovrtest/` | 直接发布覆盖数据的原型 |
+| `tools/battery/` | 采集真实状态栏电池、导出参数表、独立重绘并逐像素比对 |
 | `notes/` | 逆向笔记 |
 
 ## 笔记
@@ -93,6 +95,8 @@ xcrun simctl launch <设备> dev.ieuforu.StatusBarLab --demo
 1. [架构摸底与设备启动](notes/01-architecture.md)
 2. [状态栏链路与 App 原理](notes/02-status-bar.md)
 3. [电池图标的代码还原](notes/03-battery-view.md)
+4. [旧版电池图标：iOS 17.4](notes/04-legacy-battery.md)
+5. [新版电池图标：iOS 27](notes/05-ios27-battery.md)
 
 ## 限制
 
@@ -102,4 +106,4 @@ xcrun simctl launch <设备> dev.ieuforu.StatusBarLab --demo
 
 ## 声明
 
-个人学习项目，与 Apple 无关。`notes/03-battery-view.md` 里的代码是根据反汇编手工还原的伪代码，不是 Apple 的原始源码。
+个人学习项目，与 Apple 无关。`notes/03` 到 `notes/05` 里的代码是根据反汇编手工还原的伪代码，不是 Apple 的原始源码。
