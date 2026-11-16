@@ -97,6 +97,7 @@ xcrun simctl launch <设备> dev.ieuforu.StatusBarLab --demo
 3. [电池图标的代码还原](notes/03-battery-view.md)
 4. [旧版电池图标：iOS 17.4](notes/04-legacy-battery.md)
 5. [新版电池图标：iOS 27](notes/05-ios27-battery.md)
+6. [旧版圆润电池：cap、连续圆角与路径验证](notes/06-legacy-geometry.md)
 
 ## 限制
 

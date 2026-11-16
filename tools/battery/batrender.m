@@ -1,9 +1,12 @@
 // 电池图标的独立重绘：只用还原出的规则和路径，不调用 _UIBatteryView 的绘制逻辑。
 // 唯一借用系统的是百分比数字的字体对象（字体不在还原范围内）。
-// 用法：batrender <17|27> <输出目录> <标签> <电量0-1> <chargingState> <saver> <showsPercentage> ...（每 5 个参数一组）
+// 用法：batrender <17|27> [--icon-size 7|8] [--foreground black|white] [--padding pt]
+//       <输出目录> <标签> <电量0-1> <chargingState> <saver> <showsPercentage> ...（每 5 个参数一组）
+// foreground 只改变 labelColor，不代表完整的深色外观配色。
 #import <UIKit/UIKit.h>
 #import <objc/message.h>
 #import <dlfcn.h>
+#import "BatteryGeometry.h"
 
 typedef struct {
     int ver;                 // 17 或 27
@@ -14,8 +17,10 @@ typedef struct {
 } Spec;
 
 // 状态栏实测的 iconSize：iOS 17.4 iPhone 15 Pro = 7，iOS 27 iPhone 17 Pro = 8
-static Spec spec(int ver) {
+static Spec spec(int ver, int iconSize) {
     if (ver == 27) return (Spec){27, 79 / 3.0, 41 / 3.0, 0.75, {2, 5}, 1 / 3.0, 1 / 3.0, 1.18840579710145, 0.75072463768116};
+    // iOS 17.4 第 8 档，由 iconsizes 实测；闪电系数 = 高度 / 11.5。
+    if (iconSize == 8) return (Spec){17, 85 / 3.0, 43 / 3.0, 7 / 6.0, {5 / 3.0, 5}, 0, 0, 86 / 69.0, 287 / 345.0};
     return (Spec){17, 25, 13, 1, {4 / 3.0, 4.5}, 1 / 3.0, 1 / 3.0, 1.13043478260870, 0.71014492753623};
 }
 
@@ -68,12 +73,7 @@ static UIBezierPath *boltMaskPath(void) {
 
 // +[_UIBatteryView _pinBezierPathForSize:isComplex:NO]：半径 h/2 的圆，在 x = 0 处切开
 static UIBezierPath *pinPath(CGSize s) {
-    UIBezierPath *p = [UIBezierPath bezierPath];
-    CGFloat r = s.height / 2, d = r - s.width, a = acos(d / r);
-    [p moveToPoint:CGPointMake(0, r - sqrt(r * r - d * d))];
-    [p addArcWithCenter:CGPointMake(-d, r) radius:r startAngle:a endAngle:-a clockwise:NO];
-    [p closePath];
-    return p;
+    return BatteryPinPath(s, NO);
 }
 
 // 把 32×40 坐标系的闪电/蒙版放到以 center 为中心、缩放 k 的位置
@@ -89,11 +89,30 @@ static UIColor *rgb(CGFloat r, CGFloat g, CGFloat b) { return [UIColor colorWith
 
 int main(int argc, char **argv) {
     @autoreleasepool {
+        if (argc < 8 || (strcmp(argv[1], "17") && strcmp(argv[1], "27"))) {
+            fprintf(stderr, "usage: batrender <17|27> [--icon-size 7|8] [--foreground black|white] [--padding pt] <out> <tag> <charge> <state> <saver> <percent> ...\n");
+            return 2;
+        }
+        int ver = atoi(argv[1]), iconSize = ver == 27 ? 8 : 7, arg = 2;
+        BOOL whiteForeground = NO;
+        CGFloat padding = 0;
+        while (arg < argc && strncmp(argv[arg], "--", 2) == 0) {
+            if (arg + 1 >= argc) { fprintf(stderr, "missing option value\n"); return 2; }
+            NSString *option = @(argv[arg++]), *value = @(argv[arg++]);
+            if ([option isEqualToString:@"--icon-size"] && ([value isEqualToString:@"7"] || [value isEqualToString:@"8"])) iconSize = value.intValue;
+            else if ([option isEqualToString:@"--foreground"] && ([value isEqualToString:@"black"] || [value isEqualToString:@"white"])) whiteForeground = [value isEqualToString:@"white"];
+            else if ([option isEqualToString:@"--padding"]) {
+                const char *start = value.UTF8String; char *end; padding = strtod(start, &end);
+                if (end == start || *end || !isfinite(padding) || padding < 0 || padding > 100) { fprintf(stderr, "invalid padding\n"); return 2; }
+            } else { fprintf(stderr, "invalid option or value: %s %s\n", option.UTF8String, value.UTF8String); return 2; }
+        }
+        if ((ver == 27 && iconSize != 8) || argc - arg < 6 || (argc - arg - 1) % 5) {
+            fprintf(stderr, "supported sizes: 17=7/8, 27=8; supply one or more complete state groups\n"); return 2;
+        }
         dlopen("/System/Library/PrivateFrameworks/SystemStatusUI.framework/SystemStatusUI", RTLD_NOW);
-        int ver = atoi(argv[1]);
-        NSString *outDir = @(argv[2]);
-        Spec S = spec(ver);
-        for (int i = 3; i + 4 < argc; i += 5) {
+        NSString *outDir = @(argv[arg++]);
+        Spec S = spec(ver, iconSize);
+        for (int i = arg; i + 4 < argc; i += 5) {
             NSString *tag = @(argv[i]);
             double p = atof(argv[i + 1]);
             long state = atol(argv[i + 2]);
@@ -114,7 +133,7 @@ int main(int argc, char **argv) {
             BOOL cutout = !saver && (state == 0 || state == 4) && !low;           // _batteryTextIsCutout
 
             // ---- 颜色（浅色外观）----
-            UIColor *label = UIColor.blackColor;
+            UIColor *label = whiteForeground ? UIColor.whiteColor : UIColor.blackColor;
             UIColor *fillColor = saver ? rgb(1, 0.8, 0) : low ? (S.ver == 27 ? rgb(1, 0.22, 0.235) : rgb(1, 0.231, 0.188))
                                : (state != 0 && state != 4) ? rgb(0.204, 0.78, 0.349) : label;
             UIColor *inactive = [label colorWithAlphaComponent:saver ? 0.2 : 0.3];
@@ -148,7 +167,7 @@ int main(int argc, char **argv) {
             if (pct) {
                 UIView *sys = [[NSClassFromString(@"STUIStatusBarStaticBatteryView") alloc] initWithFrame:CGRectZero];
                 ((void (*)(id, SEL, long))objc_msgSend)(sys, sel_getUid("setInternalSizeCategory:"), 0);
-                ((void (*)(id, SEL, BOOL, long))objc_msgSend)(sys, sel_getUid("setRounded:iconSize:"), YES, S.ver == 27 ? 8 : 7);
+                ((void (*)(id, SEL, BOOL, long))objc_msgSend)(sys, sel_getUid("setRounded:iconSize:"), YES, iconSize);
                 [sys setValue:@YES forKey:@"showsInlineChargingIndicator"];
                 [sys setValue:@YES forKey:@"showsPercentage"];
                 [sys setValue:@(p) forKey:@"chargePercent"];
@@ -230,9 +249,10 @@ int main(int argc, char **argv) {
             };
             UIGraphicsImageRendererFormat *f = [UIGraphicsImageRendererFormat preferredFormat];
             f.scale = kScale; f.opaque = NO;
-            CGSize canvas = CGSizeMake(ceil(bounds.size.width), ceil(bounds.size.height));
+            CGSize canvas = CGSizeMake(ceil(bounds.size.width) + 2 * padding, ceil(bounds.size.height) + 2 * padding);
             UIImage *img = [[[UIGraphicsImageRenderer alloc] initWithSize:canvas format:f] imageWithActions:^(UIGraphicsImageRendererContext *c) {
                 CGContextRef ctx = c.CGContext;
+                CGContextTranslateCTM(ctx, padding, padding);
                 tint(ctx, bodyImg, viewBounds, bodyColor, kCGBlendModeNormal);
                 tint(ctx, fillImg, fill, fillColor, kCGBlendModeNormal);
                 tint(ctx, pinImg, pinRect, pinColor, kCGBlendModeNormal);
@@ -243,7 +263,9 @@ int main(int argc, char **argv) {
                 if (showBolt) tint(ctx, boltImg, boltRect, pct && cutout ? UIColor.blackColor : boltColor,
                                    pct && cutout ? kCGBlendModeDestinationOut : kCGBlendModeNormal);
             }];
-            [UIImagePNGRepresentation(img) writeToFile:[outDir stringByAppendingFormat:@"/%@.png", tag] atomically:YES];
+            if (![UIImagePNGRepresentation(img) writeToFile:[outDir stringByAppendingFormat:@"/%@.png", tag] atomically:YES]) {
+                fprintf(stderr, "failed to write %s.png (output directory must exist)\n", tag.UTF8String); return 1;
+            }
             printf("%s %s fill=%s label=%s bolt=(%.4f,%.4f)x%.4f\n", tag.UTF8String, NSStringFromCGRect(bounds).UTF8String,
                    NSStringFromCGRect(fill).UTF8String, lb ? NSStringFromCGRect(lb.frame).UTF8String : "-", boltCenter.x, boltCenter.y, boltK);
         }

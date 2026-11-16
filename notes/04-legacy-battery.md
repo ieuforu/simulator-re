@@ -319,3 +319,39 @@ boltLayer.position = boltMaskLayer.position = boltCenter;
 - “100 用 SemiCondensed 字体”只有实测。
 - 深色外观下 17.4 的颜色没有采集。
 - 数据层 state 4（无法充电）在 17.4 上没有采集。
+
+## 参考截图里的圆润大号电池（2026-11-16）
+
+用户提供的 1290 × 2796 截图，电池为灰白描边、绿色填充、白色闪电，无百分比。仅凭截图无法确定系统是不是 iOS 18；不过它的几何与 **iOS 17.4 的 iconSize 8** 很接近，不是上文默认的第 7 档。
+
+<p align="center">
+  <img src="../docs/images/battery-reference-comparison.png" alt="左：用户截图局部；右：按 iOS 17.4 第 8 档参数独立重绘，均放大四倍" width="920">
+</p>
+
+左侧来自参考截图；右侧独立重绘到纯色背景，未复制原图电池像素。右侧的透明 PNG 见 [重绘图](../docs/images/battery-reference-reconstructed.png)。两图不是逐像素一致：参考图有边缘模糊、背景纹理和颜色差异，来源没有核实，不能据此给出系统版本或零误差结论。
+
+本次重新在本机 iOS 17.4（21E213）运行 `iconsizes 8 8`，取得以下参数：
+
+| 项 | 第 8 档参数 | 在 3× 下 |
+|---|---|---|
+| 外壳 | 28⅓ × 14⅓ pt | **85 × 43 px**，与截图约 x=1000…1084、y=65…107 的轮廓吻合 |
+| 线宽 / 留缝 | 各 7/6 pt | 各 3.5 px |
+| 满电填充 | 原点 (7/3, 7/3)，23⅔ × 9⅔ pt | 原点 (7, 7)，71 × 29 px |
+| 凸头 | 1⅔ × 5 pt，x=29.5 pt | 5 × 15 px，x=88.5 px |
+| 闪电系数 | 1.2463768 = (14⅓)/11.5 | 路径总缩放 0.4154589 |
+| 百分比字号 / 微调 | 13⅔ pt，垂直和满电水平微调均为 0 | 只取参数，本次未做百分比截屏对照 |
+
+描边中心线的圆角为 `(14⅓ − 7/6) / 3.125 ≈ 4.2133 pt`，填充圆角为 `(9⅔) / 3.125 ≈ 3.0933 pt`。后续在 17.4 的反汇编中直接确认了常量 3.125；这个版本把常量内联，并不通过 `_roundedCornerRadiusFactor` 取值。cap 和连续圆角的实际路径及验证见 [06](06-legacy-geometry.md)。圆润外观来自尺寸、曲线、填充和留缝的组合。
+
+`batrender` 新增可选参数，旧调用保持原有默认值：
+
+```sh
+zsh tools/battery/build.sh
+mkdir -p .build/battery/reference
+# D 为已启动的 iOS 17.4 模拟器 UDID；在仓库根目录执行。
+xcrun simctl spawn "$D" "$PWD/.build/battery/batrender" 17 \
+  --icon-size 8 --foreground white --padding 2 \
+  "$PWD/.build/battery/reference" charged 1 1 0 0
+```
+
+`--foreground white` 只把 labelColor 改成白色，不代表已验证完整深色外观的配色；`--padding 2` 给画布四周留 2pt，避免略高于外壳的闪电被画布裁掉。几何以 17.4 为依据，未安装、未验证 iOS 18 运行时。

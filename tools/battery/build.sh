@@ -13,9 +13,11 @@ $SIM -dynamiclib $T/sbbattery.m -o $O/sbbattery.dylib
 $SIM $T/batovr.m -o $O/batovr -Wl,-sectcreate,__TEXT,__entitlements,$R/tools/ovrtest/ent.plist
 # 按 iconSize 导出参数表
 $SIM $T/iconsizes.m -o $O/iconsizes
+# 导出实际矢量路径并验证凸头几何
+$SIM $T/pathprobe.m -o $O/pathprobe
 # 按还原规则独立重绘
 $SIM $T/batrender.m -o $O/batrender
-for f in sbbattery.dylib batovr iconsizes batrender; do codesign -s - -f $O/$f 2>/dev/null; done
+for f in sbbattery.dylib batovr iconsizes pathprobe batrender; do codesign -s - -f $O/$f 2>/dev/null; done
 # 主机端比对
 xcrun swiftc -O $T/compare.swift -o $O/compare
 echo "已编译到 $O"
