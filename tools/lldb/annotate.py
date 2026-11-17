@@ -2,9 +2,12 @@
 
 用法：lldb -b -p <pid> -o 'command script import tools/lldb/annotate.py' \
           -o 'annotate <输出文件> <方法列表文件> <实例变量偏移表>' -o detach
+可选第四个参数为同一运行时导出的 class-addresses.json，用于解析类引用。
 """
 import re
 import struct
+import json
+import shlex
 import lldb
 
 
@@ -39,14 +42,21 @@ def describe(target, process, addr):
     # __NSConstantString：isa, flags, cstr, length
     ptr = process.ReadPointerFromMemory(addr + 16, err)
     if err.Success() and ptr:
-        text = process.ReadCStringFromMemory(ptr, 200, err)
+        # Class/data addresses can look like a constant string. LLDB's Python
+        # bridge may raise instead of filling SBError for an invalid C string.
+        try:
+            text = process.ReadCStringFromMemory(ptr, 200, err)
+        except (SystemError, UnicodeDecodeError):
+            return None
         if err.Success() and text and text.isprintable():
             return f'@"{text}"'
     return None
 
 
 def annotate(debugger, command, result, internal):
-    out_path, list_path, ivar_path = command.split()
+    out_path, list_path, ivar_path, *extra = shlex.split(command)
+    # Optional address map exported from this runtime by providerprobe.
+    classes = json.load(open(extra[0])) if extra else {}
     target = debugger.GetSelectedTarget()
     process = target.GetProcess()
     names = [l.strip() for l in open(list_path) if l.strip() and not l.startswith("#")]
@@ -82,6 +92,12 @@ def annotate(debugger, command, result, internal):
                 if m and m.group(2) in pages:
                     value = read_int32(process, pages[m.group(2)] + int(m.group(3), 16))
                     note = "ivar " + "/".join(ivars.get(value, [str(value)]))
+                m = re.match(r"(x\d+), \[(x\d+), #(0x[0-9a-f]+)\]", ops) if mnem == "ldr" else None
+                if m and m.group(2) in pages and classes:
+                    error = lldb.SBError()
+                    ptr = process.ReadPointerFromMemory(pages[m.group(2)] + int(m.group(3), 16), error)
+                    if error.Success() and hex(ptr) in classes:
+                        note = "Class " + classes[hex(ptr)]
                 m = re.match(r"(x\d+), (x\d+), #(0x[0-9a-f]+)", ops) if mnem == "add" else None
                 if m and m.group(2) in pages:
                     text = describe(target, process, pages[m.group(2)] + int(m.group(3), 16))

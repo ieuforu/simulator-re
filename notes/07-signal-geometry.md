@@ -154,7 +154,7 @@ STUIStatusBarVisualProvider_DynamicSplitMedium
 STUIStatusBarVisualProvider_DynamicSplit
 ```
 
-本篇测出了 provider 选择后的布局结果，尚未完整还原 provider 的机型选择判定。不要据此推广到所有刘海 / 灵动岛机型或其他系统版本。
+本篇测量 provider 选择后的布局结果；后续 [08：provider 选型与逐图标样式](08-provider-selection.md) 已继续还原该版本的普通 iPhone 选择链。不要据此推广到所有机型或其他系统版本。
 
 ## 证据与验证
 

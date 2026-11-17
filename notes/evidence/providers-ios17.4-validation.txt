@@ -1,0 +1,4 @@
+notch: 172 native branch cases; 6 applied styles match selection, merge, font and view flags
+island: 172 native branch cases; 6 applied styles match selection, merge, font and view flags
+island-max: 172 native branch cases; 6 applied styles match selection, merge, font and view flags
+PASS: 516 native comparisons (172 cases x 3 devices), 18 applied styles

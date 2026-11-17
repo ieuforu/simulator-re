@@ -1,0 +1,3189 @@
+{
+  "runtime": "iOS 17.4 (21E213), arm64 Simulator, default portrait settings",
+  "devices": [
+    {
+      "model": "iPhone14,7",
+      "screen": {
+        "displayInfoProviderClass": "UISDisplayContext",
+        "exclusionClass": "UISDisplaySingleRectShape",
+        "exclusionRect": [
+          90,
+          0,
+          210,
+          32
+        ],
+        "nativeBounds": [
+          0,
+          0,
+          1170,
+          2532
+        ],
+        "nativeScale": 3,
+        "referenceBounds": [
+          0,
+          0,
+          390,
+          844
+        ],
+        "scale": 3
+      },
+      "selectedProvider": "STUIStatusBarVisualProvider_Split1170",
+      "statusBars": [
+        {
+          "baseStyle": {
+            "emphasizedFont": {
+              "name": ".SFUI-Semibold",
+              "size": 15.5
+            },
+            "font": {
+              "name": ".SFUI-Medium",
+              "size": 13.5
+            },
+            "iconScale": 1.06,
+            "iconSize": 4,
+            "mode": 0,
+            "rounded": false
+          },
+          "items": [
+            {
+              "cachedCombinedOverride": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 1.06,
+                "iconSize": 4,
+                "mode": 0,
+                "rounded": false
+              },
+              "displayItemOverride": {},
+              "hidden": false,
+              "identifier": "signalStrengthDisplayIdentifier",
+              "lastAppliedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 1.06,
+                "iconSize": 4,
+                "mode": 0,
+                "rounded": false
+              },
+              "mergedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 1.06,
+                "iconSize": 4,
+                "mode": 0,
+                "rounded": false
+              },
+              "providerOverride": {},
+              "regionOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "view": "STUIStatusBarCellularSignalView",
+              "viewIconSize": 4,
+              "viewRounded": false
+            },
+            {
+              "cachedCombinedOverride": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 1.06,
+                "iconSize": 4,
+                "mode": 0,
+                "rounded": false
+              },
+              "displayItemOverride": {},
+              "hidden": false,
+              "identifier": "signalStrengthDisplayIdentifier",
+              "lastAppliedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 1.06,
+                "iconSize": 4,
+                "mode": 0,
+                "rounded": false
+              },
+              "mergedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 1.06,
+                "iconSize": 4,
+                "mode": 0,
+                "rounded": false
+              },
+              "providerOverride": {},
+              "regionOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "view": "STUIStatusBarWifiSignalView",
+              "viewIconSize": 4,
+              "viewRounded": false
+            },
+            {
+              "cachedCombinedOverride": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 1.06,
+                "iconSize": 4,
+                "mode": 0,
+                "rounded": false
+              },
+              "displayItemOverride": {},
+              "hidden": false,
+              "identifier": "iconDisplayIdentifier",
+              "lastAppliedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 1.06,
+                "iconSize": 4,
+                "mode": 0,
+                "rounded": false
+              },
+              "mergedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 1.06,
+                "iconSize": 4,
+                "mode": 0,
+                "rounded": false
+              },
+              "providerOverride": {},
+              "regionOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "view": "STUIStatusBarBatteryView",
+              "viewIconSize": 4,
+              "viewRounded": false
+            }
+          ],
+          "mode": 0,
+          "orientation": 0,
+          "provider": "STUIStatusBarVisualProvider_Split1170",
+          "providerValues": {
+            "emphasizedFont": {
+              "name": ".SFUI-Semibold",
+              "size": 15.5
+            },
+            "expandedIconScale": 1.16,
+            "expandedIconSize": 10,
+            "itemSpacing": 5.333333333333333,
+            "normalFont": {
+              "name": ".SFUI-Medium",
+              "size": 13.5
+            },
+            "normalIconScale": 1.06,
+            "normalIconSize": 4,
+            "normalRoundFont": {}
+          }
+        },
+        {
+          "baseStyle": {
+            "emphasizedFont": {
+              "name": ".SFUI-Semibold",
+              "size": 15.5
+            },
+            "font": {
+              "name": ".SFUI-Medium",
+              "size": 13.5
+            },
+            "iconScale": 1.06,
+            "iconSize": 4,
+            "mode": 0,
+            "rounded": false
+          },
+          "items": [
+            {
+              "cachedCombinedOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "displayItemOverride": {},
+              "hidden": false,
+              "identifier": "signalStrengthDisplayIdentifier",
+              "lastAppliedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 1.06,
+                "iconSize": 4,
+                "mode": 0,
+                "rounded": false
+              },
+              "mergedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 1.06,
+                "iconSize": 4,
+                "mode": 0,
+                "rounded": false
+              },
+              "providerOverride": {},
+              "regionOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "view": "STUIStatusBarCellularSignalView",
+              "viewIconSize": 4,
+              "viewRounded": false
+            },
+            {
+              "cachedCombinedOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "displayItemOverride": {},
+              "hidden": false,
+              "identifier": "signalStrengthDisplayIdentifier",
+              "lastAppliedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 1.06,
+                "iconSize": 4,
+                "mode": 0,
+                "rounded": false
+              },
+              "mergedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 1.06,
+                "iconSize": 4,
+                "mode": 0,
+                "rounded": false
+              },
+              "providerOverride": {},
+              "regionOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "view": "STUIStatusBarWifiSignalView",
+              "viewIconSize": 4,
+              "viewRounded": false
+            },
+            {
+              "cachedCombinedOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "displayItemOverride": {},
+              "hidden": false,
+              "identifier": "iconDisplayIdentifier",
+              "lastAppliedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 1.06,
+                "iconSize": 4,
+                "mode": 0,
+                "rounded": false
+              },
+              "mergedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 1.06,
+                "iconSize": 4,
+                "mode": 0,
+                "rounded": false
+              },
+              "providerOverride": {},
+              "regionOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 15.5
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "view": "STUIStatusBarBatteryView",
+              "viewIconSize": 4,
+              "viewRounded": false
+            }
+          ],
+          "mode": 0,
+          "orientation": 1,
+          "provider": "STUIStatusBarVisualProvider_Split1170",
+          "providerValues": {
+            "emphasizedFont": {
+              "name": ".SFUI-Semibold",
+              "size": 15.5
+            },
+            "expandedIconScale": 1.16,
+            "expandedIconSize": 10,
+            "itemSpacing": 5.333333333333333,
+            "normalFont": {
+              "name": ".SFUI-Medium",
+              "size": 13.5
+            },
+            "normalIconScale": 1.06,
+            "normalIconSize": 4,
+            "normalRoundFont": {}
+          }
+        }
+      ]
+    },
+    {
+      "model": "iPhone16,1",
+      "screen": {
+        "displayInfoProviderClass": "UISDisplayContext",
+        "exclusionClass": "UISDisplaySingleRectShape",
+        "exclusionRect": [
+          134,
+          11.333333333333334,
+          125,
+          36.666666666666664
+        ],
+        "nativeBounds": [
+          0,
+          0,
+          1179,
+          2556
+        ],
+        "nativeScale": 3,
+        "referenceBounds": [
+          0,
+          0,
+          393,
+          852
+        ],
+        "scale": 3
+      },
+      "selectedProvider": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "statusBars": [
+        {
+          "baseStyle": {
+            "emphasizedFont": {
+              "name": ".SFUI-Semibold",
+              "size": 17
+            },
+            "font": {
+              "name": ".SFUI-Medium",
+              "size": 15
+            },
+            "iconScale": 1.12,
+            "iconSize": 7,
+            "mode": 0,
+            "rounded": false
+          },
+          "items": [
+            {
+              "cachedCombinedOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "displayItemOverride": {},
+              "hidden": false,
+              "identifier": "signalStrengthDisplayIdentifier",
+              "lastAppliedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "iconScale": 1.12,
+                "iconSize": 7,
+                "mode": 0,
+                "rounded": false
+              },
+              "mergedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "iconScale": 1.12,
+                "iconSize": 7,
+                "mode": 0,
+                "rounded": false
+              },
+              "providerOverride": {},
+              "regionOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "view": "STUIStatusBarWifiSignalView",
+              "viewIconSize": 7,
+              "viewRounded": false
+            },
+            {
+              "cachedCombinedOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".AppleSystemUIFontRounded-Medium",
+                  "size": 15
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": true
+              },
+              "displayItemOverride": {},
+              "hidden": false,
+              "identifier": "staticIconDisplayIdentifier",
+              "lastAppliedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "font": {
+                  "name": ".AppleSystemUIFontRounded-Medium",
+                  "size": 15
+                },
+                "iconScale": 1.12,
+                "iconSize": 7,
+                "mode": 0,
+                "rounded": true
+              },
+              "mergedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "font": {
+                  "name": ".AppleSystemUIFontRounded-Medium",
+                  "size": 15
+                },
+                "iconScale": 1.12,
+                "iconSize": 7,
+                "mode": 0,
+                "rounded": true
+              },
+              "providerOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".AppleSystemUIFontRounded-Medium",
+                  "size": 15
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": true
+              },
+              "regionOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "view": "STUIStatusBarStaticBatteryView",
+              "viewIconSize": 7,
+              "viewRounded": true
+            },
+            {
+              "cachedCombinedOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "displayItemOverride": {},
+              "hidden": false,
+              "identifier": "signalStrengthDisplayIdentifier",
+              "lastAppliedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "iconScale": 1.12,
+                "iconSize": 7,
+                "mode": 0,
+                "rounded": false
+              },
+              "mergedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "iconScale": 1.12,
+                "iconSize": 7,
+                "mode": 0,
+                "rounded": false
+              },
+              "providerOverride": {},
+              "regionOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "view": "STUIStatusBarCellularSignalView",
+              "viewIconSize": 7,
+              "viewRounded": false
+            }
+          ],
+          "mode": 0,
+          "orientation": 0,
+          "provider": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+          "providerValues": {
+            "emphasizedFont": {
+              "name": ".SFUI-Semibold",
+              "size": 17
+            },
+            "expandedIconScale": 1.16,
+            "expandedIconSize": 10,
+            "itemSpacing": 7.333333333333333,
+            "normalFont": {
+              "name": ".SFUI-Medium",
+              "size": 15
+            },
+            "normalIconScale": 1.12,
+            "normalIconSize": 7,
+            "normalRoundFont": {
+              "name": ".AppleSystemUIFontRounded-Medium",
+              "size": 15
+            }
+          }
+        },
+        {
+          "baseStyle": {
+            "emphasizedFont": {
+              "name": ".SFUI-Semibold",
+              "size": 17
+            },
+            "font": {
+              "name": ".SFUI-Medium",
+              "size": 15
+            },
+            "iconScale": 1.12,
+            "iconSize": 7,
+            "mode": 0,
+            "rounded": false
+          },
+          "items": [
+            {
+              "cachedCombinedOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "displayItemOverride": {},
+              "hidden": false,
+              "identifier": "signalStrengthDisplayIdentifier",
+              "lastAppliedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "iconScale": 1.12,
+                "iconSize": 7,
+                "mode": 0,
+                "rounded": false
+              },
+              "mergedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "iconScale": 1.12,
+                "iconSize": 7,
+                "mode": 0,
+                "rounded": false
+              },
+              "providerOverride": {},
+              "regionOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "view": "STUIStatusBarWifiSignalView",
+              "viewIconSize": 7,
+              "viewRounded": false
+            },
+            {
+              "cachedCombinedOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".AppleSystemUIFontRounded-Medium",
+                  "size": 15
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": true
+              },
+              "displayItemOverride": {},
+              "hidden": false,
+              "identifier": "staticIconDisplayIdentifier",
+              "lastAppliedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "font": {
+                  "name": ".AppleSystemUIFontRounded-Medium",
+                  "size": 15
+                },
+                "iconScale": 1.12,
+                "iconSize": 7,
+                "mode": 0,
+                "rounded": true
+              },
+              "mergedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "font": {
+                  "name": ".AppleSystemUIFontRounded-Medium",
+                  "size": 15
+                },
+                "iconScale": 1.12,
+                "iconSize": 7,
+                "mode": 0,
+                "rounded": true
+              },
+              "providerOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".AppleSystemUIFontRounded-Medium",
+                  "size": 15
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": true
+              },
+              "regionOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "view": "STUIStatusBarStaticBatteryView",
+              "viewIconSize": 7,
+              "viewRounded": true
+            },
+            {
+              "cachedCombinedOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "displayItemOverride": {},
+              "hidden": false,
+              "identifier": "signalStrengthDisplayIdentifier",
+              "lastAppliedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "iconScale": 1.12,
+                "iconSize": 7,
+                "mode": 0,
+                "rounded": false
+              },
+              "mergedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "iconScale": 1.12,
+                "iconSize": 7,
+                "mode": 0,
+                "rounded": false
+              },
+              "providerOverride": {},
+              "regionOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 17
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "view": "STUIStatusBarCellularSignalView",
+              "viewIconSize": 7,
+              "viewRounded": false
+            }
+          ],
+          "mode": 0,
+          "orientation": 1,
+          "provider": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+          "providerValues": {
+            "emphasizedFont": {
+              "name": ".SFUI-Semibold",
+              "size": 17
+            },
+            "expandedIconScale": 1.16,
+            "expandedIconSize": 10,
+            "itemSpacing": 7.333333333333333,
+            "normalFont": {
+              "name": ".SFUI-Medium",
+              "size": 15
+            },
+            "normalIconScale": 1.12,
+            "normalIconSize": 7,
+            "normalRoundFont": {
+              "name": ".AppleSystemUIFontRounded-Medium",
+              "size": 15
+            }
+          }
+        }
+      ]
+    },
+    {
+      "model": "iPhone16,2",
+      "screen": {
+        "displayInfoProviderClass": "UISDisplayContext",
+        "exclusionClass": "UISDisplaySingleRectShape",
+        "exclusionRect": [
+          152.33333333333334,
+          11.333333333333334,
+          125.33333333333333,
+          36.666666666666664
+        ],
+        "nativeBounds": [
+          0,
+          0,
+          1290,
+          2796
+        ],
+        "nativeScale": 3,
+        "referenceBounds": [
+          0,
+          0,
+          430,
+          932
+        ],
+        "scale": 3
+      },
+      "selectedProvider": "STUIStatusBarVisualProvider_DynamicSplit",
+      "statusBars": [
+        {
+          "baseStyle": {
+            "emphasizedFont": {
+              "name": ".SFUI-Semibold",
+              "size": 18
+            },
+            "font": {
+              "name": ".SFUI-Medium",
+              "size": 16
+            },
+            "iconScale": 1.26,
+            "iconSize": 8,
+            "mode": 0,
+            "rounded": false
+          },
+          "items": [
+            {
+              "cachedCombinedOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "displayItemOverride": {},
+              "hidden": false,
+              "identifier": "signalStrengthDisplayIdentifier",
+              "lastAppliedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "iconScale": 1.26,
+                "iconSize": 8,
+                "mode": 0,
+                "rounded": false
+              },
+              "mergedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "iconScale": 1.26,
+                "iconSize": 8,
+                "mode": 0,
+                "rounded": false
+              },
+              "providerOverride": {},
+              "regionOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "view": "STUIStatusBarCellularSignalView",
+              "viewIconSize": 8,
+              "viewRounded": false
+            },
+            {
+              "cachedCombinedOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "displayItemOverride": {},
+              "hidden": false,
+              "identifier": "signalStrengthDisplayIdentifier",
+              "lastAppliedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "iconScale": 1.26,
+                "iconSize": 8,
+                "mode": 0,
+                "rounded": false
+              },
+              "mergedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "iconScale": 1.26,
+                "iconSize": 8,
+                "mode": 0,
+                "rounded": false
+              },
+              "providerOverride": {},
+              "regionOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "view": "STUIStatusBarWifiSignalView",
+              "viewIconSize": 8,
+              "viewRounded": false
+            },
+            {
+              "cachedCombinedOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".AppleSystemUIFontRounded-Medium",
+                  "size": 16
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": true
+              },
+              "displayItemOverride": {},
+              "hidden": false,
+              "identifier": "staticIconDisplayIdentifier",
+              "lastAppliedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "font": {
+                  "name": ".AppleSystemUIFontRounded-Medium",
+                  "size": 16
+                },
+                "iconScale": 1.26,
+                "iconSize": 8,
+                "mode": 0,
+                "rounded": true
+              },
+              "mergedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "font": {
+                  "name": ".AppleSystemUIFontRounded-Medium",
+                  "size": 16
+                },
+                "iconScale": 1.26,
+                "iconSize": 8,
+                "mode": 0,
+                "rounded": true
+              },
+              "providerOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".AppleSystemUIFontRounded-Medium",
+                  "size": 16
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": true
+              },
+              "regionOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "view": "STUIStatusBarStaticBatteryView",
+              "viewIconSize": 8,
+              "viewRounded": true
+            }
+          ],
+          "mode": 0,
+          "orientation": 0,
+          "provider": "STUIStatusBarVisualProvider_DynamicSplit",
+          "providerValues": {
+            "emphasizedFont": {
+              "name": ".SFUI-Semibold",
+              "size": 18
+            },
+            "expandedIconScale": 1.2992000000000001,
+            "expandedIconSize": 13,
+            "itemSpacing": 7.333333333333333,
+            "normalFont": {
+              "name": ".SFUI-Medium",
+              "size": 16
+            },
+            "normalIconScale": 1.26,
+            "normalIconSize": 8,
+            "normalRoundFont": {
+              "name": ".AppleSystemUIFontRounded-Medium",
+              "size": 16
+            }
+          }
+        },
+        {
+          "baseStyle": {
+            "emphasizedFont": {
+              "name": ".SFUI-Semibold",
+              "size": 18
+            },
+            "font": {
+              "name": ".SFUI-Medium",
+              "size": 16
+            },
+            "iconScale": 1.26,
+            "iconSize": 8,
+            "mode": 0,
+            "rounded": false
+          },
+          "items": [
+            {
+              "cachedCombinedOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "displayItemOverride": {},
+              "hidden": false,
+              "identifier": "signalStrengthDisplayIdentifier",
+              "lastAppliedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "iconScale": 1.26,
+                "iconSize": 8,
+                "mode": 0,
+                "rounded": false
+              },
+              "mergedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "iconScale": 1.26,
+                "iconSize": 8,
+                "mode": 0,
+                "rounded": false
+              },
+              "providerOverride": {},
+              "regionOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "view": "STUIStatusBarCellularSignalView",
+              "viewIconSize": 8,
+              "viewRounded": false
+            },
+            {
+              "cachedCombinedOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "displayItemOverride": {},
+              "hidden": false,
+              "identifier": "signalStrengthDisplayIdentifier",
+              "lastAppliedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "iconScale": 1.26,
+                "iconSize": 8,
+                "mode": 0,
+                "rounded": false
+              },
+              "mergedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "iconScale": 1.26,
+                "iconSize": 8,
+                "mode": 0,
+                "rounded": false
+              },
+              "providerOverride": {},
+              "regionOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "view": "STUIStatusBarWifiSignalView",
+              "viewIconSize": 8,
+              "viewRounded": false
+            },
+            {
+              "cachedCombinedOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".AppleSystemUIFontRounded-Medium",
+                  "size": 16
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": true
+              },
+              "displayItemOverride": {},
+              "hidden": false,
+              "identifier": "staticIconDisplayIdentifier",
+              "lastAppliedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "font": {
+                  "name": ".AppleSystemUIFontRounded-Medium",
+                  "size": 16
+                },
+                "iconScale": 1.26,
+                "iconSize": 8,
+                "mode": 0,
+                "rounded": true
+              },
+              "mergedStyle": {
+                "emphasizedFont": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "font": {
+                  "name": ".AppleSystemUIFontRounded-Medium",
+                  "size": 16
+                },
+                "iconScale": 1.26,
+                "iconSize": 8,
+                "mode": 0,
+                "rounded": true
+              },
+              "providerOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".AppleSystemUIFontRounded-Medium",
+                  "size": 16
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": true
+              },
+              "regionOverride": {
+                "emphasizedFont": {},
+                "font": {
+                  "name": ".SFUI-Semibold",
+                  "size": 18
+                },
+                "iconScale": 0,
+                "iconSize": 0,
+                "mode": 0,
+                "rounded": false
+              },
+              "view": "STUIStatusBarStaticBatteryView",
+              "viewIconSize": 8,
+              "viewRounded": true
+            }
+          ],
+          "mode": 0,
+          "orientation": 1,
+          "provider": "STUIStatusBarVisualProvider_DynamicSplit",
+          "providerValues": {
+            "emphasizedFont": {
+              "name": ".SFUI-Semibold",
+              "size": 18
+            },
+            "expandedIconScale": 1.2992000000000001,
+            "expandedIconSize": 13,
+            "itemSpacing": 7.333333333333333,
+            "normalFont": {
+              "name": ".SFUI-Medium",
+              "size": 16
+            },
+            "normalIconScale": 1.26,
+            "normalIconSize": 8,
+            "normalRoundFont": {
+              "name": ".AppleSystemUIFontRounded-Medium",
+              "size": 16
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "branchTests": {
+    "notchSelectionTests": [
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1284_Wide",
+        "candidate": "STUIStatusBarVisualProvider_Split1284_Wide",
+        "case": "exact",
+        "expected": "STUIStatusBarVisualProvider_Split1284_Wide",
+        "nativeScale": 2,
+        "nativeWidth": 1284,
+        "notchSize": [
+          242.00000000000003,
+          50.5
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1284_Wide",
+        "candidate": "STUIStatusBarVisualProvider_Split1284_Wide",
+        "case": "widthInsideTolerance",
+        "expected": "STUIStatusBarVisualProvider_Split1284_Wide",
+        "nativeScale": 2,
+        "nativeWidth": 1284.00005,
+        "notchSize": [
+          242.00000000000003,
+          50.5
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1284_Wide",
+        "case": "widthOutsideTolerance",
+        "expected": "nil",
+        "nativeScale": 2,
+        "nativeWidth": 1284.0002,
+        "notchSize": [
+          242.00000000000003,
+          50.5
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1284_Wide",
+        "case": "notchHeightMismatch",
+        "expected": "nil",
+        "nativeScale": 2,
+        "nativeWidth": 1284,
+        "notchSize": [
+          242.00000000000003,
+          50.5003
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1284_Wide",
+        "candidate": "STUIStatusBarVisualProvider_Split1284_Wide",
+        "case": "exact",
+        "expected": "STUIStatusBarVisualProvider_Split1284_Wide",
+        "nativeScale": 3,
+        "nativeWidth": 1284,
+        "notchSize": [
+          161.33333333333334,
+          33.666666666666664
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1284_Wide",
+        "candidate": "STUIStatusBarVisualProvider_Split1284_Wide",
+        "case": "widthInsideTolerance",
+        "expected": "STUIStatusBarVisualProvider_Split1284_Wide",
+        "nativeScale": 3,
+        "nativeWidth": 1284.00005,
+        "notchSize": [
+          161.33333333333334,
+          33.666666666666664
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1284_Wide",
+        "case": "widthOutsideTolerance",
+        "expected": "nil",
+        "nativeScale": 3,
+        "nativeWidth": 1284.0002,
+        "notchSize": [
+          161.33333333333334,
+          33.666666666666664
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1284_Wide",
+        "case": "notchHeightMismatch",
+        "expected": "nil",
+        "nativeScale": 3,
+        "nativeWidth": 1284,
+        "notchSize": [
+          161.33333333333334,
+          33.666866666666664
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1284",
+        "candidate": "STUIStatusBarVisualProvider_Split1284",
+        "case": "exact",
+        "expected": "STUIStatusBarVisualProvider_Split1284",
+        "nativeScale": 2,
+        "nativeWidth": 1284,
+        "notchSize": [
+          314.00000000000006,
+          48
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1284",
+        "candidate": "STUIStatusBarVisualProvider_Split1284",
+        "case": "widthInsideTolerance",
+        "expected": "STUIStatusBarVisualProvider_Split1284",
+        "nativeScale": 2,
+        "nativeWidth": 1284.00005,
+        "notchSize": [
+          314.00000000000006,
+          48
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1284",
+        "case": "widthOutsideTolerance",
+        "expected": "nil",
+        "nativeScale": 2,
+        "nativeWidth": 1284.0002,
+        "notchSize": [
+          314.00000000000006,
+          48
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1284",
+        "case": "notchHeightMismatch",
+        "expected": "nil",
+        "nativeScale": 2,
+        "nativeWidth": 1284,
+        "notchSize": [
+          314.00000000000006,
+          48.0003
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1284",
+        "candidate": "STUIStatusBarVisualProvider_Split1284",
+        "case": "exact",
+        "expected": "STUIStatusBarVisualProvider_Split1284",
+        "nativeScale": 3,
+        "nativeWidth": 1284,
+        "notchSize": [
+          209.33333333333334,
+          32
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1284",
+        "candidate": "STUIStatusBarVisualProvider_Split1284",
+        "case": "widthInsideTolerance",
+        "expected": "STUIStatusBarVisualProvider_Split1284",
+        "nativeScale": 3,
+        "nativeWidth": 1284.00005,
+        "notchSize": [
+          209.33333333333334,
+          32
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1284",
+        "case": "widthOutsideTolerance",
+        "expected": "nil",
+        "nativeScale": 3,
+        "nativeWidth": 1284.0002,
+        "notchSize": [
+          209.33333333333334,
+          32
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1284",
+        "case": "notchHeightMismatch",
+        "expected": "nil",
+        "nativeScale": 3,
+        "nativeWidth": 1284,
+        "notchSize": [
+          209.33333333333334,
+          32.0002
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split828",
+        "candidate": "STUIStatusBarVisualProvider_Split828",
+        "case": "exact",
+        "expected": "STUIStatusBarVisualProvider_Split828",
+        "nativeScale": 2,
+        "nativeWidth": 828,
+        "notchSize": [
+          340.5,
+          48
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split828",
+        "candidate": "STUIStatusBarVisualProvider_Split828",
+        "case": "widthInsideTolerance",
+        "expected": "STUIStatusBarVisualProvider_Split828",
+        "nativeScale": 2,
+        "nativeWidth": 828.00005,
+        "notchSize": [
+          340.5,
+          48
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split828",
+        "case": "widthOutsideTolerance",
+        "expected": "nil",
+        "nativeScale": 2,
+        "nativeWidth": 828.0002,
+        "notchSize": [
+          340.5,
+          48
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split828",
+        "case": "notchHeightMismatch",
+        "expected": "nil",
+        "nativeScale": 2,
+        "nativeWidth": 828,
+        "notchSize": [
+          340.5,
+          48.0003
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split828",
+        "candidate": "STUIStatusBarVisualProvider_Split828",
+        "case": "exact",
+        "expected": "STUIStatusBarVisualProvider_Split828",
+        "nativeScale": 3,
+        "nativeWidth": 828,
+        "notchSize": [
+          227,
+          32
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split828",
+        "candidate": "STUIStatusBarVisualProvider_Split828",
+        "case": "widthInsideTolerance",
+        "expected": "STUIStatusBarVisualProvider_Split828",
+        "nativeScale": 3,
+        "nativeWidth": 828.00005,
+        "notchSize": [
+          227,
+          32
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split828",
+        "case": "widthOutsideTolerance",
+        "expected": "nil",
+        "nativeScale": 3,
+        "nativeWidth": 828.0002,
+        "notchSize": [
+          227,
+          32
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split828",
+        "case": "notchHeightMismatch",
+        "expected": "nil",
+        "nativeScale": 3,
+        "nativeWidth": 828,
+        "notchSize": [
+          227,
+          32.0002
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1242",
+        "candidate": "STUIStatusBarVisualProvider_Split1242",
+        "case": "exact",
+        "expected": "STUIStatusBarVisualProvider_Split1242",
+        "nativeScale": 2,
+        "nativeWidth": 1242,
+        "notchSize": [
+          314.00000000000006,
+          45
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1242",
+        "candidate": "STUIStatusBarVisualProvider_Split1242",
+        "case": "widthInsideTolerance",
+        "expected": "STUIStatusBarVisualProvider_Split1242",
+        "nativeScale": 2,
+        "nativeWidth": 1242.00005,
+        "notchSize": [
+          314.00000000000006,
+          45
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1242",
+        "case": "widthOutsideTolerance",
+        "expected": "nil",
+        "nativeScale": 2,
+        "nativeWidth": 1242.0002,
+        "notchSize": [
+          314.00000000000006,
+          45
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1242",
+        "case": "notchHeightMismatch",
+        "expected": "nil",
+        "nativeScale": 2,
+        "nativeWidth": 1242,
+        "notchSize": [
+          314.00000000000006,
+          45.0003
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1242",
+        "candidate": "STUIStatusBarVisualProvider_Split1242",
+        "case": "exact",
+        "expected": "STUIStatusBarVisualProvider_Split1242",
+        "nativeScale": 3,
+        "nativeWidth": 1242,
+        "notchSize": [
+          209.33333333333334,
+          30
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1242",
+        "candidate": "STUIStatusBarVisualProvider_Split1242",
+        "case": "widthInsideTolerance",
+        "expected": "STUIStatusBarVisualProvider_Split1242",
+        "nativeScale": 3,
+        "nativeWidth": 1242.00005,
+        "notchSize": [
+          209.33333333333334,
+          30
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1242",
+        "case": "widthOutsideTolerance",
+        "expected": "nil",
+        "nativeScale": 3,
+        "nativeWidth": 1242.0002,
+        "notchSize": [
+          209.33333333333334,
+          30
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1242",
+        "case": "notchHeightMismatch",
+        "expected": "nil",
+        "nativeScale": 3,
+        "nativeWidth": 1242,
+        "notchSize": [
+          209.33333333333334,
+          30.0002
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1170_Wide",
+        "candidate": "STUIStatusBarVisualProvider_Split1170_Wide",
+        "case": "exact",
+        "expected": "STUIStatusBarVisualProvider_Split1170_Wide",
+        "nativeScale": 2,
+        "nativeWidth": 1170,
+        "notchSize": [
+          242.00000000000003,
+          50.5
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1170_Wide",
+        "candidate": "STUIStatusBarVisualProvider_Split1170_Wide",
+        "case": "widthInsideTolerance",
+        "expected": "STUIStatusBarVisualProvider_Split1170_Wide",
+        "nativeScale": 2,
+        "nativeWidth": 1170.00005,
+        "notchSize": [
+          242.00000000000003,
+          50.5
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1170_Wide",
+        "case": "widthOutsideTolerance",
+        "expected": "nil",
+        "nativeScale": 2,
+        "nativeWidth": 1170.0002,
+        "notchSize": [
+          242.00000000000003,
+          50.5
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1170_Wide",
+        "case": "notchHeightMismatch",
+        "expected": "nil",
+        "nativeScale": 2,
+        "nativeWidth": 1170,
+        "notchSize": [
+          242.00000000000003,
+          50.5003
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1170_Wide",
+        "candidate": "STUIStatusBarVisualProvider_Split1170_Wide",
+        "case": "exact",
+        "expected": "STUIStatusBarVisualProvider_Split1170_Wide",
+        "nativeScale": 3,
+        "nativeWidth": 1170,
+        "notchSize": [
+          161.33333333333334,
+          33.666666666666664
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1170_Wide",
+        "candidate": "STUIStatusBarVisualProvider_Split1170_Wide",
+        "case": "widthInsideTolerance",
+        "expected": "STUIStatusBarVisualProvider_Split1170_Wide",
+        "nativeScale": 3,
+        "nativeWidth": 1170.00005,
+        "notchSize": [
+          161.33333333333334,
+          33.666666666666664
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1170_Wide",
+        "case": "widthOutsideTolerance",
+        "expected": "nil",
+        "nativeScale": 3,
+        "nativeWidth": 1170.0002,
+        "notchSize": [
+          161.33333333333334,
+          33.666666666666664
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1170_Wide",
+        "case": "notchHeightMismatch",
+        "expected": "nil",
+        "nativeScale": 3,
+        "nativeWidth": 1170,
+        "notchSize": [
+          161.33333333333334,
+          33.666866666666664
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1170",
+        "candidate": "STUIStatusBarVisualProvider_Split1170",
+        "case": "exact",
+        "expected": "STUIStatusBarVisualProvider_Split1170",
+        "nativeScale": 2,
+        "nativeWidth": 1170,
+        "notchSize": [
+          315,
+          48
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1170",
+        "candidate": "STUIStatusBarVisualProvider_Split1170",
+        "case": "widthInsideTolerance",
+        "expected": "STUIStatusBarVisualProvider_Split1170",
+        "nativeScale": 2,
+        "nativeWidth": 1170.00005,
+        "notchSize": [
+          315,
+          48
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1170",
+        "case": "widthOutsideTolerance",
+        "expected": "nil",
+        "nativeScale": 2,
+        "nativeWidth": 1170.0002,
+        "notchSize": [
+          315,
+          48
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1170",
+        "case": "notchHeightMismatch",
+        "expected": "nil",
+        "nativeScale": 2,
+        "nativeWidth": 1170,
+        "notchSize": [
+          315,
+          48.0003
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1170",
+        "candidate": "STUIStatusBarVisualProvider_Split1170",
+        "case": "exact",
+        "expected": "STUIStatusBarVisualProvider_Split1170",
+        "nativeScale": 3,
+        "nativeWidth": 1170,
+        "notchSize": [
+          210,
+          32
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1170",
+        "candidate": "STUIStatusBarVisualProvider_Split1170",
+        "case": "widthInsideTolerance",
+        "expected": "STUIStatusBarVisualProvider_Split1170",
+        "nativeScale": 3,
+        "nativeWidth": 1170.00005,
+        "notchSize": [
+          210,
+          32
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1170",
+        "case": "widthOutsideTolerance",
+        "expected": "nil",
+        "nativeScale": 3,
+        "nativeWidth": 1170.0002,
+        "notchSize": [
+          210,
+          32
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1170",
+        "case": "notchHeightMismatch",
+        "expected": "nil",
+        "nativeScale": 3,
+        "nativeWidth": 1170,
+        "notchSize": [
+          210,
+          32.0002
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1080_Wide",
+        "candidate": "STUIStatusBarVisualProvider_Split1080_Wide",
+        "case": "exact",
+        "expected": "STUIStatusBarVisualProvider_Split1080_Wide",
+        "nativeScale": 2,
+        "nativeWidth": 1080,
+        "notchSize": [
+          250.56,
+          53.760000000000005
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1080_Wide",
+        "candidate": "STUIStatusBarVisualProvider_Split1080_Wide",
+        "case": "widthInsideTolerance",
+        "expected": "STUIStatusBarVisualProvider_Split1080_Wide",
+        "nativeScale": 2,
+        "nativeWidth": 1080.00005,
+        "notchSize": [
+          250.56,
+          53.760000000000005
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1080_Wide",
+        "case": "widthOutsideTolerance",
+        "expected": "nil",
+        "nativeScale": 2,
+        "nativeWidth": 1080.0002,
+        "notchSize": [
+          250.56,
+          53.760000000000005
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1080_Wide",
+        "case": "notchHeightMismatch",
+        "expected": "nil",
+        "nativeScale": 2,
+        "nativeWidth": 1080,
+        "notchSize": [
+          250.56,
+          53.760288
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1080_Wide",
+        "candidate": "STUIStatusBarVisualProvider_Split1080_Wide",
+        "case": "exact",
+        "expected": "STUIStatusBarVisualProvider_Split1080_Wide",
+        "nativeScale": 3,
+        "nativeWidth": 1080,
+        "notchSize": [
+          167.04,
+          35.839999999999996
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1080_Wide",
+        "candidate": "STUIStatusBarVisualProvider_Split1080_Wide",
+        "case": "widthInsideTolerance",
+        "expected": "STUIStatusBarVisualProvider_Split1080_Wide",
+        "nativeScale": 3,
+        "nativeWidth": 1080.00005,
+        "notchSize": [
+          167.04,
+          35.839999999999996
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1080_Wide",
+        "case": "widthOutsideTolerance",
+        "expected": "nil",
+        "nativeScale": 3,
+        "nativeWidth": 1080.0002,
+        "notchSize": [
+          167.04,
+          35.839999999999996
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1080_Wide",
+        "case": "notchHeightMismatch",
+        "expected": "nil",
+        "nativeScale": 3,
+        "nativeWidth": 1080,
+        "notchSize": [
+          167.04,
+          35.840191999999995
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1125",
+        "candidate": "STUIStatusBarVisualProvider_Split1125",
+        "case": "exact",
+        "expected": "STUIStatusBarVisualProvider_Split1125",
+        "nativeScale": 2,
+        "nativeWidth": 1125,
+        "notchSize": [
+          313.5,
+          45
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1125",
+        "candidate": "STUIStatusBarVisualProvider_Split1125",
+        "case": "widthInsideTolerance",
+        "expected": "STUIStatusBarVisualProvider_Split1125",
+        "nativeScale": 2,
+        "nativeWidth": 1125.00005,
+        "notchSize": [
+          313.5,
+          45
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1125",
+        "case": "widthOutsideTolerance",
+        "expected": "nil",
+        "nativeScale": 2,
+        "nativeWidth": 1125.0002,
+        "notchSize": [
+          313.5,
+          45
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1125",
+        "case": "notchHeightMismatch",
+        "expected": "nil",
+        "nativeScale": 2,
+        "nativeWidth": 1125,
+        "notchSize": [
+          313.5,
+          45.0003
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1125",
+        "candidate": "STUIStatusBarVisualProvider_Split1125",
+        "case": "exact",
+        "expected": "STUIStatusBarVisualProvider_Split1125",
+        "nativeScale": 3,
+        "nativeWidth": 1125,
+        "notchSize": [
+          209,
+          30
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1125",
+        "candidate": "STUIStatusBarVisualProvider_Split1125",
+        "case": "widthInsideTolerance",
+        "expected": "STUIStatusBarVisualProvider_Split1125",
+        "nativeScale": 3,
+        "nativeWidth": 1125.00005,
+        "notchSize": [
+          209,
+          30
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1125",
+        "case": "widthOutsideTolerance",
+        "expected": "nil",
+        "nativeScale": 3,
+        "nativeWidth": 1125.0002,
+        "notchSize": [
+          209,
+          30
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1125",
+        "case": "notchHeightMismatch",
+        "expected": "nil",
+        "nativeScale": 3,
+        "nativeWidth": 1125,
+        "notchSize": [
+          209,
+          30.0002
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1080",
+        "candidate": "STUIStatusBarVisualProvider_Split1080",
+        "case": "exact",
+        "expected": "STUIStatusBarVisualProvider_Split1080",
+        "nativeScale": 2,
+        "nativeWidth": 1080,
+        "notchSize": [
+          325.44,
+          49.440000000000005
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1080",
+        "candidate": "STUIStatusBarVisualProvider_Split1080",
+        "case": "widthInsideTolerance",
+        "expected": "STUIStatusBarVisualProvider_Split1080",
+        "nativeScale": 2,
+        "nativeWidth": 1080.00005,
+        "notchSize": [
+          325.44,
+          49.440000000000005
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1080",
+        "case": "widthOutsideTolerance",
+        "expected": "nil",
+        "nativeScale": 2,
+        "nativeWidth": 1080.0002,
+        "notchSize": [
+          325.44,
+          49.440000000000005
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1080",
+        "case": "notchHeightMismatch",
+        "expected": "nil",
+        "nativeScale": 2,
+        "nativeWidth": 1080,
+        "notchSize": [
+          325.44,
+          49.440288
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1080",
+        "candidate": "STUIStatusBarVisualProvider_Split1080",
+        "case": "exact",
+        "expected": "STUIStatusBarVisualProvider_Split1080",
+        "nativeScale": 3,
+        "nativeWidth": 1080,
+        "notchSize": [
+          216.95999999999998,
+          32.96
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1080",
+        "candidate": "STUIStatusBarVisualProvider_Split1080",
+        "case": "widthInsideTolerance",
+        "expected": "STUIStatusBarVisualProvider_Split1080",
+        "nativeScale": 3,
+        "nativeWidth": 1080.00005,
+        "notchSize": [
+          216.95999999999998,
+          32.96
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1080",
+        "case": "widthOutsideTolerance",
+        "expected": "nil",
+        "nativeScale": 3,
+        "nativeWidth": 1080.0002,
+        "notchSize": [
+          216.95999999999998,
+          32.96
+        ],
+        "screenScale": 3
+      },
+      {
+        "actual": "nil",
+        "candidate": "STUIStatusBarVisualProvider_Split1080",
+        "case": "notchHeightMismatch",
+        "expected": "nil",
+        "nativeScale": 3,
+        "nativeWidth": 1080,
+        "notchSize": [
+          216.95999999999998,
+          32.960192
+        ],
+        "screenScale": 3
+      }
+    ],
+    "phoneFamilyTests": [
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1170",
+        "exclusionY": -0.001,
+        "expected": "STUIStatusBarVisualProvider_Split1170"
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_Split1170",
+        "exclusionY": 0,
+        "expected": "STUIStatusBarVisualProvider_Split1170"
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+        "exclusionY": 0.001,
+        "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium"
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+        "exclusionY": 11.333333333333334,
+        "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium"
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_LegacyPhone",
+        "exclusionY": null,
+        "expected": "STUIStatusBarVisualProvider_LegacyPhone"
+      }
+    ],
+    "dynamicBoundaryTests": [
+      {
+        "actual": "STUIStatusBarVisualProvider_DynamicSplit",
+        "effectiveWidth": 585,
+        "expected": "STUIStatusBarVisualProvider_DynamicSplit",
+        "nativeScale": 3,
+        "referenceWidth": 390,
+        "screenScale": 2
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+        "effectiveWidth": 390,
+        "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+        "nativeScale": 3,
+        "referenceWidth": 390,
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+        "effectiveWidth": 354.54545454545456,
+        "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+        "nativeScale": 3,
+        "referenceWidth": 390,
+        "screenScale": 3.3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_DynamicSplit",
+        "effectiveWidth": 589.4985,
+        "expected": "STUIStatusBarVisualProvider_DynamicSplit",
+        "nativeScale": 3,
+        "referenceWidth": 392.999,
+        "screenScale": 2
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+        "effectiveWidth": 392.999,
+        "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+        "nativeScale": 3,
+        "referenceWidth": 392.999,
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+        "effectiveWidth": 357.2718181818182,
+        "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+        "nativeScale": 3,
+        "referenceWidth": 392.999,
+        "screenScale": 3.3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_DynamicSplit",
+        "effectiveWidth": 589.5,
+        "expected": "STUIStatusBarVisualProvider_DynamicSplit",
+        "nativeScale": 3,
+        "referenceWidth": 393,
+        "screenScale": 2
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+        "effectiveWidth": 393,
+        "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+        "nativeScale": 3,
+        "referenceWidth": 393,
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+        "effectiveWidth": 357.2727272727273,
+        "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+        "nativeScale": 3,
+        "referenceWidth": 393,
+        "screenScale": 3.3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_DynamicSplit",
+        "effectiveWidth": 589.5015,
+        "expected": "STUIStatusBarVisualProvider_DynamicSplit",
+        "nativeScale": 3,
+        "referenceWidth": 393.001,
+        "screenScale": 2
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_DynamicSplit",
+        "effectiveWidth": 393.001,
+        "expected": "STUIStatusBarVisualProvider_DynamicSplit",
+        "nativeScale": 3,
+        "referenceWidth": 393.001,
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+        "effectiveWidth": 357.27363636363634,
+        "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+        "nativeScale": 3,
+        "referenceWidth": 393.001,
+        "screenScale": 3.3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_DynamicSplit",
+        "effectiveWidth": 645,
+        "expected": "STUIStatusBarVisualProvider_DynamicSplit",
+        "nativeScale": 3,
+        "referenceWidth": 430,
+        "screenScale": 2
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_DynamicSplit",
+        "effectiveWidth": 430,
+        "expected": "STUIStatusBarVisualProvider_DynamicSplit",
+        "nativeScale": 3,
+        "referenceWidth": 430,
+        "screenScale": 3
+      },
+      {
+        "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+        "effectiveWidth": 390.90909090909093,
+        "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+        "nativeScale": 3,
+        "referenceWidth": 430,
+        "screenScale": 3.3
+      }
+    ],
+    "iconSizeTests": [
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1,
+        "method": "normalIconSize",
+        "screenScale": 2
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.06,
+        "method": "normalIconSize",
+        "screenScale": 2
+      },
+      {
+        "actual": 5,
+        "expected": 5,
+        "iconScale": 1.07,
+        "method": "normalIconSize",
+        "screenScale": 2
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.08,
+        "method": "normalIconSize",
+        "screenScale": 2
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.12,
+        "method": "normalIconSize",
+        "screenScale": 2
+      },
+      {
+        "actual": 9,
+        "expected": 9,
+        "iconScale": 1.16,
+        "method": "normalIconSize",
+        "screenScale": 2
+      },
+      {
+        "actual": 11,
+        "expected": 11,
+        "iconScale": 1.2412,
+        "method": "normalIconSize",
+        "screenScale": 2
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.26,
+        "method": "normalIconSize",
+        "screenScale": 2
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.2992000000000001,
+        "method": "normalIconSize",
+        "screenScale": 2
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.1200001,
+        "method": "normalIconSize",
+        "screenScale": 2
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1,
+        "method": "normalIconSize",
+        "screenScale": 2.5
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.06,
+        "method": "normalIconSize",
+        "screenScale": 2.5
+      },
+      {
+        "actual": 5,
+        "expected": 5,
+        "iconScale": 1.07,
+        "method": "normalIconSize",
+        "screenScale": 2.5
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.08,
+        "method": "normalIconSize",
+        "screenScale": 2.5
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.12,
+        "method": "normalIconSize",
+        "screenScale": 2.5
+      },
+      {
+        "actual": 9,
+        "expected": 9,
+        "iconScale": 1.16,
+        "method": "normalIconSize",
+        "screenScale": 2.5
+      },
+      {
+        "actual": 11,
+        "expected": 11,
+        "iconScale": 1.2412,
+        "method": "normalIconSize",
+        "screenScale": 2.5
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.26,
+        "method": "normalIconSize",
+        "screenScale": 2.5
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.2992000000000001,
+        "method": "normalIconSize",
+        "screenScale": 2.5
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.1200001,
+        "method": "normalIconSize",
+        "screenScale": 2.5
+      },
+      {
+        "actual": 2,
+        "expected": 2,
+        "iconScale": 1,
+        "method": "normalIconSize",
+        "screenScale": 2.500001
+      },
+      {
+        "actual": 4,
+        "expected": 4,
+        "iconScale": 1.06,
+        "method": "normalIconSize",
+        "screenScale": 2.500001
+      },
+      {
+        "actual": 2,
+        "expected": 2,
+        "iconScale": 1.07,
+        "method": "normalIconSize",
+        "screenScale": 2.500001
+      },
+      {
+        "actual": 6,
+        "expected": 6,
+        "iconScale": 1.08,
+        "method": "normalIconSize",
+        "screenScale": 2.500001
+      },
+      {
+        "actual": 7,
+        "expected": 7,
+        "iconScale": 1.12,
+        "method": "normalIconSize",
+        "screenScale": 2.500001
+      },
+      {
+        "actual": 10,
+        "expected": 10,
+        "iconScale": 1.16,
+        "method": "normalIconSize",
+        "screenScale": 2.500001
+      },
+      {
+        "actual": 12,
+        "expected": 12,
+        "iconScale": 1.2412,
+        "method": "normalIconSize",
+        "screenScale": 2.500001
+      },
+      {
+        "actual": 8,
+        "expected": 8,
+        "iconScale": 1.26,
+        "method": "normalIconSize",
+        "screenScale": 2.500001
+      },
+      {
+        "actual": 13,
+        "expected": 13,
+        "iconScale": 1.2992000000000001,
+        "method": "normalIconSize",
+        "screenScale": 2.500001
+      },
+      {
+        "actual": 2,
+        "expected": 2,
+        "iconScale": 1.1200001,
+        "method": "normalIconSize",
+        "screenScale": 2.500001
+      },
+      {
+        "actual": 2,
+        "expected": 2,
+        "iconScale": 1,
+        "method": "normalIconSize",
+        "screenScale": 3
+      },
+      {
+        "actual": 4,
+        "expected": 4,
+        "iconScale": 1.06,
+        "method": "normalIconSize",
+        "screenScale": 3
+      },
+      {
+        "actual": 2,
+        "expected": 2,
+        "iconScale": 1.07,
+        "method": "normalIconSize",
+        "screenScale": 3
+      },
+      {
+        "actual": 6,
+        "expected": 6,
+        "iconScale": 1.08,
+        "method": "normalIconSize",
+        "screenScale": 3
+      },
+      {
+        "actual": 7,
+        "expected": 7,
+        "iconScale": 1.12,
+        "method": "normalIconSize",
+        "screenScale": 3
+      },
+      {
+        "actual": 10,
+        "expected": 10,
+        "iconScale": 1.16,
+        "method": "normalIconSize",
+        "screenScale": 3
+      },
+      {
+        "actual": 12,
+        "expected": 12,
+        "iconScale": 1.2412,
+        "method": "normalIconSize",
+        "screenScale": 3
+      },
+      {
+        "actual": 8,
+        "expected": 8,
+        "iconScale": 1.26,
+        "method": "normalIconSize",
+        "screenScale": 3
+      },
+      {
+        "actual": 13,
+        "expected": 13,
+        "iconScale": 1.2992000000000001,
+        "method": "normalIconSize",
+        "screenScale": 3
+      },
+      {
+        "actual": 2,
+        "expected": 2,
+        "iconScale": 1.1200001,
+        "method": "normalIconSize",
+        "screenScale": 3
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1,
+        "method": "expandedIconSize",
+        "screenScale": 2
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.06,
+        "method": "expandedIconSize",
+        "screenScale": 2
+      },
+      {
+        "actual": 5,
+        "expected": 5,
+        "iconScale": 1.07,
+        "method": "expandedIconSize",
+        "screenScale": 2
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.08,
+        "method": "expandedIconSize",
+        "screenScale": 2
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.12,
+        "method": "expandedIconSize",
+        "screenScale": 2
+      },
+      {
+        "actual": 9,
+        "expected": 9,
+        "iconScale": 1.16,
+        "method": "expandedIconSize",
+        "screenScale": 2
+      },
+      {
+        "actual": 11,
+        "expected": 11,
+        "iconScale": 1.2412,
+        "method": "expandedIconSize",
+        "screenScale": 2
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.26,
+        "method": "expandedIconSize",
+        "screenScale": 2
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.2992000000000001,
+        "method": "expandedIconSize",
+        "screenScale": 2
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.1200001,
+        "method": "expandedIconSize",
+        "screenScale": 2
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1,
+        "method": "expandedIconSize",
+        "screenScale": 2.5
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.06,
+        "method": "expandedIconSize",
+        "screenScale": 2.5
+      },
+      {
+        "actual": 5,
+        "expected": 5,
+        "iconScale": 1.07,
+        "method": "expandedIconSize",
+        "screenScale": 2.5
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.08,
+        "method": "expandedIconSize",
+        "screenScale": 2.5
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.12,
+        "method": "expandedIconSize",
+        "screenScale": 2.5
+      },
+      {
+        "actual": 9,
+        "expected": 9,
+        "iconScale": 1.16,
+        "method": "expandedIconSize",
+        "screenScale": 2.5
+      },
+      {
+        "actual": 11,
+        "expected": 11,
+        "iconScale": 1.2412,
+        "method": "expandedIconSize",
+        "screenScale": 2.5
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.26,
+        "method": "expandedIconSize",
+        "screenScale": 2.5
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.2992000000000001,
+        "method": "expandedIconSize",
+        "screenScale": 2.5
+      },
+      {
+        "actual": 1,
+        "expected": 1,
+        "iconScale": 1.1200001,
+        "method": "expandedIconSize",
+        "screenScale": 2.5
+      },
+      {
+        "actual": 2,
+        "expected": 2,
+        "iconScale": 1,
+        "method": "expandedIconSize",
+        "screenScale": 2.500001
+      },
+      {
+        "actual": 4,
+        "expected": 4,
+        "iconScale": 1.06,
+        "method": "expandedIconSize",
+        "screenScale": 2.500001
+      },
+      {
+        "actual": 2,
+        "expected": 2,
+        "iconScale": 1.07,
+        "method": "expandedIconSize",
+        "screenScale": 2.500001
+      },
+      {
+        "actual": 6,
+        "expected": 6,
+        "iconScale": 1.08,
+        "method": "expandedIconSize",
+        "screenScale": 2.500001
+      },
+      {
+        "actual": 7,
+        "expected": 7,
+        "iconScale": 1.12,
+        "method": "expandedIconSize",
+        "screenScale": 2.500001
+      },
+      {
+        "actual": 10,
+        "expected": 10,
+        "iconScale": 1.16,
+        "method": "expandedIconSize",
+        "screenScale": 2.500001
+      },
+      {
+        "actual": 12,
+        "expected": 12,
+        "iconScale": 1.2412,
+        "method": "expandedIconSize",
+        "screenScale": 2.500001
+      },
+      {
+        "actual": 8,
+        "expected": 8,
+        "iconScale": 1.26,
+        "method": "expandedIconSize",
+        "screenScale": 2.500001
+      },
+      {
+        "actual": 13,
+        "expected": 13,
+        "iconScale": 1.2992000000000001,
+        "method": "expandedIconSize",
+        "screenScale": 2.500001
+      },
+      {
+        "actual": 2,
+        "expected": 2,
+        "iconScale": 1.1200001,
+        "method": "expandedIconSize",
+        "screenScale": 2.500001
+      },
+      {
+        "actual": 2,
+        "expected": 2,
+        "iconScale": 1,
+        "method": "expandedIconSize",
+        "screenScale": 3
+      },
+      {
+        "actual": 4,
+        "expected": 4,
+        "iconScale": 1.06,
+        "method": "expandedIconSize",
+        "screenScale": 3
+      },
+      {
+        "actual": 2,
+        "expected": 2,
+        "iconScale": 1.07,
+        "method": "expandedIconSize",
+        "screenScale": 3
+      },
+      {
+        "actual": 6,
+        "expected": 6,
+        "iconScale": 1.08,
+        "method": "expandedIconSize",
+        "screenScale": 3
+      },
+      {
+        "actual": 7,
+        "expected": 7,
+        "iconScale": 1.12,
+        "method": "expandedIconSize",
+        "screenScale": 3
+      },
+      {
+        "actual": 10,
+        "expected": 10,
+        "iconScale": 1.16,
+        "method": "expandedIconSize",
+        "screenScale": 3
+      },
+      {
+        "actual": 12,
+        "expected": 12,
+        "iconScale": 1.2412,
+        "method": "expandedIconSize",
+        "screenScale": 3
+      },
+      {
+        "actual": 8,
+        "expected": 8,
+        "iconScale": 1.26,
+        "method": "expandedIconSize",
+        "screenScale": 3
+      },
+      {
+        "actual": 13,
+        "expected": 13,
+        "iconScale": 1.2992000000000001,
+        "method": "expandedIconSize",
+        "screenScale": 3
+      },
+      {
+        "actual": 2,
+        "expected": 2,
+        "iconScale": 1.1200001,
+        "method": "expandedIconSize",
+        "screenScale": 3
+      }
+    ]
+  },
+  "validation": {
+    "uniqueBranchCases": 172,
+    "deviceRuns": 3,
+    "nativeComparisons": 516,
+    "appliedStyleComparisons": 18
+  },
+  "notchCandidates": [
+    {
+      "nativeDisplayWidth": 1080,
+      "notchSize": [
+        226,
+        34.333333333333336
+      ],
+      "provider": "STUIStatusBarVisualProvider_Split1080",
+      "referenceScreenScale": 2.88,
+      "syntheticSelected": "STUIStatusBarVisualProvider_Split1080"
+    },
+    {
+      "nativeDisplayWidth": 1080,
+      "notchSize": [
+        174,
+        37.333333333333336
+      ],
+      "provider": "STUIStatusBarVisualProvider_Split1080_Wide",
+      "referenceScreenScale": 2.88,
+      "syntheticSelected": "STUIStatusBarVisualProvider_Split1080_Wide"
+    },
+    {
+      "nativeDisplayWidth": 1125,
+      "notchSize": [
+        209,
+        30
+      ],
+      "provider": "STUIStatusBarVisualProvider_Split1125",
+      "referenceScreenScale": null,
+      "syntheticSelected": "STUIStatusBarVisualProvider_Split1125"
+    },
+    {
+      "nativeDisplayWidth": 1170,
+      "notchSize": [
+        210,
+        32
+      ],
+      "provider": "STUIStatusBarVisualProvider_Split1170",
+      "referenceScreenScale": null,
+      "syntheticSelected": "STUIStatusBarVisualProvider_Split1170"
+    },
+    {
+      "nativeDisplayWidth": 1170,
+      "notchSize": [
+        161.33333333333334,
+        33.666666666666664
+      ],
+      "provider": "STUIStatusBarVisualProvider_Split1170_Wide",
+      "referenceScreenScale": null,
+      "syntheticSelected": "STUIStatusBarVisualProvider_Split1170_Wide"
+    },
+    {
+      "nativeDisplayWidth": 1242,
+      "notchSize": [
+        209.33333333333334,
+        30
+      ],
+      "provider": "STUIStatusBarVisualProvider_Split1242",
+      "referenceScreenScale": null,
+      "syntheticSelected": "STUIStatusBarVisualProvider_Split1242"
+    },
+    {
+      "nativeDisplayWidth": 1284,
+      "notchSize": [
+        209.33333333333334,
+        32
+      ],
+      "provider": "STUIStatusBarVisualProvider_Split1284",
+      "referenceScreenScale": null,
+      "syntheticSelected": "STUIStatusBarVisualProvider_Split1284"
+    },
+    {
+      "nativeDisplayWidth": 1284,
+      "notchSize": [
+        161.33333333333334,
+        33.666666666666664
+      ],
+      "provider": "STUIStatusBarVisualProvider_Split1284_Wide",
+      "referenceScreenScale": null,
+      "syntheticSelected": "STUIStatusBarVisualProvider_Split1284_Wide"
+    },
+    {
+      "nativeDisplayWidth": 828,
+      "notchSize": [
+        227,
+        32
+      ],
+      "provider": "STUIStatusBarVisualProvider_Split828",
+      "referenceScreenScale": null,
+      "syntheticSelected": "STUIStatusBarVisualProvider_Split828"
+    }
+  ]
+}

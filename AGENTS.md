@@ -9,6 +9,7 @@
 - `tools/battery/`：电池探针、独立重绘、比对和图解；`zsh tools/battery/build.sh`。
 - `tools/simprobe/`、`tools/sbtrace/`、`tools/lldb/`：运行时内省、注入和反汇编辅助。
 - `tools/signals/`：Wi-Fi / 蜂窝信号研究工具，具体命令见该阶段的笔记。
+- `tools/providers/`：provider 选型、iconSize 映射、逐项目样式采集与原生方法验证；`zsh tools/providers/build.sh`，复现见 `notes/08-provider-selection.md`。
 - `notes/`：方法、实测结论及限制；`notes/evidence/` 保存可复核的文本证据。
 - `.build/`、`dumps/`：不提交的构建产物和实验采集。不要提交 Apple 二进制、导出的框架头文件或凭据。
 

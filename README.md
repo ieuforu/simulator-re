@@ -4,13 +4,15 @@
 
 ## 当前状态
 
-- 更新：2026-11-17；研究基线：`8259621`（旧版圆润电池几何，已提交推送）。
+- 更新：2026-11-17；研究基线：`3e9ed16`（信号图标几何，已提交推送）。
 - 已完成：电池 cap 两分支、连续圆角和闪电镂空的还原；iOS 17.4 下 8 条 cap 路径控制点误差为 0。范围与限制见 [06](notes/06-legacy-geometry.md)。
 - 本阶段完成：iOS 17.4 下 iPhone 14 / 15 Pro / 15 Pro Max 的 Wi-Fi、蜂窝参数、圆角、间距与右侧布局；独立还原 4 / 7 / 8 档的两种 rounded 分支。研究结论、代码、图解与证据入口见 [07](notes/07-signal-geometry.md)。
 - 已验证：48 张原生实例图 + 36 张 SpringBoard Wi-Fi mask，alpha 最大差 0；48 根实际蜂窝柱的 frame 与圆角配置匹配。6 张稳定截图已目视核对。纠正旧推断：本次灵动岛电池 rounded=YES，Wi-Fi / 蜂窝仍是 NO，不能从全局样式推断每个项目。
-- 收尾：研究工具构建、脚本语法和文档链接检查通过；本次创建的三台实验模拟器已关闭并删除，原始采集保留在 `.build/signals/`。
-- 未覆盖：本篇信号几何在 iOS 18 / 27、真机、双 SIM、横屏、显示缩放及特殊动态状态；尚未完整还原 provider 选择判定。用户的设计稿尚未提供。后续按指定版本 / 设计稿核对，不把未验证范围当作已完成。
-- 发布范围：本阶段笔记、逆向代码、对比图、文本证据与项目指引纳入同一 Git 提交，推送至 `origin/main`。本仓库尚无部署配置或指定目标，未执行部署。
+- 信号阶段收尾：研究工具构建、脚本语法和文档链接检查通过；该阶段的三台实验模拟器已删除，原始采集保留在 `.build/signals/`。
+- Provider 阶段完成：屏幕 exclusion rect → Phone 家族 → 九类刘海匹配 / 393 阈值 → iconScale 到 iconSize 映射 → 区域字体与电池专属覆盖，见 [08](notes/08-provider-selection.md)。172 组条件在三台 iOS 17.4 模拟器上共 516 次原生比较通过；18 份实际应用样式与覆盖链、view 最终值匹配。
+- Provider 阶段收尾：工具构建、Python / shell 语法、文档链接及差异检查通过；等待反汇编的进程已终止，三台本阶段实验设备已删除。原始采集在 `.build/providers/`，仓库保存可复核的代码与文本证据。
+- 未覆盖：信号几何在 iOS 18 / 27、真机、双 SIM、横屏、显示缩放及特殊动态状态。用户的设计稿尚未提供。后续按指定版本 / 设计稿核对，不把未验证范围当作已完成。
+- 发布范围：第 07 篇及对应代码、图解已推送 `origin/main`；第 08 篇 provider 研究的逆向代码、笔记、验证证据及相关指引纳入同一 Git 提交，推送至 `origin/main`。本仓库尚无部署配置或指定目标，未执行部署。
 
 <p align="center">
   <img src="docs/images/demo.gif" alt="状态栏实验室演示：切换预设时，状态栏的时间、电池和信号实时变化" width="300">
@@ -25,6 +27,7 @@
 | 低电量模式 | 黄色电池，`simctl status_bar` 和 `SimDevice` 都做不到 |
 | 电池图标还原 | 从反汇编还原选色、闪电、填充宽度的逻辑，并逐项实测 |
 | 信号图标几何还原 | 同一 iOS 17.4 比较刘海 / 灵动岛的三档尺寸，重绘 Wi-Fi 路径与蜂窝连续圆角，验证实际图层和布局 |
+| Provider 选型与样式 | 还原显示几何到 provider、iconScale 到 iconSize，以及区域字体与电池 rounded 的覆盖链 |
 | 电池像素级还原 | iOS 17.4 和 iOS 27 的几何、贴图、闪电和百分比，独立重绘与真实状态栏逐像素比对 |
 
 ## 电池图标的状态
@@ -100,6 +103,7 @@ xcrun simctl launch <设备> dev.ieuforu.StatusBarLab --demo
 | `tools/ovrtest/` | 直接发布覆盖数据的原型 |
 | `tools/battery/` | 采集真实状态栏电池、导出参数表、独立重绘并逐像素比对 |
 | `tools/signals/` | Wi-Fi / 蜂窝参数探针、SpringBoard 采集、独立重绘、alpha 比对与图解 |
+| `tools/providers/` | provider 条件测试、逐图标样式采集、映射还原及反汇编导出 |
 | `notes/` | 逆向笔记 |
 
 ## 笔记
@@ -111,6 +115,7 @@ xcrun simctl launch <设备> dev.ieuforu.StatusBarLab --demo
 5. [新版电池图标：iOS 27](notes/05-ios27-battery.md)
 6. [旧版圆润电池：cap、连续圆角与路径验证](notes/06-legacy-geometry.md)
 7. [旧版状态栏：Wi-Fi、蜂窝与刘海 / 灵动岛布局](notes/07-signal-geometry.md)
+8. [Provider 如何选择机型、iconSize 与逐图标 rounded](notes/08-provider-selection.md)
 
 ## 限制
 
@@ -120,4 +125,4 @@ xcrun simctl launch <设备> dev.ieuforu.StatusBarLab --demo
 
 ## 声明
 
-个人学习项目，与 Apple 无关。`notes/03` 至 `notes/07` 中的算法说明与对应重绘代码是根据反汇编和实测手工还原的研究成果，不是 Apple 的原始源码。
+个人学习项目，与 Apple 无关。`notes/03` 至 `notes/08` 中的算法说明与对应代码是根据反汇编和实测手工还原的研究成果，不是 Apple 的原始源码。
