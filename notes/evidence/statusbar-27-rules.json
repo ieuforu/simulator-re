@@ -1,0 +1,1685 @@
+{
+  "actualExclusionRect": "{{138.33333333333334, 14}, {125, 36.666666666666664}}",
+  "cellularParameters": [
+    {
+      "_barCornerRadiusForIconSize:": 1.4,
+      "_barWidthForIconSize:": 3,
+      "_interspaceForIconSize:": 1.5,
+      "_verticalOffsetForIconSize:": 0,
+      "heights": [
+        4,
+        6,
+        8.5,
+        10.5
+      ],
+      "iconSize": 1
+    },
+    {
+      "_barCornerRadiusForIconSize:": 1.4000000000000001,
+      "_barWidthForIconSize:": 3,
+      "_interspaceForIconSize:": 1.6666666666666667,
+      "_verticalOffsetForIconSize:": 0,
+      "heights": [
+        4,
+        6,
+        8.333333333333334,
+        10.666666666666666
+      ],
+      "iconSize": 2
+    },
+    {
+      "_barCornerRadiusForIconSize:": 1.4000000000000001,
+      "_barWidthForIconSize:": 3,
+      "_interspaceForIconSize:": 1.6666666666666667,
+      "_verticalOffsetForIconSize:": 0,
+      "heights": [
+        3.6666666666666665,
+        5.333333333333333,
+        8,
+        10.666666666666666
+      ],
+      "iconSize": 3
+    },
+    {
+      "_barCornerRadiusForIconSize:": 1.4000000000000001,
+      "_barWidthForIconSize:": 3,
+      "_interspaceForIconSize:": 1.6666666666666667,
+      "_verticalOffsetForIconSize:": 0,
+      "heights": [
+        4,
+        6,
+        8.666666666666666,
+        11.333333333333334
+      ],
+      "iconSize": 4
+    },
+    {
+      "_barCornerRadiusForIconSize:": 1.61,
+      "_barWidthForIconSize:": 3.5,
+      "_interspaceForIconSize:": 1.5,
+      "_verticalOffsetForIconSize:": 0,
+      "heights": [
+        4.5,
+        6.5,
+        9,
+        11.5
+      ],
+      "iconSize": 5
+    },
+    {
+      "_barCornerRadiusForIconSize:": 1.6333333333333335,
+      "_barWidthForIconSize:": 3.3333333333333335,
+      "_interspaceForIconSize:": 1.6666666666666667,
+      "_verticalOffsetForIconSize:": 0,
+      "heights": [
+        4.333333333333333,
+        6.333333333333333,
+        9,
+        11.666666666666666
+      ],
+      "iconSize": 6
+    },
+    {
+      "_barCornerRadiusForIconSize:": 1.6333333333333335,
+      "_barWidthForIconSize:": 3.3333333333333335,
+      "_interspaceForIconSize:": 2,
+      "_verticalOffsetForIconSize:": 0,
+      "heights": [
+        6.333333333333333,
+        8.333333333333334,
+        10.666666666666666,
+        13
+      ],
+      "iconSize": 7
+    },
+    {
+      "_barCornerRadiusForIconSize:": 1.7149999999999999,
+      "_barWidthForIconSize:": 3.5,
+      "_interspaceForIconSize:": 2.1666666666666665,
+      "_verticalOffsetForIconSize:": 1,
+      "heights": [
+        6.5,
+        8.666666666666666,
+        11.166666666666666,
+        13.666666666666666
+      ],
+      "iconSize": 8
+    },
+    {
+      "_barCornerRadiusForIconSize:": 1.68,
+      "_barWidthForIconSize:": 3.6666666666666665,
+      "_interspaceForIconSize:": 2.3333333333333335,
+      "_verticalOffsetForIconSize:": 0,
+      "heights": [
+        7,
+        9,
+        11.666666666666666,
+        14.333333333333334
+      ],
+      "iconSize": 9
+    },
+    {
+      "_barCornerRadiusForIconSize:": 1.7563333333333333,
+      "_barWidthForIconSize:": 3.8333333333333335,
+      "_interspaceForIconSize:": 2.3333333333333335,
+      "_verticalOffsetForIconSize:": 1.3333333333333333,
+      "heights": [
+        7,
+        9.333333333333334,
+        12.166666666666666,
+        15
+      ],
+      "iconSize": 10
+    },
+    {
+      "_barCornerRadiusForIconSize:": 1.75,
+      "_barWidthForIconSize:": 4,
+      "_interspaceForIconSize:": 2,
+      "_verticalOffsetForIconSize:": 0,
+      "heights": [
+        5,
+        7,
+        10,
+        13
+      ],
+      "iconSize": 11
+    },
+    {
+      "_barCornerRadiusForIconSize:": 1.68,
+      "_barWidthForIconSize:": 3.6666666666666665,
+      "_interspaceForIconSize:": 2,
+      "_verticalOffsetForIconSize:": 0,
+      "heights": [
+        5,
+        7,
+        10,
+        13
+      ],
+      "iconSize": 12
+    },
+    {
+      "_barCornerRadiusForIconSize:": 1.82,
+      "_barWidthForIconSize:": 4.5,
+      "_interspaceForIconSize:": 2,
+      "_verticalOffsetForIconSize:": 0,
+      "heights": [
+        5.5,
+        8,
+        11,
+        14
+      ],
+      "iconSize": 13
+    },
+    {
+      "_barCornerRadiusForIconSize:": 1.96,
+      "_barWidthForIconSize:": 4,
+      "_interspaceForIconSize:": 2.3333333333333335,
+      "_verticalOffsetForIconSize:": 0,
+      "heights": [
+        5.333333333333333,
+        7.333333333333333,
+        10.666666666666666,
+        14
+      ],
+      "iconSize": 14
+    },
+    {
+      "_barCornerRadiusForIconSize:": 1.96,
+      "_barWidthForIconSize:": 4,
+      "_interspaceForIconSize:": 2.3333333333333335,
+      "_verticalOffsetForIconSize:": 0,
+      "heights": [
+        5.666666666666667,
+        7.666666666666667,
+        11,
+        14.666666666666666
+      ],
+      "iconSize": 15
+    },
+    {
+      "_barCornerRadiusForIconSize:": 1.375,
+      "_barWidthForIconSize:": 2.75,
+      "_interspaceForIconSize:": 1.75,
+      "_verticalOffsetForIconSize:": 0,
+      "heights": [
+        5.75,
+        7.5,
+        9.5,
+        11.5
+      ],
+      "iconSize": 16
+    },
+    {
+      "_barCornerRadiusForIconSize:": 1.94,
+      "_barWidthForIconSize:": 4,
+      "_interspaceForIconSize:": 2,
+      "_verticalOffsetForIconSize:": 0,
+      "heights": [
+        5,
+        7,
+        10,
+        13
+      ],
+      "iconSize": 17
+    },
+    {
+      "_barCornerRadiusForIconSize:": 1.25,
+      "_barWidthForIconSize:": 2.5,
+      "_interspaceForIconSize:": 1.5,
+      "_verticalOffsetForIconSize:": 0,
+      "heights": [
+        4,
+        5.5,
+        7.5,
+        9
+      ],
+      "iconSize": 18
+    },
+    {
+      "_barCornerRadiusForIconSize:": 1.3333333333333333,
+      "_barWidthForIconSize:": 3,
+      "_interspaceForIconSize:": 1.6666666666666667,
+      "_verticalOffsetForIconSize:": 0,
+      "heights": [
+        4,
+        5.666666666666667,
+        7.333333333333333,
+        9
+      ],
+      "iconSize": 19
+    }
+  ],
+  "dynamicSelection": [
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "exclusionWidth": 125,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 393,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 125,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 393,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 125,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 393,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "exclusionWidth": 284.999,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 393,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 284.999,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 393,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 284.999,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 393,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "exclusionWidth": 285,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 393,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 285,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 393,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 285,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 393,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplit",
+      "exclusionWidth": 285.001,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplit",
+      "nativeScale": 3,
+      "referenceWidth": 393,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "exclusionWidth": 285.001,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "nativeScale": 3,
+      "referenceWidth": 393,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "exclusionWidth": 285.001,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "nativeScale": 3,
+      "referenceWidth": 393,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplit",
+      "exclusionWidth": 375,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplit",
+      "nativeScale": 3,
+      "referenceWidth": 393,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "exclusionWidth": 375,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "nativeScale": 3,
+      "referenceWidth": 393,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "exclusionWidth": 375,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "nativeScale": 3,
+      "referenceWidth": 393,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "exclusionWidth": 125,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 401.999,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 125,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 401.999,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 125,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 401.999,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "exclusionWidth": 284.999,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 401.999,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 284.999,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 401.999,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 284.999,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 401.999,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "exclusionWidth": 285,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 401.999,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 285,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 401.999,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 285,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 401.999,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplit",
+      "exclusionWidth": 285.001,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplit",
+      "nativeScale": 3,
+      "referenceWidth": 401.999,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "exclusionWidth": 285.001,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "nativeScale": 3,
+      "referenceWidth": 401.999,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "exclusionWidth": 285.001,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "nativeScale": 3,
+      "referenceWidth": 401.999,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplit",
+      "exclusionWidth": 375,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplit",
+      "nativeScale": 3,
+      "referenceWidth": 401.999,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "exclusionWidth": 375,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "nativeScale": 3,
+      "referenceWidth": 401.999,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "exclusionWidth": 375,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "nativeScale": 3,
+      "referenceWidth": 401.999,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "exclusionWidth": 125,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 402,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 125,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 402,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 125,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 402,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "exclusionWidth": 284.999,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 402,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 284.999,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 402,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 284.999,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 402,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "exclusionWidth": 285,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 402,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 285,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 402,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 285,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 402,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplit",
+      "exclusionWidth": 285.001,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplit",
+      "nativeScale": 3,
+      "referenceWidth": 402,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "exclusionWidth": 285.001,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "nativeScale": 3,
+      "referenceWidth": 402,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "exclusionWidth": 285.001,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "nativeScale": 3,
+      "referenceWidth": 402,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplit",
+      "exclusionWidth": 375,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplit",
+      "nativeScale": 3,
+      "referenceWidth": 402,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "exclusionWidth": 375,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "nativeScale": 3,
+      "referenceWidth": 402,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "exclusionWidth": 375,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "nativeScale": 3,
+      "referenceWidth": 402,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "exclusionWidth": 125,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 402.001,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "exclusionWidth": 125,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 402.001,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 125,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 402.001,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "exclusionWidth": 284.999,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 402.001,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "exclusionWidth": 284.999,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 402.001,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 284.999,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 402.001,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "exclusionWidth": 285,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 402.001,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "exclusionWidth": 285,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 402.001,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 285,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 402.001,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplit",
+      "exclusionWidth": 285.001,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplit",
+      "nativeScale": 3,
+      "referenceWidth": 402.001,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplit",
+      "exclusionWidth": 285.001,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplit",
+      "nativeScale": 3,
+      "referenceWidth": 402.001,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "exclusionWidth": 285.001,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "nativeScale": 3,
+      "referenceWidth": 402.001,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplit",
+      "exclusionWidth": 375,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplit",
+      "nativeScale": 3,
+      "referenceWidth": 402.001,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplit",
+      "exclusionWidth": 375,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplit",
+      "nativeScale": 3,
+      "referenceWidth": 402.001,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "exclusionWidth": 375,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "nativeScale": 3,
+      "referenceWidth": 402.001,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "exclusionWidth": 125,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 440,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "exclusionWidth": 125,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 440,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 125,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 440,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "exclusionWidth": 284.999,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 440,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "exclusionWidth": 284.999,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 440,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 284.999,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 440,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "exclusionWidth": 285,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 440,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "exclusionWidth": 285,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 440,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "exclusionWidth": 285,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMediumSmallIsland",
+      "nativeScale": 3,
+      "referenceWidth": 440,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplit",
+      "exclusionWidth": 285.001,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplit",
+      "nativeScale": 3,
+      "referenceWidth": 440,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplit",
+      "exclusionWidth": 285.001,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplit",
+      "nativeScale": 3,
+      "referenceWidth": 440,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "exclusionWidth": 285.001,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "nativeScale": 3,
+      "referenceWidth": 440,
+      "scale": 3.3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplit",
+      "exclusionWidth": 375,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplit",
+      "nativeScale": 3,
+      "referenceWidth": 440,
+      "scale": 2
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplit",
+      "exclusionWidth": 375,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplit",
+      "nativeScale": 3,
+      "referenceWidth": 440,
+      "scale": 3
+    },
+    {
+      "actual": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "exclusionWidth": 375,
+      "expected": "STUIStatusBarVisualProvider_DynamicSplitMedium",
+      "nativeScale": 3,
+      "referenceWidth": 440,
+      "scale": 3.3
+    }
+  ],
+  "iconSizeMapping": [
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1,
+      "method": "normalIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.06,
+      "method": "normalIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 5,
+      "expected": 5,
+      "iconScale": 1.07,
+      "method": "normalIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.08,
+      "method": "normalIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.12,
+      "method": "normalIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.18,
+      "method": "normalIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.26,
+      "method": "normalIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.32,
+      "method": "normalIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 11,
+      "expected": 11,
+      "iconScale": 1.16,
+      "method": "normalIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 13,
+      "expected": 13,
+      "iconScale": 1.2412,
+      "method": "normalIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.2992000000000001,
+      "method": "normalIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.1800001,
+      "method": "normalIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1,
+      "method": "normalIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.06,
+      "method": "normalIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 5,
+      "expected": 5,
+      "iconScale": 1.07,
+      "method": "normalIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.08,
+      "method": "normalIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.12,
+      "method": "normalIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.18,
+      "method": "normalIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.26,
+      "method": "normalIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.32,
+      "method": "normalIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 11,
+      "expected": 11,
+      "iconScale": 1.16,
+      "method": "normalIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 13,
+      "expected": 13,
+      "iconScale": 1.2412,
+      "method": "normalIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.2992000000000001,
+      "method": "normalIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.1800001,
+      "method": "normalIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 2,
+      "expected": 2,
+      "iconScale": 1,
+      "method": "normalIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 4,
+      "expected": 4,
+      "iconScale": 1.06,
+      "method": "normalIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 2,
+      "expected": 2,
+      "iconScale": 1.07,
+      "method": "normalIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 6,
+      "expected": 6,
+      "iconScale": 1.08,
+      "method": "normalIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 7,
+      "expected": 7,
+      "iconScale": 1.12,
+      "method": "normalIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 8,
+      "expected": 8,
+      "iconScale": 1.18,
+      "method": "normalIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 9,
+      "expected": 9,
+      "iconScale": 1.26,
+      "method": "normalIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 10,
+      "expected": 10,
+      "iconScale": 1.32,
+      "method": "normalIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 12,
+      "expected": 12,
+      "iconScale": 1.16,
+      "method": "normalIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 14,
+      "expected": 14,
+      "iconScale": 1.2412,
+      "method": "normalIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 15,
+      "expected": 15,
+      "iconScale": 1.2992000000000001,
+      "method": "normalIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 2,
+      "expected": 2,
+      "iconScale": 1.1800001,
+      "method": "normalIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 2,
+      "expected": 2,
+      "iconScale": 1,
+      "method": "normalIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 4,
+      "expected": 4,
+      "iconScale": 1.06,
+      "method": "normalIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 2,
+      "expected": 2,
+      "iconScale": 1.07,
+      "method": "normalIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 6,
+      "expected": 6,
+      "iconScale": 1.08,
+      "method": "normalIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 7,
+      "expected": 7,
+      "iconScale": 1.12,
+      "method": "normalIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 8,
+      "expected": 8,
+      "iconScale": 1.18,
+      "method": "normalIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 9,
+      "expected": 9,
+      "iconScale": 1.26,
+      "method": "normalIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 10,
+      "expected": 10,
+      "iconScale": 1.32,
+      "method": "normalIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 12,
+      "expected": 12,
+      "iconScale": 1.16,
+      "method": "normalIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 14,
+      "expected": 14,
+      "iconScale": 1.2412,
+      "method": "normalIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 15,
+      "expected": 15,
+      "iconScale": 1.2992000000000001,
+      "method": "normalIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 2,
+      "expected": 2,
+      "iconScale": 1.1800001,
+      "method": "normalIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1,
+      "method": "expandedIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.06,
+      "method": "expandedIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 5,
+      "expected": 5,
+      "iconScale": 1.07,
+      "method": "expandedIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.08,
+      "method": "expandedIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.12,
+      "method": "expandedIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.18,
+      "method": "expandedIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.26,
+      "method": "expandedIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.32,
+      "method": "expandedIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 11,
+      "expected": 11,
+      "iconScale": 1.16,
+      "method": "expandedIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 13,
+      "expected": 13,
+      "iconScale": 1.2412,
+      "method": "expandedIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.2992000000000001,
+      "method": "expandedIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.1800001,
+      "method": "expandedIconSize",
+      "scale": 2
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1,
+      "method": "expandedIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.06,
+      "method": "expandedIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 5,
+      "expected": 5,
+      "iconScale": 1.07,
+      "method": "expandedIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.08,
+      "method": "expandedIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.12,
+      "method": "expandedIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.18,
+      "method": "expandedIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.26,
+      "method": "expandedIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.32,
+      "method": "expandedIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 11,
+      "expected": 11,
+      "iconScale": 1.16,
+      "method": "expandedIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 13,
+      "expected": 13,
+      "iconScale": 1.2412,
+      "method": "expandedIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.2992000000000001,
+      "method": "expandedIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 1,
+      "expected": 1,
+      "iconScale": 1.1800001,
+      "method": "expandedIconSize",
+      "scale": 2.5
+    },
+    {
+      "actual": 2,
+      "expected": 2,
+      "iconScale": 1,
+      "method": "expandedIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 4,
+      "expected": 4,
+      "iconScale": 1.06,
+      "method": "expandedIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 2,
+      "expected": 2,
+      "iconScale": 1.07,
+      "method": "expandedIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 6,
+      "expected": 6,
+      "iconScale": 1.08,
+      "method": "expandedIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 7,
+      "expected": 7,
+      "iconScale": 1.12,
+      "method": "expandedIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 8,
+      "expected": 8,
+      "iconScale": 1.18,
+      "method": "expandedIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 9,
+      "expected": 9,
+      "iconScale": 1.26,
+      "method": "expandedIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 10,
+      "expected": 10,
+      "iconScale": 1.32,
+      "method": "expandedIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 12,
+      "expected": 12,
+      "iconScale": 1.16,
+      "method": "expandedIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 14,
+      "expected": 14,
+      "iconScale": 1.2412,
+      "method": "expandedIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 15,
+      "expected": 15,
+      "iconScale": 1.2992000000000001,
+      "method": "expandedIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 2,
+      "expected": 2,
+      "iconScale": 1.1800001,
+      "method": "expandedIconSize",
+      "scale": 2.500001
+    },
+    {
+      "actual": 2,
+      "expected": 2,
+      "iconScale": 1,
+      "method": "expandedIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 4,
+      "expected": 4,
+      "iconScale": 1.06,
+      "method": "expandedIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 2,
+      "expected": 2,
+      "iconScale": 1.07,
+      "method": "expandedIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 6,
+      "expected": 6,
+      "iconScale": 1.08,
+      "method": "expandedIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 7,
+      "expected": 7,
+      "iconScale": 1.12,
+      "method": "expandedIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 8,
+      "expected": 8,
+      "iconScale": 1.18,
+      "method": "expandedIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 9,
+      "expected": 9,
+      "iconScale": 1.26,
+      "method": "expandedIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 10,
+      "expected": 10,
+      "iconScale": 1.32,
+      "method": "expandedIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 12,
+      "expected": 12,
+      "iconScale": 1.16,
+      "method": "expandedIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 14,
+      "expected": 14,
+      "iconScale": 1.2412,
+      "method": "expandedIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 15,
+      "expected": 15,
+      "iconScale": 1.2992000000000001,
+      "method": "expandedIconSize",
+      "scale": 3
+    },
+    {
+      "actual": 2,
+      "expected": 2,
+      "iconScale": 1.1800001,
+      "method": "expandedIconSize",
+      "scale": 3
+    }
+  ],
+  "model": "iPhone18,1",
+  "version": "27.0",
+  "wifiIconParameters": [
+    {
+      "_pointSizeFor:": 13.75,
+      "_totalHeightFor:": 10.75,
+      "_totalWidthFor:": 15.5,
+      "_verticalOffsetFor:": 0,
+      "_weightFor:": 5,
+      "iconSize": 1
+    },
+    {
+      "_pointSizeFor:": 13.833333333333334,
+      "_totalHeightFor:": 11,
+      "_totalWidthFor:": 15.333333333333334,
+      "_verticalOffsetFor:": 0,
+      "_weightFor:": 5,
+      "iconSize": 2
+    },
+    {
+      "_pointSizeFor:": 13.833333333333334,
+      "_totalHeightFor:": 11,
+      "_totalWidthFor:": 15.333333333333334,
+      "_verticalOffsetFor:": 0,
+      "_weightFor:": 5,
+      "iconSize": 3
+    },
+    {
+      "_pointSizeFor:": 15,
+      "_totalHeightFor:": 11.833333333333334,
+      "_totalWidthFor:": 16.666666666666668,
+      "_verticalOffsetFor:": 0,
+      "_weightFor:": 5,
+      "iconSize": 4
+    },
+    {
+      "_pointSizeFor:": 15.25,
+      "_totalHeightFor:": 11.75,
+      "_totalWidthFor:": 16.5,
+      "_verticalOffsetFor:": 0,
+      "_weightFor:": 5,
+      "iconSize": 5
+    },
+    {
+      "_pointSizeFor:": 15.333333333333334,
+      "_totalHeightFor:": 11.833333333333334,
+      "_totalWidthFor:": 16.333333333333332,
+      "_verticalOffsetFor:": 0,
+      "_weightFor:": 5,
+      "iconSize": 6
+    },
+    {
+      "_pointSizeFor:": 16.5,
+      "_totalHeightFor:": 12.333333333333334,
+      "_totalWidthFor:": 17,
+      "_verticalOffsetFor:": 0,
+      "_weightFor:": 5,
+      "iconSize": 7
+    },
+    {
+      "_pointSizeFor:": 17.333333333333332,
+      "_totalHeightFor:": 12.666666666666666,
+      "_totalWidthFor:": 17.5,
+      "_verticalOffsetFor:": 0,
+      "_weightFor:": 5,
+      "iconSize": 8
+    },
+    {
+      "_pointSizeFor:": 17.833333333333332,
+      "_totalHeightFor:": 13.833333333333334,
+      "_totalWidthFor:": 19.666666666666668,
+      "_verticalOffsetFor:": 0,
+      "_weightFor:": 5,
+      "iconSize": 9
+    },
+    {
+      "_pointSizeFor:": 18.583333333333332,
+      "_totalHeightFor:": 12.833333333333334,
+      "_totalWidthFor:": 20.5,
+      "_verticalOffsetFor:": 0,
+      "_weightFor:": 5,
+      "iconSize": 10
+    },
+    {
+      "_pointSizeFor:": 15,
+      "_totalHeightFor:": 12.75,
+      "_totalWidthFor:": 17.5,
+      "_verticalOffsetFor:": 0,
+      "_weightFor:": 8,
+      "iconSize": 11
+    },
+    {
+      "_pointSizeFor:": 14.666666666666666,
+      "_totalHeightFor:": 12.5,
+      "_totalWidthFor:": 17.666666666666668,
+      "_verticalOffsetFor:": 0,
+      "_weightFor:": 8,
+      "iconSize": 12
+    },
+    {
+      "_pointSizeFor:": 15,
+      "_totalHeightFor:": 13.25,
+      "_totalWidthFor:": 18,
+      "_verticalOffsetFor:": 0,
+      "_weightFor:": 8,
+      "iconSize": 13
+    },
+    {
+      "_pointSizeFor:": 15.666666666666666,
+      "_totalHeightFor:": 13.5,
+      "_totalWidthFor:": 19,
+      "_verticalOffsetFor:": 0,
+      "_weightFor:": 8,
+      "iconSize": 14
+    },
+    {
+      "_pointSizeFor:": 15.666666666666666,
+      "_totalHeightFor:": 13.5,
+      "_totalWidthFor:": 19,
+      "_verticalOffsetFor:": 0,
+      "_weightFor:": 8,
+      "iconSize": 15
+    },
+    {
+      "_pointSizeFor:": 13.5,
+      "_totalHeightFor:": 16,
+      "_totalWidthFor:": 18,
+      "_verticalOffsetFor:": -0.5,
+      "_weightFor:": 5,
+      "iconSize": 16
+    },
+    {
+      "_pointSizeFor:": 15,
+      "_totalHeightFor:": 12.75,
+      "_totalWidthFor:": 17.5,
+      "_verticalOffsetFor:": 0,
+      "_weightFor:": 8,
+      "iconSize": 17
+    },
+    {
+      "_pointSizeFor:": 12.5,
+      "_totalHeightFor:": 10.75,
+      "_totalWidthFor:": 15.5,
+      "_verticalOffsetFor:": 0,
+      "_weightFor:": 8,
+      "iconSize": 18
+    },
+    {
+      "_pointSizeFor:": 12.666666666666666,
+      "_totalHeightFor:": 11,
+      "_totalWidthFor:": 15.333333333333334,
+      "_verticalOffsetFor:": 0,
+      "_weightFor:": 8,
+      "iconSize": 19
+    }
+  ],
+  "wifiMaxParameterError": 0
+}

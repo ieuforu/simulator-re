@@ -2,7 +2,8 @@
 
 用法：lldb -b -p <pid> -o 'command script import tools/lldb/annotate.py' \
           -o 'annotate <输出文件> <方法列表文件> <实例变量偏移表>' -o detach
-可选第四个参数为同一运行时导出的 class-addresses.json，用于解析类引用。
+可选第四个参数为同一进程导出的 class-addresses.json，用于解析类引用。
+可选第五个参数为同一进程的 method-addresses.json，用于定位 Swift 实现的 ObjC 方法。
 """
 import re
 import struct
@@ -57,6 +58,7 @@ def annotate(debugger, command, result, internal):
     out_path, list_path, ivar_path, *extra = shlex.split(command)
     # Optional address map exported from this runtime by providerprobe.
     classes = json.load(open(extra[0])) if extra else {}
+    implementations = json.load(open(extra[1])) if len(extra) > 1 else {}
     target = debugger.GetSelectedTarget()
     process = target.GetProcess()
     names = [l.strip() for l in open(list_path) if l.strip() and not l.startswith("#")]
@@ -66,9 +68,14 @@ def annotate(debugger, command, result, internal):
         for name in names:
             found = target.FindFunctions(name) if False else target.FindSymbols(name)
             if found.GetSize() == 0:
-                out.write(f"\n### {name}: 未找到\n")
-                continue
-            sym = found.GetContextAtIndex(0).GetSymbol()
+                address = implementations.get(name)
+                sym = target.ResolveLoadAddress(int(address, 16)).GetSymbol() if address else None
+                if not sym or not sym.IsValid() or sym.GetStartAddress().GetLoadAddress(target) != int(address, 16):
+                    out.write(f"\n### {name}: 未找到精确符号边界\n")
+                    continue
+                out.write(f"\n; Resolved by runtime IMP: {sym.GetName()}\n")
+            else:
+                sym = found.GetContextAtIndex(0).GetSymbol()
             insts = sym.GetInstructions(target)
             out.write(f"\n### {name}  ({insts.GetSize()} 条)\n")
             pages = {}

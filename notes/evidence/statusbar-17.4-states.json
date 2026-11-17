@@ -1,0 +1,35 @@
+[
+  {
+    "tag": "charging",
+    "capacity": 40,
+    "charging": 1,
+    "saver": 0,
+    "percentage": 0,
+    "wifiBars": 2,
+    "cellularBars": 3,
+    "appearance": "light",
+    "passed": true
+  },
+  {
+    "tag": "saver-percent",
+    "capacity": 50,
+    "charging": 0,
+    "saver": 1,
+    "percentage": 1,
+    "wifiBars": 1,
+    "cellularBars": 2,
+    "appearance": "light",
+    "passed": true
+  },
+  {
+    "tag": "low-percent-dark",
+    "capacity": 20,
+    "charging": 0,
+    "saver": 0,
+    "percentage": 1,
+    "wifiBars": 3,
+    "cellularBars": 4,
+    "appearance": "dark",
+    "passed": true
+  }
+]

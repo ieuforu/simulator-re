@@ -1,0 +1,6 @@
+-[STUIStatusBar setMode:]
+-[STUIStatusBar _updateStyleAttributes]
+-[STUIStatusBarVisualProvider_Split styleAttributesForStyle:]
+-[STUIStatusBarVisualProvider_Split setExpanded:]
+-[STUIStatusBarVisualProvider_Split overriddenStyleAttributesForDisplayItemWithIdentifier:]
+-[STUIStatusBarVisualProvider_DynamicSplit overriddenStyleAttributesForDisplayItemWithIdentifier:]

@@ -1,0 +1,1528 @@
+{
+  "cases": [
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size1-rounded0-mode2-active0",
+      "size": [
+        18.333333333333332,
+        14
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size1-rounded0-mode2-active1",
+      "size": [
+        18.333333333333332,
+        14
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size1-rounded0-mode2-active2",
+      "size": [
+        18.333333333333332,
+        14
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size1-rounded0-mode2-active3",
+      "size": [
+        18.333333333333332,
+        14
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size1-rounded0-mode0-active3",
+      "size": [
+        18.333333333333332,
+        14
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size1-rounded1-mode2-active0",
+      "size": [
+        18.333333333333332,
+        14
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size1-rounded1-mode2-active1",
+      "size": [
+        18.333333333333332,
+        14
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size1-rounded1-mode2-active2",
+      "size": [
+        18.333333333333332,
+        14
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size1-rounded1-mode2-active3",
+      "size": [
+        18.333333333333332,
+        14
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size1-rounded1-mode0-active3",
+      "size": [
+        18.333333333333332,
+        14
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size2-rounded0-mode2-active0",
+      "size": [
+        18.333333333333332,
+        14.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size2-rounded0-mode2-active1",
+      "size": [
+        18.333333333333332,
+        14.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size2-rounded0-mode2-active2",
+      "size": [
+        18.333333333333332,
+        14.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size2-rounded0-mode2-active3",
+      "size": [
+        18.333333333333332,
+        14.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size2-rounded0-mode0-active3",
+      "size": [
+        18.333333333333332,
+        14.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size2-rounded1-mode2-active0",
+      "size": [
+        18.333333333333332,
+        14.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size2-rounded1-mode2-active1",
+      "size": [
+        18.333333333333332,
+        14.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size2-rounded1-mode2-active2",
+      "size": [
+        18.333333333333332,
+        14.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size2-rounded1-mode2-active3",
+      "size": [
+        18.333333333333332,
+        14.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size2-rounded1-mode0-active3",
+      "size": [
+        18.333333333333332,
+        14.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size3-rounded0-mode2-active0",
+      "size": [
+        18.333333333333332,
+        14.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size3-rounded0-mode2-active1",
+      "size": [
+        18.333333333333332,
+        14.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size3-rounded0-mode2-active2",
+      "size": [
+        18.333333333333332,
+        14.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size3-rounded0-mode2-active3",
+      "size": [
+        18.333333333333332,
+        14.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size3-rounded0-mode0-active3",
+      "size": [
+        18.333333333333332,
+        14.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size3-rounded1-mode2-active0",
+      "size": [
+        18.333333333333332,
+        14.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size3-rounded1-mode2-active1",
+      "size": [
+        18.333333333333332,
+        14.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size3-rounded1-mode2-active2",
+      "size": [
+        18.333333333333332,
+        14.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size3-rounded1-mode2-active3",
+      "size": [
+        18.333333333333332,
+        14.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size3-rounded1-mode0-active3",
+      "size": [
+        18.333333333333332,
+        14.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size4-rounded0-mode2-active0",
+      "size": [
+        19.666666666666664,
+        15
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size4-rounded0-mode2-active1",
+      "size": [
+        19.666666666666664,
+        15
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size4-rounded0-mode2-active2",
+      "size": [
+        19.666666666666664,
+        15
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size4-rounded0-mode2-active3",
+      "size": [
+        19.666666666666664,
+        15
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size4-rounded0-mode0-active3",
+      "size": [
+        19.666666666666664,
+        15
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size4-rounded1-mode2-active0",
+      "size": [
+        19.666666666666664,
+        15
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size4-rounded1-mode2-active1",
+      "size": [
+        19.666666666666664,
+        15
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size4-rounded1-mode2-active2",
+      "size": [
+        19.666666666666664,
+        15
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size4-rounded1-mode2-active3",
+      "size": [
+        19.666666666666664,
+        15
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size4-rounded1-mode0-active3",
+      "size": [
+        19.666666666666664,
+        15
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size5-rounded0-mode2-active0",
+      "size": [
+        20.666666666666668,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size5-rounded0-mode2-active1",
+      "size": [
+        20.666666666666668,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size5-rounded0-mode2-active2",
+      "size": [
+        20.666666666666668,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size5-rounded0-mode2-active3",
+      "size": [
+        20.666666666666668,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size5-rounded0-mode0-active3",
+      "size": [
+        20.666666666666668,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size5-rounded1-mode2-active0",
+      "size": [
+        20.666666666666668,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size5-rounded1-mode2-active1",
+      "size": [
+        20.666666666666668,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size5-rounded1-mode2-active2",
+      "size": [
+        20.666666666666668,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size5-rounded1-mode2-active3",
+      "size": [
+        20.666666666666668,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size5-rounded1-mode0-active3",
+      "size": [
+        20.666666666666668,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size6-rounded0-mode2-active0",
+      "size": [
+        20.666666666666668,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size6-rounded0-mode2-active1",
+      "size": [
+        20.666666666666668,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size6-rounded0-mode2-active2",
+      "size": [
+        20.666666666666668,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size6-rounded0-mode2-active3",
+      "size": [
+        20.666666666666668,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size6-rounded0-mode0-active3",
+      "size": [
+        20.666666666666668,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size6-rounded1-mode2-active0",
+      "size": [
+        20.666666666666668,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size6-rounded1-mode2-active1",
+      "size": [
+        20.666666666666668,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size6-rounded1-mode2-active2",
+      "size": [
+        20.666666666666668,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size6-rounded1-mode2-active3",
+      "size": [
+        20.666666666666668,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size6-rounded1-mode0-active3",
+      "size": [
+        20.666666666666668,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size7-rounded0-mode2-active0",
+      "size": [
+        22,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size7-rounded0-mode2-active1",
+      "size": [
+        22,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size7-rounded0-mode2-active2",
+      "size": [
+        22,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size7-rounded0-mode2-active3",
+      "size": [
+        22,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size7-rounded0-mode0-active3",
+      "size": [
+        22,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size7-rounded1-mode2-active0",
+      "size": [
+        22,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size7-rounded1-mode2-active1",
+      "size": [
+        22,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size7-rounded1-mode2-active2",
+      "size": [
+        22,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size7-rounded1-mode2-active3",
+      "size": [
+        22,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size7-rounded1-mode0-active3",
+      "size": [
+        22,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size8-rounded0-mode2-active0",
+      "size": [
+        23,
+        17.666666666666668
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size8-rounded0-mode2-active1",
+      "size": [
+        23,
+        17.666666666666668
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size8-rounded0-mode2-active2",
+      "size": [
+        23,
+        17.666666666666668
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size8-rounded0-mode2-active3",
+      "size": [
+        23,
+        17.666666666666668
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size8-rounded0-mode0-active3",
+      "size": [
+        23,
+        17.666666666666668
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size8-rounded1-mode2-active0",
+      "size": [
+        23,
+        17.666666666666668
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size8-rounded1-mode2-active1",
+      "size": [
+        23,
+        17.666666666666668
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size8-rounded1-mode2-active2",
+      "size": [
+        23,
+        17.666666666666668
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size8-rounded1-mode2-active3",
+      "size": [
+        23,
+        17.666666666666668
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size8-rounded1-mode0-active3",
+      "size": [
+        23,
+        17.666666666666668
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size9-rounded0-mode2-active0",
+      "size": [
+        23.333333333333332,
+        18
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size9-rounded0-mode2-active1",
+      "size": [
+        23.333333333333332,
+        18
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size9-rounded0-mode2-active2",
+      "size": [
+        23.333333333333332,
+        18
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size9-rounded0-mode2-active3",
+      "size": [
+        23.333333333333332,
+        18
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size9-rounded0-mode0-active3",
+      "size": [
+        23.333333333333332,
+        18
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size9-rounded1-mode2-active0",
+      "size": [
+        23.333333333333332,
+        18
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size9-rounded1-mode2-active1",
+      "size": [
+        23.333333333333332,
+        18
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size9-rounded1-mode2-active2",
+      "size": [
+        23.333333333333332,
+        18
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size9-rounded1-mode2-active3",
+      "size": [
+        23.333333333333332,
+        18
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size9-rounded1-mode0-active3",
+      "size": [
+        23.333333333333332,
+        18
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size10-rounded0-mode2-active0",
+      "size": [
+        25,
+        18.666666666666668
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size10-rounded0-mode2-active1",
+      "size": [
+        25,
+        18.666666666666668
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size10-rounded0-mode2-active2",
+      "size": [
+        25,
+        18.666666666666668
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size10-rounded0-mode2-active3",
+      "size": [
+        25,
+        18.666666666666668
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size10-rounded0-mode0-active3",
+      "size": [
+        25,
+        18.666666666666668
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size10-rounded1-mode2-active0",
+      "size": [
+        25,
+        18.666666666666668
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size10-rounded1-mode2-active1",
+      "size": [
+        25,
+        18.666666666666668
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size10-rounded1-mode2-active2",
+      "size": [
+        25,
+        18.666666666666668
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size10-rounded1-mode2-active3",
+      "size": [
+        25,
+        18.666666666666668
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size10-rounded1-mode0-active3",
+      "size": [
+        25,
+        18.666666666666668
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size11-rounded0-mode2-active0",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size11-rounded0-mode2-active1",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size11-rounded0-mode2-active2",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size11-rounded0-mode2-active3",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size11-rounded0-mode0-active3",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size11-rounded1-mode2-active0",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size11-rounded1-mode2-active1",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size11-rounded1-mode2-active2",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size11-rounded1-mode2-active3",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size11-rounded1-mode0-active3",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size12-rounded0-mode2-active0",
+      "size": [
+        19.999999999999996,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size12-rounded0-mode2-active1",
+      "size": [
+        19.999999999999996,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size12-rounded0-mode2-active2",
+      "size": [
+        19.999999999999996,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size12-rounded0-mode2-active3",
+      "size": [
+        19.999999999999996,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size12-rounded0-mode0-active3",
+      "size": [
+        19.999999999999996,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size12-rounded1-mode2-active0",
+      "size": [
+        19.999999999999996,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size12-rounded1-mode2-active1",
+      "size": [
+        19.999999999999996,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size12-rounded1-mode2-active2",
+      "size": [
+        19.999999999999996,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size12-rounded1-mode2-active3",
+      "size": [
+        19.999999999999996,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size12-rounded1-mode0-active3",
+      "size": [
+        19.999999999999996,
+        15.333333333333334
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size13-rounded0-mode2-active0",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size13-rounded0-mode2-active1",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size13-rounded0-mode2-active2",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size13-rounded0-mode2-active3",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size13-rounded0-mode0-active3",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size13-rounded1-mode2-active0",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size13-rounded1-mode2-active1",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size13-rounded1-mode2-active2",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size13-rounded1-mode2-active3",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size13-rounded1-mode0-active3",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size14-rounded0-mode2-active0",
+      "size": [
+        20.999999999999996,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size14-rounded0-mode2-active1",
+      "size": [
+        20.999999999999996,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size14-rounded0-mode2-active2",
+      "size": [
+        20.999999999999996,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size14-rounded0-mode2-active3",
+      "size": [
+        20.999999999999996,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size14-rounded0-mode0-active3",
+      "size": [
+        20.999999999999996,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size14-rounded1-mode2-active0",
+      "size": [
+        20.999999999999996,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size14-rounded1-mode2-active1",
+      "size": [
+        20.999999999999996,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size14-rounded1-mode2-active2",
+      "size": [
+        20.999999999999996,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size14-rounded1-mode2-active3",
+      "size": [
+        20.999999999999996,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size14-rounded1-mode0-active3",
+      "size": [
+        20.999999999999996,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size15-rounded0-mode2-active0",
+      "size": [
+        20.999999999999996,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size15-rounded0-mode2-active1",
+      "size": [
+        20.999999999999996,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size15-rounded0-mode2-active2",
+      "size": [
+        20.999999999999996,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size15-rounded0-mode2-active3",
+      "size": [
+        20.999999999999996,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size15-rounded0-mode0-active3",
+      "size": [
+        20.999999999999996,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size15-rounded1-mode2-active0",
+      "size": [
+        20.999999999999996,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size15-rounded1-mode2-active1",
+      "size": [
+        20.999999999999996,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size15-rounded1-mode2-active2",
+      "size": [
+        20.999999999999996,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size15-rounded1-mode2-active3",
+      "size": [
+        20.999999999999996,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size15-rounded1-mode0-active3",
+      "size": [
+        20.999999999999996,
+        16.333333333333332
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size16-rounded0-mode2-active0",
+      "size": [
+        17.999999999999996,
+        14
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size16-rounded0-mode2-active1",
+      "size": [
+        17.999999999999996,
+        14
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size16-rounded0-mode2-active2",
+      "size": [
+        17.999999999999996,
+        14
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size16-rounded0-mode2-active3",
+      "size": [
+        17.999999999999996,
+        14
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size16-rounded0-mode0-active3",
+      "size": [
+        17.999999999999996,
+        14
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size16-rounded1-mode2-active0",
+      "size": [
+        17.999999999999996,
+        14
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size16-rounded1-mode2-active1",
+      "size": [
+        17.999999999999996,
+        14
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size16-rounded1-mode2-active2",
+      "size": [
+        17.999999999999996,
+        14
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size16-rounded1-mode2-active3",
+      "size": [
+        17.999999999999996,
+        14
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size16-rounded1-mode0-active3",
+      "size": [
+        17.999999999999996,
+        14
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size17-rounded0-mode2-active0",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size17-rounded0-mode2-active1",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size17-rounded0-mode2-active2",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size17-rounded0-mode2-active3",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size17-rounded0-mode0-active3",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size17-rounded1-mode2-active0",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size17-rounded1-mode2-active1",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size17-rounded1-mode2-active2",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size17-rounded1-mode2-active3",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size17-rounded1-mode0-active3",
+      "size": [
+        20.333333333333332,
+        15.666666666666666
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size18-rounded0-mode2-active0",
+      "size": [
+        16.666666666666664,
+        13
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size18-rounded0-mode2-active1",
+      "size": [
+        16.666666666666664,
+        13
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size18-rounded0-mode2-active2",
+      "size": [
+        16.666666666666664,
+        13
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size18-rounded0-mode2-active3",
+      "size": [
+        16.666666666666664,
+        13
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size18-rounded0-mode0-active3",
+      "size": [
+        16.666666666666664,
+        13
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size18-rounded1-mode2-active0",
+      "size": [
+        16.666666666666664,
+        13
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size18-rounded1-mode2-active1",
+      "size": [
+        16.666666666666664,
+        13
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size18-rounded1-mode2-active2",
+      "size": [
+        16.666666666666664,
+        13
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size18-rounded1-mode2-active3",
+      "size": [
+        16.666666666666664,
+        13
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size18-rounded1-mode0-active3",
+      "size": [
+        16.666666666666664,
+        13
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size19-rounded0-mode2-active0",
+      "size": [
+        17,
+        13
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size19-rounded0-mode2-active1",
+      "size": [
+        17,
+        13
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size19-rounded0-mode2-active2",
+      "size": [
+        17,
+        13
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size19-rounded0-mode2-active3",
+      "size": [
+        17,
+        13
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size19-rounded0-mode0-active3",
+      "size": [
+        17,
+        13
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size19-rounded1-mode2-active0",
+      "size": [
+        17,
+        13
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size19-rounded1-mode2-active1",
+      "size": [
+        17,
+        13
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size19-rounded1-mode2-active2",
+      "size": [
+        17,
+        13
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size19-rounded1-mode2-active3",
+      "size": [
+        17,
+        13
+      ]
+    },
+    {
+      "maxRGBAByteDelta": 0,
+      "name": "size19-rounded1-mode0-active3",
+      "size": [
+        17,
+        13
+      ]
+    }
+  ],
+  "scale": 3,
+  "scope": "native content image vs public SF Symbols reconstruction; excludes whole-view layout and search animation",
+  "version": "27.0",
+  "worstRGBAByteDelta": 0
+}

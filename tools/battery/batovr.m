@@ -4,6 +4,7 @@
 #import <objc/message.h>
 #import <dlfcn.h>
 int main(int argc, char **argv) { @autoreleasepool {
+    if (argc != 6) { fprintf(stderr, "usage: batovr capacity state saver showPercent seconds\n"); return 2; }
     dlopen("/System/Library/PrivateFrameworks/SystemStatus.framework/SystemStatus", RTLD_NOW);
     id pub = [[objc_getClass("STStatusBarOverridesStatusDomainPublisher") alloc] init];
     typedef id (*Make)(id, SEL, long, long, BOOL, BOOL, id);
@@ -15,7 +16,10 @@ int main(int argc, char **argv) { @autoreleasepool {
     ((void (*)(id, SEL, id, id))objc_msgSend)(pub, NSSelectorFromString(@"updateDataWithBlock:completion:"), ^(id data) {
         ((void (*)(id, SEL, id, id))objc_msgSend)(data, NSSelectorFromString(@"setEntry:forKey:"), entry, @"mainBatteryEntry");
         ((void (*)(id, SEL, id, id))objc_msgSend)(data, NSSelectorFromString(@"setEntry:forKey:"), timeEntry, @"timeEntry");
-    }, ^(id r) { dispatch_semaphore_signal(done); });
+    // The iOS 17 completion does not supply an object argument. We do not use
+    // completion payloads on either version; accepting id here made ARC retain
+    // an unspecified register value and crash after publishing on iOS 17.
+    }, ^{ dispatch_semaphore_signal(done); });
     dispatch_semaphore_wait(done, dispatch_time(DISPATCH_TIME_NOW, 5 * NSEC_PER_SEC));
     printf("ok %s\n", [[entry description] UTF8String]); fflush(stdout);
     [NSThread sleepForTimeInterval:atof(argv[5])];

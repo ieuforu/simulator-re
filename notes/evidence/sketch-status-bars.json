@@ -1,0 +1,2162 @@
+{
+  "sources": [
+    {
+      "schema": 1,
+      "file": "Templates + Guides.sketch",
+      "sha256": "1b5924788c8575f0ffcd74fe0937d53dd58e1b18ffade95e38c1fca8e2ab209d",
+      "sketchVersion": "2025.1",
+      "formatVersion": 167,
+      "pageCount": 16,
+      "foreignSymbolCount": 947,
+      "units": "Sketch canvas units; frames are relative to immediate parent",
+      "limits": "Stored parameters, not a Sketch renderer result. Curves may be flattened; radius 0 does not imply square corners.",
+      "components": [
+        {
+          "source": "document.json/foreignSymbols/200/symbolMaster",
+          "name": "Templates/Control Center/Light/iPhone/Status Bar",
+          "componentFrame": {
+            "x": 0,
+            "y": 0,
+            "width": 402,
+            "height": 130
+          },
+          "layers": [
+            {
+              "path": "Status Bar/Right/100%",
+              "id": "F8E8BFA7-BA78-4158-A7F2-C20B753514D1",
+              "class": "text",
+              "symbolID": null,
+              "frame": {
+                "x": 0,
+                "y": 0,
+                "width": 41,
+                "height": 18
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": 0,
+              "cornerRadii": [],
+              "corners": null,
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1,
+              "text": "100%",
+              "fontAttributes": [
+                {
+                  "_class": "fontDescriptor",
+                  "attributes": {
+                    "name": "SFPro-Medium",
+                    "size": 15
+                  }
+                }
+              ]
+            },
+            {
+              "path": "Status Bar/Right/Battery",
+              "id": "003DE4BF-E9AB-4A5B-8652-53786CEEFBFF",
+              "class": "group",
+              "symbolID": null,
+              "frame": {
+                "x": 45,
+                "y": 2,
+                "width": 29.3160494244925,
+                "height": 14
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": 0,
+              "cornerRadii": [],
+              "corners": null,
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bar/Right/Battery/Border",
+              "id": "69E3E3F7-9F4F-4C72-BAC0-B948DD856433",
+              "class": "rectangle",
+              "symbolID": null,
+              "frame": {
+                "x": 0,
+                "y": 0,
+                "width": 27,
+                "height": 14
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                5
+              ],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [
+                  5
+                ],
+                "style": 1
+              },
+              "pointCount": 4,
+              "pathDigest": "855f7e6b8b9cc53f20dddab2aea3f57b82f94a3e747fc5496e65bf0d53916692",
+              "borders": [
+                {
+                  "isEnabled": true,
+                  "thickness": 1,
+                  "position": 1,
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  }
+                }
+              ],
+              "opacity": 0.4
+            },
+            {
+              "path": "Status Bar/Right/Battery/Combined Shape",
+              "id": "E3D2D09F-DB06-47B6-BD73-83FCBE5C3B12",
+              "class": "shapeGroup",
+              "symbolID": null,
+              "frame": {
+                "x": 27.9999999999999,
+                "y": 4.50028251198688,
+                "width": 1.31604942449255,
+                "height": 5
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": 0,
+              "cornerRadii": [],
+              "corners": null,
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 0.5
+            },
+            {
+              "path": "Status Bar/Right/Battery/Combined Shape/Oval 3",
+              "id": "47C1FB33-89B8-4E3F-AE8C-A5492665D5D3",
+              "class": "oval",
+              "symbolID": null,
+              "frame": {
+                "x": -3.62297496575138,
+                "y": -0.326643550497349,
+                "width": 4.93902439024393,
+                "height": 5.65328710099473
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": 1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 4,
+              "pathDigest": "5ece0d8c3b96e11ae9b29cdba964128a976d062a406d9d84958ce9777b8672e3",
+              "borders": [],
+              "opacity": 0.5
+            },
+            {
+              "path": "Status Bar/Right/Battery/Combined Shape/Rectangle 11",
+              "id": "D68261DE-3AE4-44A3-9631-D5BE0EC12FFC",
+              "class": "rectangle",
+              "symbolID": null,
+              "frame": {
+                "x": -4.28151155111732,
+                "y": -1.08041516396328,
+                "width": 4.28048780487807,
+                "height": 7.16083032792665
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": 1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 4,
+              "pathDigest": "0253c6a0ae38d0705c2f5e3d21948e7c52d8e7d82ef545d313b9927d24b57ee5",
+              "borders": [],
+              "opacity": 0.5
+            },
+            {
+              "path": "Status Bar/Right/Battery/Capacity",
+              "id": "3E41835D-E3DE-433B-8565-9F90D3DED7D8",
+              "class": "rectangle",
+              "symbolID": null,
+              "frame": {
+                "x": 1.97560975609758,
+                "y": 2,
+                "width": 23,
+                "height": 10
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                3.32999992370606
+              ],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [
+                  3.32999992370606
+                ],
+                "style": 1
+              },
+              "pointCount": 4,
+              "pathDigest": "5b284576e5fc7a2146e8b9d3e84d1709f3b0f58ee2a46a8fd6135832923e80ff",
+              "borders": [
+                {
+                  "isEnabled": false,
+                  "thickness": 2.5,
+                  "position": 2,
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0.47247163921254,
+                    "green": 1,
+                    "red": 0.285384908536585
+                  }
+                }
+              ],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "source": "document.json/foreignSymbols/674/symbolMaster",
+          "name": "Status Bars/Light/iPhone",
+          "componentFrame": {
+            "x": 12270,
+            "y": 13008,
+            "width": 402,
+            "height": 56
+          },
+          "layers": [
+            {
+              "path": "Status Bars/Light/iPhone/Battery",
+              "id": "C45A7919-D1B3-4C80-8A1A-A33924A7DD58",
+              "class": "group",
+              "symbolID": null,
+              "frame": {
+                "x": 340,
+                "y": 25.6000000000004,
+                "width": 27.228038005608,
+                "height": 13
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": 0,
+              "cornerRadii": [],
+              "corners": null,
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/Light/iPhone/Battery/Border",
+              "id": "C02C29A8-8E54-4F56-9E0D-476BB374A77D",
+              "class": "rectangle",
+              "symbolID": null,
+              "frame": {
+                "x": 0,
+                "y": 0,
+                "width": 25,
+                "height": 13
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                4.30000019073486
+              ],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [
+                  4.30000019073486
+                ],
+                "style": 1
+              },
+              "pointCount": 4,
+              "pathDigest": "7a5216c2bffd85d88a6c391268dc31bff9ada9d9a31e6b72226d24bbf887c91c",
+              "borders": [
+                {
+                  "isEnabled": true,
+                  "thickness": 1,
+                  "position": 1,
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  }
+                }
+              ],
+              "opacity": 0.35
+            },
+            {
+              "path": "Status Bars/Light/iPhone/Battery/Cap",
+              "id": "3BA3A76B-4FA1-4768-8877-20E4D9AEA739",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 25.8999999999996,
+                "y": 4.66666666666697,
+                "width": 1.32803800560835,
+                "height": 4
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 4,
+              "pathDigest": "0ec533efad932bc3b3331aae4f305791c68a0c71c912a4b3f6bb18773a2b1ae7",
+              "borders": [],
+              "opacity": 0.4
+            },
+            {
+              "path": "Status Bars/Light/iPhone/Battery/Capacity",
+              "id": "D5C50B13-8128-462A-BB5B-961CCF0A94CA",
+              "class": "rectangle",
+              "symbolID": null,
+              "frame": {
+                "x": 1.79999999999927,
+                "y": 2,
+                "width": 21,
+                "height": 9
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                2.5
+              ],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [
+                  2.5
+                ],
+                "style": 1
+              },
+              "pointCount": 4,
+              "pathDigest": "27bab083b7932022ed9c9c2915d312db98de262aaf37d12e2770d4289ff12816",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/Light/iPhone/Wifi",
+              "id": "9BCAC02A-54DB-4466-B0DA-7748F6E1E775",
+              "class": "shapeGroup",
+              "symbolID": null,
+              "frame": {
+                "x": 314.7,
+                "y": 26.2,
+                "width": 17.1416803472336,
+                "height": 12.1
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": 0,
+              "cornerRadii": [],
+              "corners": null,
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/Light/iPhone/Wifi/Wifi-path",
+              "id": "EA409F6B-4755-4EC2-8974-C49369F9333B",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 7.63294666891549e-06,
+                "y": 0,
+                "width": 17.1416666666667,
+                "height": 5.04166666666667
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 12,
+              "pathDigest": "1f12251e5a9fb0c3bc59929b907f022f5e1d71f440882b95bf67b65e32bfe2ee",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/Light/iPhone/Wifi/Wifi-path",
+              "id": "A3596654-240F-4455-AF27-A927562F4D2B",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 3.02500763294667,
+                "y": 4.03333333333333,
+                "width": 11.0916666666667,
+                "height": 4.03333333333333
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 12,
+              "pathDigest": "cddafd6b585819d50bb7c16d03d40cb4acdfabddbc423ec5a2bd475d86a0e4fa",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/Light/iPhone/Wifi/Wifi-path",
+              "id": "4DA8532F-F9AD-4611-A360-85DFF31F7B5D",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 6.05000763294667,
+                "y": 8.06666666666667,
+                "width": 5.04166666666667,
+                "height": 4.03333333333334
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 9,
+              "pathDigest": "311a818103b39a13453dd2b9454d5d9bdf7ca66d56ebbeac1f6ad7f333a6d5db",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/Light/iPhone/Cellular Connection",
+              "id": "2FB32EED-FE7E-499C-AB1D-B7C2CEC5088E",
+              "class": "shapeGroup",
+              "symbolID": null,
+              "frame": {
+                "x": 288,
+                "y": 26.1000000000004,
+                "width": 19.2,
+                "height": 12
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": 0,
+              "cornerRadii": [],
+              "corners": null,
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/Light/iPhone/Cellular Connection/Cellular-Connection-path",
+              "id": "1D466061-62CB-4D99-A5A3-BA2AA44B169F",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 0,
+                "y": 7.39999999999964,
+                "width": 3.2,
+                "height": 4.6
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 9,
+              "pathDigest": "9087cec769c6cf5dd21d7ce0de22887258d3f9b36fb4151faae531f525178975",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/Light/iPhone/Cellular Connection/Cellular-Connection-path",
+              "id": "0B4344F3-51CD-4E15-A176-77A15A34A084",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 5.30000000000109,
+                "y": 5,
+                "width": 3.2,
+                "height": 7
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 8,
+              "pathDigest": "46352d99716c870cd7459fd43717ef2c301d0b0c4e1e3f6e780909a269838303",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/Light/iPhone/Cellular Connection/Cellular-Connection-path",
+              "id": "8F097825-AFE0-4F1F-B40E-2DB666D7CFB7",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 10.7000000000007,
+                "y": 2.39999999999964,
+                "width": 3.2,
+                "height": 9.6
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 8,
+              "pathDigest": "d5e5fc4d0329580f595c35f0f7ba5d408117c89542f9b6fe062ea924709d7548",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/Light/iPhone/Cellular Connection/Cellular-Connection-path",
+              "id": "142CA88A-EBBB-48AB-BE88-7BAD6BADB6B4",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 16,
+                "y": 0,
+                "width": 3.2,
+                "height": 12
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 8,
+              "pathDigest": "4068d69eee5dcf864d67bbe39059f1da7193d1acb530e02c366e8f4665a68448",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/Light/iPhone/Time Style",
+              "id": "7E0698FF-10B3-4CBD-A255-D4DB1DDC80FD",
+              "class": "group",
+              "symbolID": null,
+              "frame": {
+                "x": 47,
+                "y": 21,
+                "width": 54,
+                "height": 22
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": 0,
+              "cornerRadii": [],
+              "corners": null,
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/Light/iPhone/Time Style/Time",
+              "id": "1352E445-470B-4972-90A4-82031092BDC5",
+              "class": "text",
+              "symbolID": null,
+              "frame": {
+                "x": 0,
+                "y": 0,
+                "width": 54,
+                "height": 22
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": 0,
+              "cornerRadii": [],
+              "corners": null,
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1,
+              "text": "9:41",
+              "fontAttributes": [
+                {
+                  "_class": "fontDescriptor",
+                  "attributes": {
+                    "name": "SFPro-Semibold",
+                    "size": 17
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema": 1,
+      "file": "Apple iOS 27 UI Kit.sketch",
+      "sha256": "839ecf260025264db9000a4ce23ef2804c33c8d62642a6373ed310858ca64171",
+      "sketchVersion": "2026.3.1",
+      "formatVersion": 196,
+      "pageCount": 36,
+      "foreignSymbolCount": 0,
+      "units": "Sketch canvas units; frames are relative to immediate parent",
+      "limits": "Stored parameters, not a Sketch renderer result. Curves may be flattened; radius 0 does not imply square corners.",
+      "components": [
+        {
+          "source": "pages/8BB9E8C9-93C3-4F9B-915A-9E053AA6CC05.json",
+          "name": "􀟞 System/Status Bars/iPhone 17 Pro/Light Background",
+          "componentFrame": {
+            "x": 17300,
+            "y": 230,
+            "width": 402,
+            "height": 62
+          },
+          "layers": [
+            {
+              "path": "Status Bars/iPhone 17 Pro/Light Background/Contents - Trailing/Battery",
+              "id": "C68D1083-1A50-484C-8617-C80E4BA3CB64",
+              "class": "group",
+              "symbolID": null,
+              "frame": {
+                "x": 83.4108505249024,
+                "y": 0.666819572448731,
+                "width": 29.333,
+                "height": 13.667
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [],
+                "style": 1,
+                "prefersConcentric": false,
+                "smoothing": 0.6
+              },
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 17 Pro/Light Background/Contents - Trailing/Battery/Contact",
+              "id": "4D6B1AA9-D73C-4C88-8D73-4E45A5C2E807",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 27.3332996368408,
+                "y": 4.33333015441895,
+                "width": 2,
+                "height": 5
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 5,
+              "pathDigest": "d9ccbb8980ba6948c76fe62cd21d1e52196686b13df7b08fbe2bc4afea0054fa",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 17 Pro/Light Background/Contents - Trailing/Battery/Body",
+              "id": "C3BE7F17-3629-46FD-8578-B783C83861F7",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 0,
+                "y": 0,
+                "width": 26.3333,
+                "height": 13.66666
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 44,
+              "pathDigest": "b7e7e27513d2fc82cbdc2e96d46297c9f56ad961d90608dab09fb7c99f0c947b",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 17 Pro/Light Background/Contents - Trailing/Wifi",
+              "id": "A913D84C-1D7F-4809-B1E3-6066ED91CDB2",
+              "class": "shapeGroup",
+              "symbolID": null,
+              "frame": {
+                "x": 56.0778503417969,
+                "y": 0.333649635314941,
+                "width": 19.333,
+                "height": 14.333
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [],
+              "corners": null,
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 17 Pro/Light Background/Contents - Trailing/Wifi/Path",
+              "id": "D14C0A23-188F-41C6-84A8-367CB89EFCAA",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 7.06119921143544,
+                "y": 10.2180260355769,
+                "width": 5.219244116256,
+                "height": 4.11497396442305
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 7,
+              "pathDigest": "3765cc36758504b6d300986afc220dffba418a40c8e4c1bbebc582456f97cf88",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 17 Pro/Light Background/Contents - Trailing/Wifi/Path",
+              "id": "998BF23A-4975-4063-A9BC-325D1DA4F189",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 3.48934774068038,
+                "y": 5.10354634070089,
+                "width": 12.3498673085751,
+                "height": 4.4216585783436
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 8,
+              "pathDigest": "f0080e4f7fcdc6e923afc0f4e933d55c88eece53f8f6de38cd609383ffec8e56",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 17 Pro/Light Background/Contents - Trailing/Wifi/Path",
+              "id": "E8708800-9B2F-4B74-A8AC-57BE7CDD7CEE",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 0,
+                "y": 0,
+                "width": 19.333,
+                "height": 5.88459164696786
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 8,
+              "pathDigest": "4aea989e6ab7be4b654aede73cb75b59e68597c75b5accceaa972e17cbb1c3c9",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 17 Pro/Light Background/Contents - Trailing/Cellular",
+              "id": "C24EA89A-C891-4574-B892-551FD85E4BE9",
+              "class": "group",
+              "symbolID": null,
+              "frame": {
+                "x": 27.7558517456055,
+                "y": 0,
+                "width": 20.322,
+                "height": 15
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [],
+                "style": 1,
+                "prefersConcentric": false,
+                "smoothing": 0.6
+              },
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 17 Pro/Light Background/Contents - Trailing/Cellular/Bar",
+              "id": "50DD4869-4430-48E8-8342-6824B87FE34B",
+              "class": "rectangle",
+              "symbolID": null,
+              "frame": {
+                "x": 16.9890003204346,
+                "y": 1.33329999446869,
+                "width": 3.333,
+                "height": 13.667
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                4
+              ],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [
+                  4
+                ],
+                "style": 1,
+                "prefersConcentric": false,
+                "smoothing": 0.6
+              },
+              "pointCount": 4,
+              "pathDigest": "83c8e5ee3d8eeb81553ef75178414c0c7d620fe4cddaa72b96e9ff2f0725e9c7",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 17 Pro/Light Background/Contents - Trailing/Cellular/Bar",
+              "id": "DCE32852-580A-4CCC-AAAE-10762F4D99AA",
+              "class": "rectangle",
+              "symbolID": null,
+              "frame": {
+                "x": 11.326000213623,
+                "y": 3.99996042251587,
+                "width": 3.333,
+                "height": 11
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                4
+              ],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [
+                  4
+                ],
+                "style": 1,
+                "prefersConcentric": false,
+                "smoothing": 0.6
+              },
+              "pointCount": 4,
+              "pathDigest": "83c8e5ee3d8eeb81553ef75178414c0c7d620fe4cddaa72b96e9ff2f0725e9c7",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 17 Pro/Light Background/Contents - Trailing/Cellular/Bar",
+              "id": "74C4E218-CF3C-4BC1-BADD-3D35569602BD",
+              "class": "rectangle",
+              "symbolID": null,
+              "frame": {
+                "x": 5.66300010681152,
+                "y": 6.33296060562134,
+                "width": 3.333,
+                "height": 8.667
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                4
+              ],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [
+                  4
+                ],
+                "style": 1,
+                "prefersConcentric": false,
+                "smoothing": 0.6
+              },
+              "pointCount": 4,
+              "pathDigest": "83c8e5ee3d8eeb81553ef75178414c0c7d620fe4cddaa72b96e9ff2f0725e9c7",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 17 Pro/Light Background/Contents - Trailing/Cellular/Bar",
+              "id": "85F25E88-2163-4EC8-9652-EE2293712F8D",
+              "class": "rectangle",
+              "symbolID": null,
+              "frame": {
+                "x": 0,
+                "y": 8.66695976257324,
+                "width": 3.333,
+                "height": 6.333
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                4
+              ],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [
+                  4
+                ],
+                "style": 1,
+                "prefersConcentric": false,
+                "smoothing": 0.6
+              },
+              "pointCount": 4,
+              "pathDigest": "83c8e5ee3d8eeb81553ef75178414c0c7d620fe4cddaa72b96e9ff2f0725e9c7",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 17 Pro/Light Background/Contents - Leading/Time",
+              "id": "F7DABB66-B145-45EE-849D-AE323EBF5ABC",
+              "class": "text",
+              "symbolID": null,
+              "frame": {
+                "x": 48.75,
+                "y": 0,
+                "width": 37,
+                "height": 22
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": 0,
+              "cornerRadii": [],
+              "corners": null,
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1,
+              "text": "9:41",
+              "fontAttributes": [
+                {
+                  "_class": "fontDescriptor",
+                  "attributes": {
+                    "name": "SFPro-Semibold",
+                    "size": 17.67
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": "pages/8BB9E8C9-93C3-4F9B-915A-9E053AA6CC05.json",
+          "name": "􀟞 System/Status Bars/iPhone 18 Pro Max/Light Background",
+          "componentFrame": {
+            "x": 17300,
+            "y": 90,
+            "width": 440,
+            "height": 62
+          },
+          "layers": [
+            {
+              "path": "Status Bars/iPhone 18 Pro Max/Light Background/Contents - Trailing/Battery",
+              "id": "B927320D-1332-4CCE-8280-22019639AE22",
+              "class": "group",
+              "symbolID": null,
+              "frame": {
+                "x": 96.744499206543,
+                "y": 0.66664981842041,
+                "width": 32,
+                "height": 15
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [],
+                "style": 1,
+                "prefersConcentric": false,
+                "smoothing": 0.6
+              },
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro Max/Light Background/Contents - Trailing/Battery/Contact",
+              "id": "07021BC3-BCBC-4ED9-B3EF-F4E83D21E3BA",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 30,
+                "y": 5,
+                "width": 2,
+                "height": 5
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 5,
+              "pathDigest": "d9ccbb8980ba6948c76fe62cd21d1e52196686b13df7b08fbe2bc4afea0054fa",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro Max/Light Background/Contents - Trailing/Battery/Body",
+              "id": "716401D5-91EE-453B-8660-FA463E1A75B3",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 0,
+                "y": 0,
+                "width": 29,
+                "height": 15
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 44,
+              "pathDigest": "b7e7e27513d2fc82cbdc2e96d46297c9f56ad961d90608dab09fb7c99f0c947b",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro Max/Light Background/Contents - Trailing/Wifi",
+              "id": "39C00B5C-E158-471A-96BE-E9534C74B467",
+              "class": "shapeGroup",
+              "symbolID": null,
+              "frame": {
+                "x": 68.0774993896485,
+                "y": 0.500149726867676,
+                "width": 20.667,
+                "height": 15.333
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [],
+              "corners": null,
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro Max/Light Background/Contents - Trailing/Wifi/Path",
+              "id": "A360BBBD-43AB-44FC-839E-588543BD805E",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 7.54843035756129,
+                "y": 10.9309281520618,
+                "width": 5.57937816948546,
+                "height": 4.40207184793825
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 7,
+              "pathDigest": "3765cc36758504b6d300986afc220dffba418a40c8e4c1bbebc582456f97cf88",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro Max/Light Background/Contents - Trailing/Wifi/Path",
+              "id": "DBD0786E-82FB-4805-B406-337E1E336D9E",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 3.73011688598125,
+                "y": 5.45961599399755,
+                "width": 13.2020228452036,
+                "height": 4.73015356043695
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 8,
+              "pathDigest": "f0080e4f7fcdc6e923afc0f4e933d55c88eece53f8f6de38cd609383ffec8e56",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro Max/Light Background/Contents - Trailing/Wifi/Path",
+              "id": "22102492-E33A-4C03-A6EE-551A02BFF5ED",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 0,
+                "y": 0,
+                "width": 20.667,
+                "height": 6.29515410053434
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 8,
+              "pathDigest": "4aea989e6ab7be4b654aede73cb75b59e68597c75b5accceaa972e17cbb1c3c9",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro Max/Light Background/Contents - Trailing/Cellular",
+              "id": "4F5D30EE-F4C7-4096-9439-241546F781F5",
+              "class": "group",
+              "symbolID": null,
+              "frame": {
+                "x": 39.755500793457,
+                "y": 0,
+                "width": 20.322,
+                "height": 16.333
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [],
+                "style": 1,
+                "prefersConcentric": false,
+                "smoothing": 0.6
+              },
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro Max/Light Background/Contents - Trailing/Cellular/Bar",
+              "id": "5C72F977-C106-4E5D-ABE0-041E1DEEC1C1",
+              "class": "rectangle",
+              "symbolID": null,
+              "frame": {
+                "x": 16.9890003204346,
+                "y": 1.33329999446869,
+                "width": 3.333,
+                "height": 15
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                4
+              ],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [
+                  4
+                ],
+                "style": 1,
+                "prefersConcentric": false,
+                "smoothing": 0.6
+              },
+              "pointCount": 4,
+              "pathDigest": "83c8e5ee3d8eeb81553ef75178414c0c7d620fe4cddaa72b96e9ff2f0725e9c7",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro Max/Light Background/Contents - Trailing/Cellular/Bar",
+              "id": "C1BA4197-3F6A-424F-BC7A-26DEC48051D1",
+              "class": "rectangle",
+              "symbolID": null,
+              "frame": {
+                "x": 11.326000213623,
+                "y": 3.99996995925903,
+                "width": 3.333,
+                "height": 12.333
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                4
+              ],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [
+                  4
+                ],
+                "style": 1,
+                "prefersConcentric": false,
+                "smoothing": 0.6
+              },
+              "pointCount": 4,
+              "pathDigest": "83c8e5ee3d8eeb81553ef75178414c0c7d620fe4cddaa72b96e9ff2f0725e9c7",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro Max/Light Background/Contents - Trailing/Cellular/Bar",
+              "id": "6FB8B0CF-2DFF-4752-A59A-7082F88D5EE5",
+              "class": "rectangle",
+              "symbolID": null,
+              "frame": {
+                "x": 5.66300010681152,
+                "y": 6.66669988632202,
+                "width": 3.333,
+                "height": 9.667
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                4
+              ],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [
+                  4
+                ],
+                "style": 1,
+                "prefersConcentric": false,
+                "smoothing": 0.6
+              },
+              "pointCount": 4,
+              "pathDigest": "83c8e5ee3d8eeb81553ef75178414c0c7d620fe4cddaa72b96e9ff2f0725e9c7",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro Max/Light Background/Contents - Trailing/Cellular/Bar",
+              "id": "00F9770F-5455-4F46-A00D-B05F3B8B3042",
+              "class": "rectangle",
+              "symbolID": null,
+              "frame": {
+                "x": 0,
+                "y": 9.33329963684082,
+                "width": 3.333,
+                "height": 7
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                4
+              ],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [
+                  4
+                ],
+                "style": 1,
+                "prefersConcentric": false,
+                "smoothing": 0.6
+              },
+              "pointCount": 4,
+              "pathDigest": "83c8e5ee3d8eeb81553ef75178414c0c7d620fe4cddaa72b96e9ff2f0725e9c7",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro Max/Light Background/Contents - Leading/Time",
+              "id": "68F7E3C5-B93D-407C-9925-383FC3970B96",
+              "class": "text",
+              "symbolID": null,
+              "frame": {
+                "x": 70.75,
+                "y": 0,
+                "width": 39,
+                "height": 22
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": 0,
+              "cornerRadii": [],
+              "corners": null,
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1,
+              "text": "9:41",
+              "fontAttributes": [
+                {
+                  "_class": "fontDescriptor",
+                  "attributes": {
+                    "name": "SFPro-Semibold",
+                    "size": 18.67
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": "pages/8BB9E8C9-93C3-4F9B-915A-9E053AA6CC05.json",
+          "name": "􀟞 System/Status Bars/iPhone 18 Pro/Light Background",
+          "componentFrame": {
+            "x": 17300,
+            "y": 0,
+            "width": 402,
+            "height": 62
+          },
+          "layers": [
+            {
+              "path": "Status Bars/iPhone 18 Pro/Light Background/Contents - Trailing/Battery",
+              "id": "2C04E152-E781-497A-BA4F-DA97BF6DEB11",
+              "class": "group",
+              "symbolID": null,
+              "frame": {
+                "x": 84.9108505249024,
+                "y": 0.666819572448731,
+                "width": 29.333,
+                "height": 13.667
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [],
+                "style": 1,
+                "prefersConcentric": false,
+                "smoothing": 0.6
+              },
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro/Light Background/Contents - Trailing/Battery/Contact",
+              "id": "724A983C-399F-4F6B-96E2-2D0EE908E7D5",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 27.3332996368408,
+                "y": 4.33333015441895,
+                "width": 2,
+                "height": 5
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 5,
+              "pathDigest": "d9ccbb8980ba6948c76fe62cd21d1e52196686b13df7b08fbe2bc4afea0054fa",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro/Light Background/Contents - Trailing/Battery/Body",
+              "id": "EA689E8E-2B08-4BEA-B09B-2091269B5906",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 0,
+                "y": 0,
+                "width": 26.3333,
+                "height": 13.66666
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 44,
+              "pathDigest": "b7e7e27513d2fc82cbdc2e96d46297c9f56ad961d90608dab09fb7c99f0c947b",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro/Light Background/Contents - Trailing/Wifi",
+              "id": "90148DA1-A455-4F53-81FB-5EF19AF9F9CC",
+              "class": "shapeGroup",
+              "symbolID": null,
+              "frame": {
+                "x": 57.5778503417969,
+                "y": 0.333649635314941,
+                "width": 19.333,
+                "height": 14.333
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [],
+              "corners": null,
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro/Light Background/Contents - Trailing/Wifi/Path",
+              "id": "9EB583F8-D90D-456D-9F3E-B4C7FA503F43",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 7.06119921143544,
+                "y": 10.2180260355769,
+                "width": 5.219244116256,
+                "height": 4.11497396442305
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 7,
+              "pathDigest": "3765cc36758504b6d300986afc220dffba418a40c8e4c1bbebc582456f97cf88",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro/Light Background/Contents - Trailing/Wifi/Path",
+              "id": "40AA5FBD-6DF5-46CC-BAEF-62FB04786A9C",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 3.48934774068038,
+                "y": 5.10354634070089,
+                "width": 12.3498673085751,
+                "height": 4.4216585783436
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 8,
+              "pathDigest": "f0080e4f7fcdc6e923afc0f4e933d55c88eece53f8f6de38cd609383ffec8e56",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro/Light Background/Contents - Trailing/Wifi/Path",
+              "id": "3A56DD01-4749-4022-A2E7-B7FC4EFF327A",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 0,
+                "y": 0,
+                "width": 19.333,
+                "height": 5.88459164696786
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 8,
+              "pathDigest": "4aea989e6ab7be4b654aede73cb75b59e68597c75b5accceaa972e17cbb1c3c9",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro/Light Background/Contents - Trailing/Cellular",
+              "id": "6C1A734B-AD87-41E3-AC02-2A061AC16F52",
+              "class": "group",
+              "symbolID": null,
+              "frame": {
+                "x": 29.2558517456055,
+                "y": 0,
+                "width": 20.322,
+                "height": 15
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [],
+                "style": 1,
+                "prefersConcentric": false,
+                "smoothing": 0.6
+              },
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro/Light Background/Contents - Trailing/Cellular/Bar",
+              "id": "550E9AB4-BC7F-4F52-8CC3-5E80D1D73AA3",
+              "class": "rectangle",
+              "symbolID": null,
+              "frame": {
+                "x": 16.9890003204346,
+                "y": 1.33329999446869,
+                "width": 3.333,
+                "height": 13.667
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                4
+              ],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [
+                  4
+                ],
+                "style": 1,
+                "prefersConcentric": false,
+                "smoothing": 0.6
+              },
+              "pointCount": 4,
+              "pathDigest": "83c8e5ee3d8eeb81553ef75178414c0c7d620fe4cddaa72b96e9ff2f0725e9c7",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro/Light Background/Contents - Trailing/Cellular/Bar",
+              "id": "C996DE5F-02F7-4D00-A20B-83275B6A80F3",
+              "class": "rectangle",
+              "symbolID": null,
+              "frame": {
+                "x": 11.326000213623,
+                "y": 3.99996042251587,
+                "width": 3.333,
+                "height": 11
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                4
+              ],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [
+                  4
+                ],
+                "style": 1,
+                "prefersConcentric": false,
+                "smoothing": 0.6
+              },
+              "pointCount": 4,
+              "pathDigest": "83c8e5ee3d8eeb81553ef75178414c0c7d620fe4cddaa72b96e9ff2f0725e9c7",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro/Light Background/Contents - Trailing/Cellular/Bar",
+              "id": "9CBB3C47-6069-4038-91D4-E5EFCD9871FF",
+              "class": "rectangle",
+              "symbolID": null,
+              "frame": {
+                "x": 5.66300010681152,
+                "y": 6.33296060562134,
+                "width": 3.333,
+                "height": 8.667
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                4
+              ],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [
+                  4
+                ],
+                "style": 1,
+                "prefersConcentric": false,
+                "smoothing": 0.6
+              },
+              "pointCount": 4,
+              "pathDigest": "83c8e5ee3d8eeb81553ef75178414c0c7d620fe4cddaa72b96e9ff2f0725e9c7",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro/Light Background/Contents - Trailing/Cellular/Bar",
+              "id": "8EEAABD6-7C00-47D0-B300-4E9E935E6E09",
+              "class": "rectangle",
+              "symbolID": null,
+              "frame": {
+                "x": 0,
+                "y": 8.66695976257324,
+                "width": 3.333,
+                "height": 6.333
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                4
+              ],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [
+                  4
+                ],
+                "style": 1,
+                "prefersConcentric": false,
+                "smoothing": 0.6
+              },
+              "pointCount": 4,
+              "pathDigest": "83c8e5ee3d8eeb81553ef75178414c0c7d620fe4cddaa72b96e9ff2f0725e9c7",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bars/iPhone 18 Pro/Light Background/Contents - Leading/Time",
+              "id": "71059562-E94C-4EA2-AC80-9C8C0E3F316F",
+              "class": "text",
+              "symbolID": null,
+              "frame": {
+                "x": 63.25,
+                "y": 0,
+                "width": 37,
+                "height": 22
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": 0,
+              "cornerRadii": [],
+              "corners": null,
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1,
+              "text": "9:41",
+              "fontAttributes": [
+                {
+                  "_class": "fontDescriptor",
+                  "attributes": {
+                    "name": "SFPro-Semibold",
+                    "size": 17.67
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "source": "pages/8BB9E8C9-93C3-4F9B-915A-9E053AA6CC05.json",
+          "name": "􀟞 System/System/Control Center/Light/iPhone/Status Bar",
+          "componentFrame": {
+            "x": 0,
+            "y": 0,
+            "width": 402,
+            "height": 112
+          },
+          "layers": [
+            {
+              "path": "Status Bar/Signal and Battery",
+              "id": "78A35473-E3D2-4712-A593-B68103E6330D",
+              "class": "group",
+              "symbolID": null,
+              "frame": {
+                "x": 0,
+                "y": 97.6699981689453,
+                "width": 402,
+                "height": 13
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [],
+                "style": 1,
+                "prefersConcentric": false,
+                "smoothing": 0.6
+              },
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bar/Signal and Battery/Trailing",
+              "id": "BF857AD6-729C-45B0-9CBD-858EEE7484BC",
+              "class": "group",
+              "symbolID": null,
+              "frame": {
+                "x": 284.330017089844,
+                "y": 0,
+                "width": 75,
+                "height": 13
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [],
+                "style": 1,
+                "prefersConcentric": false,
+                "smoothing": 0.6
+              },
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bar/Signal and Battery/Trailing/Battery",
+              "id": "07794727-BF0E-44B9-84DA-64E395864F37",
+              "class": "group",
+              "symbolID": null,
+              "frame": {
+                "x": 47,
+                "y": -0.166500091552734,
+                "width": 28,
+                "height": 13.333
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [],
+              "corners": null,
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bar/Signal and Battery/Trailing/Battery/Body",
+              "id": "8676AE29-DF5C-4D66-8722-102869B879F0",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": -2.67000000000007,
+                "y": -0.0003076846153797774,
+                "width": 27.67,
+                "height": 13.67
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 44,
+              "pathDigest": "b7e7e27513d2fc82cbdc2e96d46297c9f56ad961d90608dab09fb7c99f0c947b",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bar/Signal and Battery/Trailing/Battery/Contact",
+              "id": "2E2ABBC6-38AF-4E34-BD96-9BFA556319E3",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 25.9999999999994,
+                "y": 4.44429914615384,
+                "width": 1.333,
+                "height": 4.10246153846154
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 5,
+              "pathDigest": "d9ccbb8980ba6948c76fe62cd21d1e52196686b13df7b08fbe2bc4afea0054fa",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bar/Signal and Battery/Trailing/100%",
+              "id": "C4252CAD-42BA-4930-B5E7-FEDEFC28C173",
+              "class": "text",
+              "symbolID": null,
+              "frame": {
+                "x": 0,
+                "y": -2.5,
+                "width": 41,
+                "height": 18
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [],
+              "corners": null,
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1,
+              "text": "100%",
+              "fontAttributes": [
+                {
+                  "_class": "fontDescriptor",
+                  "attributes": {
+                    "name": "SFPro-Medium",
+                    "size": 15
+                  }
+                }
+              ]
+            },
+            {
+              "path": "Status Bar/Signal and Battery/Leading",
+              "id": "1C438BF8-1C0F-4856-A1C4-DDA7F1DD4DC1",
+              "class": "group",
+              "symbolID": null,
+              "frame": {
+                "x": 42.6699981689453,
+                "y": 0,
+                "width": 44.987,
+                "height": 13
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [],
+                "style": 1,
+                "prefersConcentric": false,
+                "smoothing": 0.6
+              },
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bar/Signal and Battery/Leading/Wifi",
+              "id": "C021C8D9-70E8-410C-8179-3F66513A5704",
+              "class": "group",
+              "symbolID": null,
+              "frame": {
+                "x": 28.3320007324219,
+                "y": 0.333499908447266,
+                "width": 16.655,
+                "height": 12.333
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [],
+              "corners": null,
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bar/Signal and Battery/Leading/Wifi/Wifi",
+              "id": "35610937-1557-473A-B5C8-E1911051A51D",
+              "class": "shapeGroup",
+              "symbolID": null,
+              "frame": {
+                "x": 0,
+                "y": 0,
+                "width": 16.666,
+                "height": 12.3333
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [],
+              "corners": null,
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bar/Signal and Battery/Leading/Wifi/Wifi/Path",
+              "id": "D1973F2A-B50A-4059-92A9-D13A860EC064",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 6.08710215992323,
+                "y": 8.79243567324226,
+                "width": 4.4992459753542,
+                "height": 3.54086432675775
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 7,
+              "pathDigest": "3765cc36758504b6d300986afc220dffba418a40c8e4c1bbebc582456f97cf88",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bar/Signal and Battery/Leading/Wifi/Wifi/Path",
+              "id": "F1EF4532-61DF-4B07-B708-242E509DC9E4",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 3.00798993669741,
+                "y": 4.39151385500359,
+                "width": 10.6461950325719,
+                "height": 3.80476116265159
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 8,
+              "pathDigest": "f0080e4f7fcdc6e923afc0f4e933d55c88eece53f8f6de38cd609383ffec8e56",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bar/Signal and Battery/Leading/Wifi/Wifi/Path",
+              "id": "6EE1C0EA-B34C-40F9-ABE8-BEAE6ECD8EA2",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 0,
+                "y": 0,
+                "width": 16.666,
+                "height": 5.06358990857105
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 8,
+              "pathDigest": "4aea989e6ab7be4b654aede73cb75b59e68597c75b5accceaa972e17cbb1c3c9",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bar/Signal and Battery/Leading/Cellular",
+              "id": "B7D0EA75-A1D9-48E7-9BE6-D2A7C0B35485",
+              "class": "group",
+              "symbolID": null,
+              "frame": {
+                "x": 3,
+                "y": 0.333000183105469,
+                "width": 19.332,
+                "height": 12.334
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [],
+              "corners": {
+                "_class": "MSImmutableStyleCorners",
+                "radii": [],
+                "style": 1,
+                "prefersConcentric": false,
+                "smoothing": 0.6
+              },
+              "pointCount": 0,
+              "pathDigest": null,
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bar/Signal and Battery/Leading/Cellular/Path",
+              "id": "29A7D5E7-9742-4FF9-86B5-C37F4A9D1288",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 16,
+                "y": 0,
+                "width": 3.27656831422666,
+                "height": 12.33
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 15,
+              "pathDigest": "9f832320975a066700d663ee10326b0a9c5e69364f3d7df3cd162c40ca746c9f",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bar/Signal and Battery/Leading/Cellular/Path",
+              "id": "545FABE3-F66C-4319-A08C-5AC3D4418102",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 10.6699999999989,
+                "y": 2.80066646306969,
+                "width": 3.27656831422665,
+                "height": 9.52933353692917
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 15,
+              "pathDigest": "5649bb1cc6978ead6d04b32864ff0347b75d6b5a2d0de62d9a7943ca4cae05d6",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bar/Signal and Battery/Leading/Cellular/Path",
+              "id": "AA8C147E-E3F5-436E-BE14-6BDF5E719E0C",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 5.33299999999571,
+                "y": 5.36091993985973,
+                "width": 3.27656831422666,
+                "height": 6.96908006013909
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 15,
+              "pathDigest": "4a4b8e96cefffdd6613f66a18c9a39cb4294e1d6e211961dbf95a44adf43399f",
+              "borders": [],
+              "opacity": 1
+            },
+            {
+              "path": "Status Bar/Signal and Battery/Leading/Cellular/Path",
+              "id": "A2FF0E4E-B250-4ED1-A062-031F53B885EE",
+              "class": "shapePath",
+              "symbolID": null,
+              "frame": {
+                "x": 6.292744103575387e-13,
+                "y": 7.57967111445004,
+                "width": 3.27656831422666,
+                "height": 4.75032888554784
+              },
+              "visible": true,
+              "rotation": 0,
+              "booleanOperation": -1,
+              "cornerRadii": [
+                0
+              ],
+              "corners": null,
+              "pointCount": 15,
+              "pathDigest": "878fbc01b35cb1c2cc871dc2895f7b134009cf1446d2d69cb92855e6af17b6ca",
+              "borders": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "crossChecks": [
+    {
+      "component": "Status Bars/Dark/iPad",
+      "cachedMatchesOriginal": true
+    },
+    {
+      "component": "Status Bars/􀻃/iPad/Trailing",
+      "cachedMatchesOriginal": true
+    },
+    {
+      "component": "Status Bars/􀻃/iPad/Leading",
+      "cachedMatchesOriginal": true
+    },
+    {
+      "component": "Status Bars/Dark/iPhone",
+      "cachedMatchesOriginal": true
+    },
+    {
+      "component": "Templates/Control Center/Light/iPad/Status bar",
+      "cachedMatchesOriginal": true
+    },
+    {
+      "component": "Templates/Control Center/Dark/iPad/Status bar",
+      "cachedMatchesOriginal": true
+    },
+    {
+      "component": "Templates/Control Center/Light/iPhone/Status Bar",
+      "cachedMatchesOriginal": true
+    },
+    {
+      "component": "Templates/Control Center/Dark/iPhone/Status Bar",
+      "cachedMatchesOriginal": true
+    },
+    {
+      "component": "Status Bars/Light/iPhone",
+      "cachedMatchesOriginal": true
+    },
+    {
+      "component": "Status Bars/Light/iPad",
+      "cachedMatchesOriginal": true
+    }
+  ],
+  "scope": "Measured Sketch layer properties only. No simulator equivalence or pixel identity is asserted."
+}
