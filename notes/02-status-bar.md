@@ -166,6 +166,6 @@ updateBatteryFillColor():
 - 容量换算：`capacity / 100`，≤0.01 时按 0 处理。
 - 完整还原代码见 `notes/03-battery-view.md`，工具是 `tools/lldb/annotate.py`。
 
-## 未解码
+## 后续解码
 
-- 闪电路径 `+_boltBezierPathForSize:`、填充图层几何 `_fillLayerFrame:cornerRadius:` 还没读。
+本阶段曾未解码的闪电路径 `+_boltBezierPathForSize:` 和填充几何 `_fillLayerFrame:cornerRadius:`，已在 [04](04-legacy-battery.md)、[05](05-ios27-battery.md)、[06](06-legacy-geometry.md) 中补充还原与验证；不再列为当前待办。本文保留早期链路探索记录，结项范围见 [10](10-statusbar-modes.md#8-结项范围与证据边界)。

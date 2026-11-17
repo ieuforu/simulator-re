@@ -259,3 +259,5 @@ python3 tools/providers/export_disassembly.py <PID> .build/providers/island/clas
 class map 仅供同一加载布局的运行时注释使用，不能拿跨版本地址对应类。导出完毕后终止自己创建的等待进程，逐台 shutdown / delete 本次实验设备。原始采集与地址表留在 `.build/providers/`，不提交系统二进制。
 
 本阶段验证了普通 iPhone 路径和有关的条件边界。未验证真机、iOS 18 / 27、系统显示缩放的实际交互、横屏、AOD / 通话 / 控制中心等状态，也没有将 Pad、CarPlay 或内部调试覆盖当作已完整还原。原生显示上下文的生成与全部状态栏布局策略仍属更上游 / 更广范围的问题。
+
+后续 [10](10-statusbar-modes.md) 已补充 17.4 / 27 控制中心的实际 mode 切换与布局，以及 27 DynamicSplit 的选型条件和新档位映射。上段是本篇阶段边界，不再代表整个项目尚缺这些工作。项目最终范围见 [10 的结项表](10-statusbar-modes.md#8-结项范围与证据边界)。

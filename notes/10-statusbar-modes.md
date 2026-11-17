@@ -193,7 +193,9 @@ xcrun swift tools/statusbar/figures.swift .build/statusbar docs/images
 实际布局、逐项目覆盖与调用栈：[modes JSON](evidence/statusbar-modes.json)；
 蜂窝验证：[cell JSON](evidence/statusbar-27-cell-validation.json)。
 
-## 8. 完成范围与尚未完成
+## 8. 结项范围与证据边界
+
+2026-11-17 结项口径：研究时间、电池、Wi-Fi、蜂窝的核心视觉细节，读取两份 Sketch，并与已安装运行时的逆向实现及实际截图对照。用户明确已有 macOS 27 / Xcode 和 iOS 18 设计稿；不再把额外安装 iOS 18、操作浏览器登录或 deploy 列为项目完成条件。
 
 | 范围 | 当前证据 |
 |---|---|
@@ -203,10 +205,11 @@ xcrun swift tools/statusbar/figures.swift .build/statusbar docs/images
 | 两份 Sketch 普通 / CC 的几何 | 09：原始字段、来源哈希；18 缓存 / original 10 组一致 |
 | CC mode → expanded → scale/size/布局 | 本篇：17.4 / 27.0 原始调用栈与实际截图 |
 | 27 DynamicSplit provider 与新信号绘制 | 本篇：171 条件、19 档 Wi-Fi 参数、190 图像、480 蜂窝柱 |
-| iOS 18 系统端 | **未完成**：当前仅有设计稿；Xcode 的 18.5 arm64/universal 和 18.6 下载请求均不可用 |
-| Sketch 原生像素渲染 | **未完成**：未安装 Sketch；本次测量 JSON 和示意图不冒充原生渲染 |
-| 真机、完整 RTL、横屏、双 SIM、显示缩放、搜索动画全帧 | **未验证**；强制反向分支不等于整机 RTL |
-| 其他状态项，如定位、VPN、录制/通话 pill、iPad/CarPlay | 不在本次四项核心视觉研究的已完成范围 |
+| iOS 18 系统端 | 证据边界：18 的数值来自设计稿，没有同版本动态验证；额外旧运行时验证不作为本次待办 |
+| Sketch 原生像素渲染 | 证据边界：本次读取原始图层字段及路径摘要，示意图不冒充 Sketch 原生渲染；无需为结项安装 Sketch |
+| 真机、完整 RTL、横屏、双 SIM、显示缩放、搜索动画全帧 | 范围外；强制反向分支不等于整机 RTL |
+| 其他状态项，如定位、VPN、录制/通话 pill、iPad/CarPlay | 范围外，不由核心四项的验证背书 |
 
-这次补齐的是**时间、电池、Wi-Fi、蜂窝从设计层级到 provider 和实际渲染的主要链路**。
-要称作“所有版本、所有 status bar 状态通关”还缺上表范围；尤其必须获取 iOS 18 运行时后，才能结束 3.33 与系统实际实现的同版本核对。
+**本次核心视觉研究范围已完成**：设计稿的宽高、圆角、布尔结构有可定位来源；系统的 provider、逐项样式和绘制有版本化代码与验证；二者相同或不同的数值均保留各自语义。这里的完成不表示所有 iOS 版本、全部状态栏项目都已逆向。
+
+最终交付包括 09 / 10 的笔记、对应提取和还原工具、机器可读证据、三张已检查的 PNG，以及前序 04–08 的研究结果。另执行 `swift build`、CLI `simre list` 和 StatusBarLab 的通用 iOS Simulator Debug 构建，均成功；未运行会影响其他设备的 UI test。结项时清理本轮创建的实验设备，保留用户原有设备与运行时。

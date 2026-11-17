@@ -4,19 +4,15 @@
 
 ## 当前状态
 
-- 更新：2026-11-17；研究基线：`cd8910f`（provider 阶段）。设计稿与展开模式扩展的成果、代码及验证记录见第 09 / 10 篇。
-- 已完成：电池 cap 两分支、连续圆角和闪电镂空的还原；iOS 17.4 下 8 条 cap 路径控制点误差为 0。范围与限制见 [06](notes/06-legacy-geometry.md)。
-- 本阶段完成：iOS 17.4 下 iPhone 14 / 15 Pro / 15 Pro Max 的 Wi-Fi、蜂窝参数、圆角、间距与右侧布局；独立还原 4 / 7 / 8 档的两种 rounded 分支。研究结论、代码、图解与证据入口见 [07](notes/07-signal-geometry.md)。
-- 已验证：48 张原生实例图 + 36 张 SpringBoard Wi-Fi mask，alpha 最大差 0；48 根实际蜂窝柱的 frame 与圆角配置匹配。6 张稳定截图已目视核对。纠正旧推断：本次灵动岛电池 rounded=YES，Wi-Fi / 蜂窝仍是 NO，不能从全局样式推断每个项目。
-- 信号阶段收尾：研究工具构建、脚本语法和文档链接检查通过；该阶段的三台实验模拟器已删除，原始采集保留在 `.build/signals/`。
-- Provider 阶段完成：屏幕 exclusion rect → Phone 家族 → 九类刘海匹配 / 393 阈值 → iconScale 到 iconSize 映射 → 区域字体与电池专属覆盖，见 [08](notes/08-provider-selection.md)。172 组条件在三台 iOS 17.4 模拟器上共 516 次原生比较通过；18 份实际应用样式与覆盖链、view 最终值匹配。
-- Provider 阶段收尾：工具构建、Python / shell 语法、文档链接及差异检查通过；等待反汇编的进程已终止，三台本阶段实验设备已删除。原始采集在 `.build/providers/`，仓库保存可复核的代码与文本证据。
-- 设计稿阶段完成：读取用户提供的 iOS 27 Sketch，并取得 Apple CDN 的 iOS 18 Templates + Guides。普通电池填充 r=2.5、控制中心 r≈3.33，普通外框存储 r≈4.3；控制中心 cap 保留椭圆减矩形的布尔结构。18 的 10 组缓存 / original 记录一致，来源哈希和测量见 [09](notes/09-sketch-status-bars.md)。原稿不入库。
-- 系统扩展完成：17.4 / 27 控制中心实际调用栈、mode→expanded→scale/size/布局；27 DynamicSplit 的 402 / 285 阈值与新档位映射；27 实际 Wi-Fi 使用 SF Symbols 的新类，蜂窝非 rounded 半径表和垂直偏移也改变。见 [10](notes/10-statusbar-modes.md)。
-- 本次验证：171 次 27 provider 原生比较、19 档 Wi-Fi 参数、190 张 Wi-Fi 图像（RGBA 差 0）、480 根蜂窝柱（误差≤1.78e-15）；两版共 6 组充电 / 百分比 / 省电 / 深色状态回放通过。修复旧 batovr completion 在 17.4 发布后崩溃；10 份有效截图和 3 张对比图已检查。
-- 本次收尾：电池 / 状态栏工具构建、Python / shell 语法、证据完整性、文档链接与差异检查通过；两个等待探针已终止，两台本阶段实验设备已删除。原始采集保留在 `.build/statusbar/`。
-- 当前限制：iOS 18 只有设计稿，官方 Xcode 下载请求未能取得运行时，不能用 17.4 代替 18。尚未验证 Sketch 原生像素渲染、真机、双 SIM、横屏、显示缩放、完整 RTL 和搜索动画全帧；定位 / VPN / 通话等其他项目也不能算已通关。完整范围与下一步见 [10 的覆盖表](notes/10-statusbar-modes.md#8-完成范围与尚未完成)。
-- 发布范围：Git 发布分支为 `origin/main`；本轮将 09 / 10、对应工具、三张图解、验证证据及接续说明纳入同一提交。用户已授权 commit / push / deploy；仓库没有部署配置，部署目标尚待指定，未执行部署。
+- 更新：2026-11-17；**本次状态栏核心视觉研究已完成并结项**。成果基线为 `33c5722`，结项范围与证据边界见 [10](notes/10-statusbar-modes.md#8-结项范围与证据边界)。
+- 研究对象：时间、电池、Wi-Fi、蜂窝；两份 iOS 18 / 27 Sketch 的普通状态栏与控制中心；已安装 iOS 17.4 / 27.0 Simulator 的 provider、样式和实际渲染。不是全部系统版本、全部状态栏项目的逆向。
+- 设计稿结论：普通电池填充 r=2.5、控制中心 r≈3.33，普通外框保存 r≈4.3；控制中心 cap 为椭圆减矩形。10 组缓存 / original 记录一致，完整来源与图层参数见 [09](notes/09-sketch-status-bars.md)。iOS 18 原稿已读完本次相关组件，不需要安装旧运行时才能确认这些设计数值。
+- 系统结论：电池 cap、连续圆角、闪电镂空及百分比见 [04](notes/04-legacy-battery.md)–[06](notes/06-legacy-geometry.md)；旧信号和机型差异见 [07](notes/07-signal-geometry.md)；provider 选型和逐项覆盖见 [08](notes/08-provider-selection.md)；控制中心展开、新 Wi-Fi 符号绘制和蜂窝圆角表见 [10](notes/10-statusbar-modes.md)。
+- 已验证：17.4 的 8 条 cap 路径控制点差 0、84 张旧信号图像 alpha 差 0、516 次 provider 比较；27 的 171 次 provider 比较、19 档 Wi-Fi 参数、190 张图像 RGBA 差 0、480 根蜂窝柱误差≤1.78e-15。两版共 6 组状态回放通过，10 份有效截图与 3 张对比图已检查。
+- 结项检查：研究工具构建、脚本语法、证据完整性和文档链接通过；另执行 `swift build`、`simre list`、StatusBarLab 通用 iOS Simulator Debug 构建，均成功。修复的 batovr 17.4 completion 崩溃已经两版回放验证。未运行会影响其他模拟器的 UI test。
+- 交付入口：[设计稿测量图](docs/images/sketch18-battery-measurements.png)、[系统模式对比图](docs/images/statusbar-runtime-comparison.png)、[状态回放图](docs/images/statusbar-state-comparison.png)。源码与文本证据随仓库维护；Apple 原始 UI Kit / DMG、框架二进制和完整运行时 inventory 不入库。
+- 证据边界：iOS 18 数值来自 Sketch，未做该版本运行时动态验证；未做 Sketch 原生像素渲染。真机、完整 RTL、双 SIM、横屏、显示缩放、动画全帧和其他状态项不在本次验收范围，不作为自动延续的项目待办。
+- 环境与发布：实验探针已退出，本次创建的实验设备已清理，用户原有设备与运行时保留。原始采集在 `.build/statusbar/`，结项构建记录在 `.build/closure/`。交付渠道为 Git 仓库；**无 deploy 事项，不需要浏览器登录或额外下载运行时**。
 
 <p align="center">
   <img src="docs/images/demo.gif" alt="状态栏实验室演示：切换预设时，状态栏的时间、电池和信号实时变化" width="300">

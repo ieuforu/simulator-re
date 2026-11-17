@@ -1,8 +1,10 @@
-# 06 电池图标的代码还原
+# 03 电池图标的代码还原
 
 根据 iOS 27.0 模拟器的 UIKitCore 和 SystemStatusUI 反汇编手工还原，用于学习。
 
 这不是 Apple 的原始源码：方法名、实例变量名和常量是真实的，局部变量名和注释是还原时加的，`...` 表示没读完或省略的部分。
+
+这是早期反汇编记录。后续完整静态绘制还原及实测见 [04](04-legacy-battery.md)、[05](05-ios27-battery.md)、[06](06-legacy-geometry.md)，本文中的省略代码不表示这些项目今天仍未实现。
 
 ## 还原方法
 
@@ -226,9 +228,8 @@ state 4 这一行由映射表推出，没有实测。
 @end
 ```
 
-## 尚未还原
+## 后续完成情况
 
-- `-[_UIBatteryView _updateBolt]`（301 条指令，闪电图层和动画）。
-- `-[_UIBatteryView _updatePercentage]`。
-- `_fillLayerFrame:cornerRadius:` 后半段的几何计算。
-- `setChargePercent:` 的夹取逻辑是从指令推断的，把握较小。
+- 闪电静态图层、百分比字体和填充几何已由 [04](04-legacy-battery.md)、[05](05-ios27-battery.md) 补充，并有独立重绘与截图对照；cap 的路径控制点验证见 [06](06-legacy-geometry.md)。
+- 本文对 `setChargePercent:` 的解释保留静态推断的证据级别，不能改称完整输入域的动态证明。
+- 动画全帧和全部过渡效果不在这次静态图标研究的验收范围；结项边界见 [10](10-statusbar-modes.md#8-结项范围与证据边界)。

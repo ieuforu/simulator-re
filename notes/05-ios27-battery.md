@@ -168,6 +168,6 @@ showsPercentage ? (inactive ? _textBoltInactiveColor : _batteryTextColor)
 
 ## 尚未验证
 
-- 深色外观只读了反汇编，只采集了一个状态（放电 50%：外壳和凸头白色 α0.5）。
+- 本阶段深色外观只采集放电 50%；后续 [10](10-statusbar-modes.md) 又补充了深色 20% 且显示百分比的实际截图，仍不覆盖全部深色组合。
 - iconSize 8 以外的档位只用探针取了参数，没有和真机截屏比对。
 - 视图图层上的 `gaussianBlur` 滤镜，推测是给状态栏过渡动画用的，平时半径为 0，没有核实。

@@ -317,7 +317,7 @@ boltLayer.position = boltMaskLayer.position = boltCenter;
 
 - 17.4 的 `-[_UIBatteryView _updateBolt]` 和 `_updatePercentageFont` 没有逐条核对，相关结论来自 27 的反汇编加 17.4 的实测。
 - “100 用 SemiCondensed 字体”只有实测。
-- 深色外观下 17.4 的颜色没有采集。
+- 本阶段未采集深色外观；后续 [10](10-statusbar-modes.md) 已补充 17.4 深色、20% 电量且显示百分比的实际截图，不将单个样本推广到全部深色状态。
 - 数据层 state 4（无法充电）在 17.4 上没有采集。
 
 ## 参考截图里的圆润大号电池（2026-11-16）
