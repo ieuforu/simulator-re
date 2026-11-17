@@ -2,6 +2,16 @@
 
 逆向 iOS Simulator 的学习项目。从 CoreSimulator 一路追到 SpringBoard 里的状态栏，最后做了一个能在模拟器里实时调状态栏的 App。
 
+## 当前状态
+
+- 更新：2026-11-17；研究基线：`8259621`（旧版圆润电池几何，已提交推送）。
+- 已完成：电池 cap 两分支、连续圆角和闪电镂空的还原；iOS 17.4 下 8 条 cap 路径控制点误差为 0。范围与限制见 [06](notes/06-legacy-geometry.md)。
+- 本阶段完成：iOS 17.4 下 iPhone 14 / 15 Pro / 15 Pro Max 的 Wi-Fi、蜂窝参数、圆角、间距与右侧布局；独立还原 4 / 7 / 8 档的两种 rounded 分支。研究结论、代码、图解与证据入口见 [07](notes/07-signal-geometry.md)。
+- 已验证：48 张原生实例图 + 36 张 SpringBoard Wi-Fi mask，alpha 最大差 0；48 根实际蜂窝柱的 frame 与圆角配置匹配。6 张稳定截图已目视核对。纠正旧推断：本次灵动岛电池 rounded=YES，Wi-Fi / 蜂窝仍是 NO，不能从全局样式推断每个项目。
+- 收尾：研究工具构建、脚本语法和文档链接检查通过；本次创建的三台实验模拟器已关闭并删除，原始采集保留在 `.build/signals/`。
+- 未覆盖：本篇信号几何在 iOS 18 / 27、真机、双 SIM、横屏、显示缩放及特殊动态状态；尚未完整还原 provider 选择判定。用户的设计稿尚未提供。后续按指定版本 / 设计稿核对，不把未验证范围当作已完成。
+- 发布范围：本阶段笔记、逆向代码、对比图、文本证据与项目指引纳入同一 Git 提交，推送至 `origin/main`。本仓库尚无部署配置或指定目标，未执行部署。
+
 <p align="center">
   <img src="docs/images/demo.gif" alt="状态栏实验室演示：切换预设时，状态栏的时间、电池和信号实时变化" width="300">
 </p>
@@ -14,6 +24,7 @@
 | 状态栏实验室 | SwiftUI App，在模拟器内直接写系统的覆盖数据，不依赖 host |
 | 低电量模式 | 黄色电池，`simctl status_bar` 和 `SimDevice` 都做不到 |
 | 电池图标还原 | 从反汇编还原选色、闪电、填充宽度的逻辑，并逐项实测 |
+| 信号图标几何还原 | 同一 iOS 17.4 比较刘海 / 灵动岛的三档尺寸，重绘 Wi-Fi 路径与蜂窝连续圆角，验证实际图层和布局 |
 | 电池像素级还原 | iOS 17.4 和 iOS 27 的几何、贴图、闪电和百分比，独立重绘与真实状态栏逐像素比对 |
 
 ## 电池图标的状态
@@ -88,6 +99,7 @@ xcrun simctl launch <设备> dev.ieuforu.StatusBarLab --demo
 | `tools/lldb/annotate.py` | 让反汇编显示常量和实例变量名 |
 | `tools/ovrtest/` | 直接发布覆盖数据的原型 |
 | `tools/battery/` | 采集真实状态栏电池、导出参数表、独立重绘并逐像素比对 |
+| `tools/signals/` | Wi-Fi / 蜂窝参数探针、SpringBoard 采集、独立重绘、alpha 比对与图解 |
 | `notes/` | 逆向笔记 |
 
 ## 笔记
@@ -98,13 +110,14 @@ xcrun simctl launch <设备> dev.ieuforu.StatusBarLab --demo
 4. [旧版电池图标：iOS 17.4](notes/04-legacy-battery.md)
 5. [新版电池图标：iOS 27](notes/05-ios27-battery.md)
 6. [旧版圆润电池：cap、连续圆角与路径验证](notes/06-legacy-geometry.md)
+7. [旧版状态栏：Wi-Fi、蜂窝与刘海 / 灵动岛布局](notes/07-signal-geometry.md)
 
 ## 限制
 
-- 只在 Xcode 27.1、iOS 27.0 模拟器上验证过。私有 API 随时可能变化。
+- 实验使用 Xcode 27.1；电池研究覆盖 iOS 17.4 / 27.0，信号几何研究目前只覆盖 iOS 17.4。CLI / App 的验证范围见对应笔记，不能从某项研究推广到所有功能。私有 API 随时可能变化。
 - 只能在模拟器运行，不能用于真机，也不能上架。
 - 在 DeviceHub 打开时运行 `xcodebuild test`，可能会让所有模拟器关机，DeviceHub 也一起退出。遇到过，原因还没查明。
 
 ## 声明
 
-个人学习项目，与 Apple 无关。`notes/03` 到 `notes/05` 里的代码是根据反汇编手工还原的伪代码，不是 Apple 的原始源码。
+个人学习项目，与 Apple 无关。`notes/03` 至 `notes/07` 中的算法说明与对应重绘代码是根据反汇编和实测手工还原的研究成果，不是 Apple 的原始源码。

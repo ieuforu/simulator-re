@@ -1,0 +1,5150 @@
+{
+  "scope": "iOS 17.4 (21E213), arm64 Simulator, portrait, default display settings, scale 3; not physical devices",
+  "parameters": {
+    "parameters": [
+      {
+        "barCornerRadius": 1,
+        "barWidth": 3,
+        "heights": [
+          4,
+          6,
+          8.5,
+          10.5
+        ],
+        "iconSize": 1,
+        "interspace": 1.5,
+        "intrinsicSize": [
+          16.5,
+          10.5
+        ],
+        "kind": "Cellular"
+      },
+      {
+        "barCornerRadius": 1,
+        "barWidth": 3,
+        "heights": [
+          4,
+          6,
+          8.333333333333334,
+          10.666666666666666
+        ],
+        "iconSize": 2,
+        "interspace": 1.6666666666666667,
+        "intrinsicSize": [
+          17,
+          10.666666666666666
+        ],
+        "kind": "Cellular"
+      },
+      {
+        "barCornerRadius": 1,
+        "barWidth": 3,
+        "heights": [
+          3.6666666666666665,
+          5.333333333333333,
+          8,
+          10.666666666666666
+        ],
+        "iconSize": 3,
+        "interspace": 1.6666666666666667,
+        "intrinsicSize": [
+          17,
+          10.666666666666666
+        ],
+        "kind": "Cellular"
+      },
+      {
+        "barCornerRadius": 1,
+        "barWidth": 3,
+        "heights": [
+          4,
+          6,
+          8.666666666666666,
+          11.333333333333334
+        ],
+        "iconSize": 4,
+        "interspace": 1.6666666666666667,
+        "intrinsicSize": [
+          17,
+          11.333333333333334
+        ],
+        "kind": "Cellular"
+      },
+      {
+        "barCornerRadius": 1.15,
+        "barWidth": 3.5,
+        "heights": [
+          4.5,
+          6.5,
+          9,
+          11.5
+        ],
+        "iconSize": 5,
+        "interspace": 1.5,
+        "intrinsicSize": [
+          18.5,
+          11.5
+        ],
+        "kind": "Cellular"
+      },
+      {
+        "barCornerRadius": 1.1666666666666667,
+        "barWidth": 3.3333333333333335,
+        "heights": [
+          4.333333333333333,
+          6.333333333333333,
+          9,
+          11.666666666666666
+        ],
+        "iconSize": 6,
+        "interspace": 1.6666666666666667,
+        "intrinsicSize": [
+          18.333333333333336,
+          11.666666666666666
+        ],
+        "kind": "Cellular"
+      },
+      {
+        "barCornerRadius": 1.1666666666666667,
+        "barWidth": 3.3333333333333335,
+        "heights": [
+          4.666666666666667,
+          7,
+          9.666666666666666,
+          12.333333333333334
+        ],
+        "iconSize": 7,
+        "interspace": 2,
+        "intrinsicSize": [
+          19.333333333333336,
+          12.333333333333334
+        ],
+        "kind": "Cellular"
+      },
+      {
+        "barCornerRadius": 1.2,
+        "barWidth": 3.6666666666666665,
+        "heights": [
+          5.333333333333333,
+          7.666666666666667,
+          10.666666666666666,
+          13.666666666666666
+        ],
+        "iconSize": 8,
+        "interspace": 2.3333333333333335,
+        "intrinsicSize": [
+          21.666666666666664,
+          13.666666666666666
+        ],
+        "kind": "Cellular"
+      },
+      {
+        "barCornerRadius": 1.25,
+        "barWidth": 4,
+        "heights": [
+          5,
+          7,
+          10,
+          13
+        ],
+        "iconSize": 9,
+        "interspace": 2,
+        "intrinsicSize": [
+          22,
+          13
+        ],
+        "kind": "Cellular"
+      },
+      {
+        "barCornerRadius": 1.2,
+        "barWidth": 3.6666666666666665,
+        "heights": [
+          5,
+          7,
+          10,
+          13
+        ],
+        "iconSize": 10,
+        "interspace": 2,
+        "intrinsicSize": [
+          20.666666666666664,
+          13
+        ],
+        "kind": "Cellular"
+      },
+      {
+        "barCornerRadius": 1.3,
+        "barWidth": 4.5,
+        "heights": [
+          5.5,
+          8,
+          11,
+          14
+        ],
+        "iconSize": 11,
+        "interspace": 2,
+        "intrinsicSize": [
+          24,
+          14
+        ],
+        "kind": "Cellular"
+      },
+      {
+        "barCornerRadius": 1.4000000000000001,
+        "barWidth": 4,
+        "heights": [
+          5.333333333333333,
+          7.333333333333333,
+          10.666666666666666,
+          14
+        ],
+        "iconSize": 12,
+        "interspace": 2.3333333333333335,
+        "intrinsicSize": [
+          23,
+          14
+        ],
+        "kind": "Cellular"
+      },
+      {
+        "barCornerRadius": 1.4000000000000001,
+        "barWidth": 4,
+        "heights": [
+          5.666666666666667,
+          7.666666666666667,
+          11,
+          14.666666666666666
+        ],
+        "iconSize": 13,
+        "interspace": 2.3333333333333335,
+        "intrinsicSize": [
+          23,
+          14.666666666666666
+        ],
+        "kind": "Cellular"
+      },
+      {
+        "barCornerRadius": 1,
+        "barWidth": 3,
+        "heights": [
+          4.5,
+          6,
+          8,
+          10
+        ],
+        "iconSize": 14,
+        "interspace": 1.5,
+        "intrinsicSize": [
+          16.5,
+          10
+        ],
+        "kind": "Cellular"
+      },
+      {
+        "barCornerRadius": 1.25,
+        "barWidth": 4,
+        "heights": [
+          5,
+          7,
+          10,
+          13
+        ],
+        "iconSize": 15,
+        "interspace": 2,
+        "intrinsicSize": [
+          22,
+          13
+        ],
+        "kind": "Cellular"
+      },
+      {
+        "barCornerRadius": 1,
+        "barWidth": 2.5,
+        "heights": [
+          4,
+          5.5,
+          7.5,
+          9
+        ],
+        "iconSize": 16,
+        "interspace": 1.5,
+        "intrinsicSize": [
+          14.5,
+          9
+        ],
+        "kind": "Cellular"
+      },
+      {
+        "barCornerRadius": 1,
+        "barWidth": 3,
+        "heights": [
+          4,
+          5.666666666666667,
+          7.333333333333333,
+          9
+        ],
+        "iconSize": 17,
+        "interspace": 1.6666666666666667,
+        "intrinsicSize": [
+          17,
+          9
+        ],
+        "kind": "Cellular"
+      },
+      {
+        "iconSize": 1,
+        "interspace": 1.5,
+        "intrinsicSize": [
+          15.5,
+          11
+        ],
+        "kind": "Wifi",
+        "thicknesses": [
+          3.25,
+          2.25,
+          2.25
+        ],
+        "totalWidth": 15.5
+      },
+      {
+        "iconSize": 2,
+        "interspace": 1.5,
+        "intrinsicSize": [
+          15.333333333333334,
+          11
+        ],
+        "kind": "Wifi",
+        "thicknesses": [
+          3.3333333333333335,
+          2.3333333333333335,
+          2.3333333333333335
+        ],
+        "totalWidth": 15.333333333333334
+      },
+      {
+        "iconSize": 3,
+        "interspace": 1.5,
+        "intrinsicSize": [
+          15.333333333333334,
+          11
+        ],
+        "kind": "Wifi",
+        "thicknesses": [
+          3.3333333333333335,
+          2.3333333333333335,
+          2.3333333333333335
+        ],
+        "totalWidth": 15.333333333333334
+      },
+      {
+        "iconSize": 4,
+        "interspace": 1.75,
+        "intrinsicSize": [
+          16.666666666666668,
+          12
+        ],
+        "kind": "Wifi",
+        "thicknesses": [
+          3.5,
+          2.4166666666666665,
+          2.4166666666666665
+        ],
+        "totalWidth": 16.666666666666668
+      },
+      {
+        "iconSize": 5,
+        "interspace": 1.75,
+        "intrinsicSize": [
+          16.5,
+          12
+        ],
+        "kind": "Wifi",
+        "thicknesses": [
+          3.25,
+          2.5,
+          2.5
+        ],
+        "totalWidth": 16.5
+      },
+      {
+        "iconSize": 6,
+        "interspace": 1.6666666666666667,
+        "intrinsicSize": [
+          16.333333333333332,
+          12
+        ],
+        "kind": "Wifi",
+        "thicknesses": [
+          3.5,
+          2.5,
+          2.5
+        ],
+        "totalWidth": 16.333333333333332
+      },
+      {
+        "iconSize": 7,
+        "interspace": 1.75,
+        "intrinsicSize": [
+          17,
+          12.333333333333334
+        ],
+        "kind": "Wifi",
+        "thicknesses": [
+          3.8333333333333335,
+          2.5,
+          2.5
+        ],
+        "totalWidth": 17
+      },
+      {
+        "iconSize": 8,
+        "interspace": 1.9166666666666667,
+        "intrinsicSize": [
+          19.666666666666668,
+          14
+        ],
+        "kind": "Wifi",
+        "thicknesses": [
+          4.333333333333333,
+          2.8333333333333335,
+          2.8333333333333335
+        ],
+        "totalWidth": 19.666666666666668
+      },
+      {
+        "iconSize": 9,
+        "interspace": 1.75,
+        "intrinsicSize": [
+          17.5,
+          13
+        ],
+        "kind": "Wifi",
+        "thicknesses": [
+          3.75,
+          2.75,
+          2.75
+        ],
+        "totalWidth": 17.5
+      },
+      {
+        "iconSize": 10,
+        "interspace": 1.6666666666666667,
+        "intrinsicSize": [
+          17.666666666666668,
+          12.666666666666666
+        ],
+        "kind": "Wifi",
+        "thicknesses": [
+          3.8333333333333335,
+          2.6666666666666665,
+          2.6666666666666665
+        ],
+        "totalWidth": 17.666666666666668
+      },
+      {
+        "iconSize": 11,
+        "interspace": 1.75,
+        "intrinsicSize": [
+          18,
+          13.5
+        ],
+        "kind": "Wifi",
+        "thicknesses": [
+          4.25,
+          2.75,
+          2.75
+        ],
+        "totalWidth": 18
+      },
+      {
+        "iconSize": 12,
+        "interspace": 1.8333333333333333,
+        "intrinsicSize": [
+          19,
+          13.666666666666666
+        ],
+        "kind": "Wifi",
+        "thicknesses": [
+          4.166666666666667,
+          2.8333333333333335,
+          2.8333333333333335
+        ],
+        "totalWidth": 19
+      },
+      {
+        "iconSize": 13,
+        "interspace": 1.8333333333333333,
+        "intrinsicSize": [
+          19,
+          13.666666666666666
+        ],
+        "kind": "Wifi",
+        "thicknesses": [
+          4.166666666666667,
+          2.8333333333333335,
+          2.8333333333333335
+        ],
+        "totalWidth": 19
+      },
+      {
+        "iconSize": 14,
+        "interspace": 1.5,
+        "intrinsicSize": [
+          14,
+          10
+        ],
+        "kind": "Wifi",
+        "thicknesses": [
+          3,
+          2,
+          2
+        ],
+        "totalWidth": 14
+      },
+      {
+        "iconSize": 15,
+        "interspace": 1.75,
+        "intrinsicSize": [
+          17.5,
+          13
+        ],
+        "kind": "Wifi",
+        "thicknesses": [
+          3.75,
+          2.75,
+          2.75
+        ],
+        "totalWidth": 17.5
+      },
+      {
+        "iconSize": 16,
+        "interspace": 1.5,
+        "intrinsicSize": [
+          15.5,
+          11
+        ],
+        "kind": "Wifi",
+        "thicknesses": [
+          3.25,
+          2.25,
+          2.25
+        ],
+        "totalWidth": 15.5
+      },
+      {
+        "iconSize": 17,
+        "interspace": 1.5,
+        "intrinsicSize": [
+          15.333333333333334,
+          11
+        ],
+        "kind": "Wifi",
+        "thicknesses": [
+          3.3333333333333335,
+          2.3333333333333335,
+          2.3333333333333335
+        ],
+        "totalWidth": 15.333333333333334
+      }
+    ],
+    "scale": 3,
+    "systemVersion": "17.4"
+  },
+  "captures": [
+    {
+      "model": "iPhone14,7",
+      "systemVersion": "17.4",
+      "screenSize": [
+        390,
+        844
+      ],
+      "scale": 3,
+      "case": "full",
+      "icons": [
+        {
+          "class": "STUIStatusBarCellularSignalView",
+          "screenFrame": [
+            302.3333333333333,
+            19,
+            17,
+            11.333333333333336
+          ],
+          "intrinsicSize": [
+            17,
+            11.333333333333334
+          ],
+          "iconSize": 4,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 4,
+          "numberOfActiveBars": 4,
+          "activeColor": "UIExtendedGrayColorSpace 0 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 0 0.2",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              302.3333333333333,
+              19,
+              17,
+              11.333333333333334
+            ],
+            "bounds": [
+              0,
+              0,
+              17,
+              11.333333333333334
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  7.333333333333334,
+                  3,
+                  4
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3,
+                  4
+                ],
+                "cornerRadius": 1,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  4.666666666666667,
+                  5.333333333333334,
+                  3,
+                  6
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3,
+                  6
+                ],
+                "cornerRadius": 1,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  9.333333333333334,
+                  2.666666666666668,
+                  3,
+                  8.666666666666666
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3,
+                  8.666666666666666
+                ],
+                "cornerRadius": 1,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  14,
+                  0,
+                  3,
+                  11.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3,
+                  11.333333333333334
+                ],
+                "cornerRadius": 1,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarWifiSignalView",
+          "screenFrame": [
+            324.6666666666667,
+            18.333333333333314,
+            16.666666666666686,
+            12
+          ],
+          "intrinsicSize": [
+            16.666666666666668,
+            12
+          ],
+          "iconSize": 4,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 3,
+          "numberOfActiveBars": 3,
+          "activeColor": "UIExtendedGrayColorSpace 0 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 0 0.2",
+          "barCornerRadius": 0.6666666666666666,
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              324.6666666666667,
+              18.333333333333332,
+              16.666666666666668,
+              12
+            ],
+            "bounds": [
+              0,
+              0,
+              16.666666666666668,
+              12
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarBatteryView",
+          "screenFrame": [
+            346.6666666666667,
+            18.666666666666686,
+            25,
+            12
+          ],
+          "intrinsicSize": [
+            25,
+            12
+          ],
+          "iconSize": 4,
+          "rounded": false,
+          "signalMode": null,
+          "numberOfBars": null,
+          "numberOfActiveBars": null,
+          "activeColor": null,
+          "inactiveColor": "UIExtendedSRGBColorSpace 0 0 0 0.3",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              346.6666666666667,
+              18.666666666666668,
+              25,
+              12
+            ],
+            "bounds": [
+              0,
+              0,
+              25,
+              12
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CAShapeLayer",
+                "frame": [
+                  0,
+                  0,
+                  25,
+                  12
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  25,
+                  12
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": [
+                  {
+                    "class": "CALayer",
+                    "frame": [
+                      2,
+                      2,
+                      18.666666666666668,
+                      8
+                    ],
+                    "bounds": [
+                      0,
+                      0,
+                      18.666666666666668,
+                      8
+                    ],
+                    "cornerRadius": 1.5,
+                    "cornerCurve": "continuous",
+                    "opacity": 1,
+                    "backgroundColor": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "class": "CAShapeLayer",
+                "frame": [
+                  23.666666666666668,
+                  4,
+                  1.3333333333333333,
+                  4
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  1.3333333333333333,
+                  4
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CAShapeLayer",
+                "frame": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 0,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarCellularSignalView",
+          "screenFrame": [
+            302.3333333333333,
+            19,
+            17,
+            11.333333333333336
+          ],
+          "intrinsicSize": [
+            17,
+            11.333333333333334
+          ],
+          "iconSize": 4,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 4,
+          "numberOfActiveBars": 4,
+          "activeColor": "UIExtendedGrayColorSpace 1 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 1 0.2",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              302.3333333333333,
+              19,
+              17,
+              11.333333333333334
+            ],
+            "bounds": [
+              0,
+              0,
+              17,
+              11.333333333333334
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  7.333333333333334,
+                  3,
+                  4
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3,
+                  4
+                ],
+                "cornerRadius": 1,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  4.666666666666667,
+                  5.333333333333334,
+                  3,
+                  6
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3,
+                  6
+                ],
+                "cornerRadius": 1,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  9.333333333333334,
+                  2.666666666666668,
+                  3,
+                  8.666666666666666
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3,
+                  8.666666666666666
+                ],
+                "cornerRadius": 1,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  14,
+                  0,
+                  3,
+                  11.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3,
+                  11.333333333333334
+                ],
+                "cornerRadius": 1,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarWifiSignalView",
+          "screenFrame": [
+            324.6666666666667,
+            18.333333333333332,
+            16.666666666666686,
+            12
+          ],
+          "intrinsicSize": [
+            16.666666666666668,
+            12
+          ],
+          "iconSize": 4,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 3,
+          "numberOfActiveBars": 3,
+          "activeColor": "UIExtendedGrayColorSpace 1 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 1 0.2",
+          "barCornerRadius": 0.6666666666666666,
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              324.6666666666667,
+              18.333333333333332,
+              16.666666666666668,
+              12
+            ],
+            "bounds": [
+              0,
+              0,
+              16.666666666666668,
+              12
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarBatteryView",
+          "screenFrame": [
+            346.6666666666667,
+            18.666666666666668,
+            25,
+            12
+          ],
+          "intrinsicSize": [
+            25,
+            12
+          ],
+          "iconSize": 4,
+          "rounded": false,
+          "signalMode": null,
+          "numberOfBars": null,
+          "numberOfActiveBars": null,
+          "activeColor": null,
+          "inactiveColor": "UIExtendedSRGBColorSpace 1 1 1 0.5",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              346.6666666666667,
+              18.666666666666668,
+              25,
+              12
+            ],
+            "bounds": [
+              0,
+              0,
+              25,
+              12
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CAShapeLayer",
+                "frame": [
+                  0,
+                  0,
+                  25,
+                  12
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  25,
+                  12
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": [
+                  {
+                    "class": "CALayer",
+                    "frame": [
+                      2,
+                      2,
+                      18.666666666666668,
+                      8
+                    ],
+                    "bounds": [
+                      0,
+                      0,
+                      18.666666666666668,
+                      8
+                    ],
+                    "cornerRadius": 1.5,
+                    "cornerCurve": "continuous",
+                    "opacity": 1,
+                    "backgroundColor": [
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "class": "CAShapeLayer",
+                "frame": [
+                  23.666666666666668,
+                  4,
+                  1.3333333333333333,
+                  4
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  1.3333333333333333,
+                  4
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CAShapeLayer",
+                "frame": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 0,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        }
+      ],
+      "statusBars": [
+        {
+          "frame": [
+            0,
+            0,
+            390,
+            47
+          ],
+          "visualProvider": "<STUIStatusBarVisualProvider_Split1170>"
+        },
+        {
+          "frame": [
+            0,
+            0,
+            390,
+            47
+          ],
+          "visualProvider": "<STUIStatusBarVisualProvider_Split1170>"
+        }
+      ],
+      "styleEvents": [
+        {
+          "font": ".SFUI-Semibold",
+          "iconSize": 4,
+          "styleRounded": false,
+          "view": "STUIStatusBarWifiSignalView",
+          "viewRounded": false
+        },
+        {
+          "font": ".SFUI-Semibold",
+          "iconSize": 4,
+          "styleRounded": false,
+          "view": "STUIStatusBarCellularSignalView",
+          "viewRounded": false
+        },
+        {
+          "font": ".SFUI-Semibold",
+          "iconSize": 4,
+          "styleRounded": false,
+          "view": "STUIStatusBarBatteryView",
+          "viewRounded": false
+        }
+      ],
+      "frameGaps": {
+        "cellularToWifi": 5.333333333333371,
+        "wifiToBattery": 5.333333333333314
+      }
+    },
+    {
+      "model": "iPhone14,7",
+      "systemVersion": "17.4",
+      "screenSize": [
+        390,
+        844
+      ],
+      "scale": 3,
+      "case": "partial",
+      "icons": [
+        {
+          "class": "STUIStatusBarCellularSignalView",
+          "screenFrame": [
+            302.3333333333333,
+            19,
+            17,
+            11.333333333333336
+          ],
+          "intrinsicSize": [
+            17,
+            11.333333333333334
+          ],
+          "iconSize": 4,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 4,
+          "numberOfActiveBars": 2,
+          "activeColor": "UIExtendedGrayColorSpace 0 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 0 0.2",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              302.3333333333333,
+              19,
+              17,
+              11.333333333333334
+            ],
+            "bounds": [
+              0,
+              0,
+              17,
+              11.333333333333334
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  7.333333333333334,
+                  3,
+                  4
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3,
+                  4
+                ],
+                "cornerRadius": 1,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  4.666666666666667,
+                  5.333333333333334,
+                  3,
+                  6
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3,
+                  6
+                ],
+                "cornerRadius": 1,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  9.333333333333334,
+                  2.666666666666668,
+                  3,
+                  8.666666666666666
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3,
+                  8.666666666666666
+                ],
+                "cornerRadius": 1,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  0.2
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  14,
+                  0,
+                  3,
+                  11.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3,
+                  11.333333333333334
+                ],
+                "cornerRadius": 1,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  0.2
+                ],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarWifiSignalView",
+          "screenFrame": [
+            324.6666666666667,
+            18.333333333333314,
+            16.666666666666686,
+            12
+          ],
+          "intrinsicSize": [
+            16.666666666666668,
+            12
+          ],
+          "iconSize": 4,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 3,
+          "numberOfActiveBars": 1,
+          "activeColor": "UIExtendedGrayColorSpace 0 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 0 0.2",
+          "barCornerRadius": 0.6666666666666666,
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              324.6666666666667,
+              18.333333333333332,
+              16.666666666666668,
+              12
+            ],
+            "bounds": [
+              0,
+              0,
+              16.666666666666668,
+              12
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 0.20000000298023224,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 0.20000000298023224,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarBatteryView",
+          "screenFrame": [
+            346.6666666666667,
+            18.666666666666686,
+            25,
+            12
+          ],
+          "intrinsicSize": [
+            25,
+            12
+          ],
+          "iconSize": 4,
+          "rounded": false,
+          "signalMode": null,
+          "numberOfBars": null,
+          "numberOfActiveBars": null,
+          "activeColor": null,
+          "inactiveColor": "UIExtendedSRGBColorSpace 0 0 0 0.3",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              346.6666666666667,
+              18.666666666666668,
+              25,
+              12
+            ],
+            "bounds": [
+              0,
+              0,
+              25,
+              12
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CAShapeLayer",
+                "frame": [
+                  0,
+                  0,
+                  25,
+                  12
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  25,
+                  12
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": [
+                  {
+                    "class": "CALayer",
+                    "frame": [
+                      2,
+                      2,
+                      18.666666666666668,
+                      8
+                    ],
+                    "bounds": [
+                      0,
+                      0,
+                      18.666666666666668,
+                      8
+                    ],
+                    "cornerRadius": 1.5,
+                    "cornerCurve": "continuous",
+                    "opacity": 1,
+                    "backgroundColor": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "class": "CAShapeLayer",
+                "frame": [
+                  23.666666666666668,
+                  4,
+                  1.3333333333333333,
+                  4
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  1.3333333333333333,
+                  4
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CAShapeLayer",
+                "frame": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 0,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarCellularSignalView",
+          "screenFrame": [
+            302.3333333333333,
+            19,
+            17,
+            11.333333333333336
+          ],
+          "intrinsicSize": [
+            17,
+            11.333333333333334
+          ],
+          "iconSize": 4,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 4,
+          "numberOfActiveBars": 2,
+          "activeColor": "UIExtendedGrayColorSpace 1 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 1 0.2",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              302.3333333333333,
+              19,
+              17,
+              11.333333333333334
+            ],
+            "bounds": [
+              0,
+              0,
+              17,
+              11.333333333333334
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  7.333333333333334,
+                  3,
+                  4
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3,
+                  4
+                ],
+                "cornerRadius": 1,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  4.666666666666667,
+                  5.333333333333334,
+                  3,
+                  6
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3,
+                  6
+                ],
+                "cornerRadius": 1,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  9.333333333333334,
+                  2.666666666666668,
+                  3,
+                  8.666666666666666
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3,
+                  8.666666666666666
+                ],
+                "cornerRadius": 1,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  0.2
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  14,
+                  0,
+                  3,
+                  11.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3,
+                  11.333333333333334
+                ],
+                "cornerRadius": 1,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  0.2
+                ],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarWifiSignalView",
+          "screenFrame": [
+            324.6666666666667,
+            18.333333333333332,
+            16.666666666666686,
+            12
+          ],
+          "intrinsicSize": [
+            16.666666666666668,
+            12
+          ],
+          "iconSize": 4,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 3,
+          "numberOfActiveBars": 1,
+          "activeColor": "UIExtendedGrayColorSpace 1 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 1 0.2",
+          "barCornerRadius": 0.6666666666666666,
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              324.6666666666667,
+              18.333333333333332,
+              16.666666666666668,
+              12
+            ],
+            "bounds": [
+              0,
+              0,
+              16.666666666666668,
+              12
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 0.20000000298023224,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  16.666666666666668,
+                  12
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 0.20000000298023224,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarBatteryView",
+          "screenFrame": [
+            346.6666666666667,
+            18.666666666666668,
+            25,
+            12
+          ],
+          "intrinsicSize": [
+            25,
+            12
+          ],
+          "iconSize": 4,
+          "rounded": false,
+          "signalMode": null,
+          "numberOfBars": null,
+          "numberOfActiveBars": null,
+          "activeColor": null,
+          "inactiveColor": "UIExtendedSRGBColorSpace 1 1 1 0.5",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              346.6666666666667,
+              18.666666666666668,
+              25,
+              12
+            ],
+            "bounds": [
+              0,
+              0,
+              25,
+              12
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CAShapeLayer",
+                "frame": [
+                  0,
+                  0,
+                  25,
+                  12
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  25,
+                  12
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": [
+                  {
+                    "class": "CALayer",
+                    "frame": [
+                      2,
+                      2,
+                      18.666666666666668,
+                      8
+                    ],
+                    "bounds": [
+                      0,
+                      0,
+                      18.666666666666668,
+                      8
+                    ],
+                    "cornerRadius": 1.5,
+                    "cornerCurve": "continuous",
+                    "opacity": 1,
+                    "backgroundColor": [
+                      1,
+                      1,
+                      1,
+                      1
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "class": "CAShapeLayer",
+                "frame": [
+                  23.666666666666668,
+                  4,
+                  1.3333333333333333,
+                  4
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  1.3333333333333333,
+                  4
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CAShapeLayer",
+                "frame": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 0,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        }
+      ],
+      "statusBars": [
+        {
+          "frame": [
+            0,
+            0,
+            390,
+            47
+          ],
+          "visualProvider": "<STUIStatusBarVisualProvider_Split1170>"
+        },
+        {
+          "frame": [
+            0,
+            0,
+            390,
+            47
+          ],
+          "visualProvider": "<STUIStatusBarVisualProvider_Split1170>"
+        }
+      ],
+      "styleEvents": [
+        {
+          "font": ".SFUI-Semibold",
+          "iconSize": 4,
+          "styleRounded": false,
+          "view": "STUIStatusBarWifiSignalView",
+          "viewRounded": false
+        },
+        {
+          "font": ".SFUI-Semibold",
+          "iconSize": 4,
+          "styleRounded": false,
+          "view": "STUIStatusBarCellularSignalView",
+          "viewRounded": false
+        },
+        {
+          "font": ".SFUI-Semibold",
+          "iconSize": 4,
+          "styleRounded": false,
+          "view": "STUIStatusBarBatteryView",
+          "viewRounded": false
+        }
+      ],
+      "frameGaps": {
+        "cellularToWifi": 5.333333333333371,
+        "wifiToBattery": 5.333333333333314
+      }
+    },
+    {
+      "model": "iPhone16,1",
+      "systemVersion": "17.4",
+      "screenSize": [
+        393,
+        852
+      ],
+      "scale": 3,
+      "case": "full",
+      "icons": [
+        {
+          "class": "STUIStatusBarCellularSignalView",
+          "screenFrame": [
+            282,
+            23,
+            19.333333333333314,
+            12.333333333333336
+          ],
+          "intrinsicSize": [
+            19.333333333333336,
+            12.333333333333334
+          ],
+          "iconSize": 7,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 4,
+          "numberOfActiveBars": 4,
+          "activeColor": "UIExtendedGrayColorSpace 0 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 0 0.2",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              282,
+              23,
+              19.333333333333332,
+              12.333333333333334
+            ],
+            "bounds": [
+              0,
+              0,
+              19.333333333333332,
+              12.333333333333334
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  7.666666666666667,
+                  3.3333333333333335,
+                  4.666666666666667
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.3333333333333335,
+                  4.666666666666667
+                ],
+                "cornerRadius": 1.1666666666666667,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  5.333333333333334,
+                  5.333333333333334,
+                  3.3333333333333335,
+                  7
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.3333333333333335,
+                  7
+                ],
+                "cornerRadius": 1.1666666666666667,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  10.666666666666668,
+                  2.666666666666668,
+                  3.3333333333333335,
+                  9.666666666666666
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.3333333333333335,
+                  9.666666666666666
+                ],
+                "cornerRadius": 1.1666666666666667,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  16,
+                  0,
+                  3.3333333333333335,
+                  12.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.3333333333333335,
+                  12.333333333333334
+                ],
+                "cornerRadius": 1.1666666666666667,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarWifiSignalView",
+          "screenFrame": [
+            308.6666666666667,
+            23,
+            17,
+            12.333333333333336
+          ],
+          "intrinsicSize": [
+            17,
+            12.333333333333334
+          ],
+          "iconSize": 7,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 3,
+          "numberOfActiveBars": 3,
+          "activeColor": "UIExtendedGrayColorSpace 0 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 0 0.2",
+          "barCornerRadius": 0.6666666666666666,
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              308.6666666666667,
+              23,
+              17,
+              12.333333333333334
+            ],
+            "bounds": [
+              0,
+              0,
+              17,
+              12.333333333333334
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarStaticBatteryView",
+          "screenFrame": [
+            333,
+            22.666666666666686,
+            27.333333333333314,
+            13
+          ],
+          "intrinsicSize": [
+            27.333333333333332,
+            13
+          ],
+          "iconSize": 7,
+          "rounded": true,
+          "signalMode": null,
+          "numberOfBars": null,
+          "numberOfActiveBars": null,
+          "activeColor": null,
+          "inactiveColor": "UIExtendedSRGBColorSpace 0 0 0 0.3",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              333,
+              22.666666666666668,
+              27.333333333333332,
+              13
+            ],
+            "bounds": [
+              0,
+              0,
+              27.333333333333332,
+              13
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  27.333333333333332,
+                  13
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  27.333333333333332,
+                  13
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": [
+                  {
+                    "class": "CALayer",
+                    "frame": [
+                      2,
+                      2,
+                      21,
+                      9
+                    ],
+                    "bounds": [
+                      0,
+                      0,
+                      21,
+                      9
+                    ],
+                    "cornerRadius": 0,
+                    "cornerCurve": "circular",
+                    "opacity": 1,
+                    "backgroundColor": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  26,
+                  4.25,
+                  1.3333333333333333,
+                  4.5
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  1.3333333333333333,
+                  4.5
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarCellularSignalView",
+          "screenFrame": [
+            282,
+            23,
+            19.333333333333314,
+            12.333333333333336
+          ],
+          "intrinsicSize": [
+            19.333333333333336,
+            12.333333333333334
+          ],
+          "iconSize": 7,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 4,
+          "numberOfActiveBars": 4,
+          "activeColor": "UIExtendedGrayColorSpace 1 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 1 0.2",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              282,
+              23,
+              19.333333333333332,
+              12.333333333333334
+            ],
+            "bounds": [
+              0,
+              0,
+              19.333333333333332,
+              12.333333333333334
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  7.666666666666667,
+                  3.3333333333333335,
+                  4.666666666666667
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.3333333333333335,
+                  4.666666666666667
+                ],
+                "cornerRadius": 1.1666666666666667,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  5.333333333333334,
+                  5.333333333333334,
+                  3.3333333333333335,
+                  7
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.3333333333333335,
+                  7
+                ],
+                "cornerRadius": 1.1666666666666667,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  10.666666666666668,
+                  2.666666666666668,
+                  3.3333333333333335,
+                  9.666666666666666
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.3333333333333335,
+                  9.666666666666666
+                ],
+                "cornerRadius": 1.1666666666666667,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  16,
+                  0,
+                  3.3333333333333335,
+                  12.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.3333333333333335,
+                  12.333333333333334
+                ],
+                "cornerRadius": 1.1666666666666667,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarWifiSignalView",
+          "screenFrame": [
+            308.6666666666667,
+            23,
+            17,
+            12.333333333333336
+          ],
+          "intrinsicSize": [
+            17,
+            12.333333333333334
+          ],
+          "iconSize": 7,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 3,
+          "numberOfActiveBars": 3,
+          "activeColor": "UIExtendedGrayColorSpace 1 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 1 0.2",
+          "barCornerRadius": 0.6666666666666666,
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              308.6666666666667,
+              23,
+              17,
+              12.333333333333334
+            ],
+            "bounds": [
+              0,
+              0,
+              17,
+              12.333333333333334
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarStaticBatteryView",
+          "screenFrame": [
+            333,
+            22.666666666666668,
+            27.333333333333314,
+            13.000000000000004
+          ],
+          "intrinsicSize": [
+            27.333333333333332,
+            13
+          ],
+          "iconSize": 7,
+          "rounded": true,
+          "signalMode": null,
+          "numberOfBars": null,
+          "numberOfActiveBars": null,
+          "activeColor": null,
+          "inactiveColor": "UIExtendedSRGBColorSpace 1 1 1 0.5",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              333,
+              22.666666666666668,
+              27.333333333333332,
+              13
+            ],
+            "bounds": [
+              0,
+              0,
+              27.333333333333332,
+              13
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  27.333333333333332,
+                  13
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  27.333333333333332,
+                  13
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": [
+                  {
+                    "class": "CALayer",
+                    "frame": [
+                      2,
+                      2,
+                      21,
+                      9
+                    ],
+                    "bounds": [
+                      0,
+                      0,
+                      21,
+                      9
+                    ],
+                    "cornerRadius": 0,
+                    "cornerCurve": "circular",
+                    "opacity": 1,
+                    "backgroundColor": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  26,
+                  4.25,
+                  1.3333333333333333,
+                  4.5
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  1.3333333333333333,
+                  4.5
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        }
+      ],
+      "statusBars": [
+        {
+          "frame": [
+            0,
+            0,
+            393,
+            54
+          ],
+          "visualProvider": "<STUIStatusBarVisualProvider_DynamicSplitMedium>"
+        },
+        {
+          "frame": [
+            0,
+            0,
+            393,
+            54
+          ],
+          "visualProvider": "<STUIStatusBarVisualProvider_DynamicSplitMedium>"
+        }
+      ],
+      "styleEvents": [
+        {
+          "font": ".SFUI-Semibold",
+          "iconSize": 7,
+          "styleRounded": false,
+          "view": "STUIStatusBarWifiSignalView",
+          "viewRounded": false
+        },
+        {
+          "font": ".AppleSystemUIFontRounded-Medium",
+          "iconSize": 7,
+          "styleRounded": true,
+          "view": "STUIStatusBarStaticBatteryView",
+          "viewRounded": true
+        },
+        {
+          "font": ".SFUI-Semibold",
+          "iconSize": 7,
+          "styleRounded": false,
+          "view": "STUIStatusBarCellularSignalView",
+          "viewRounded": false
+        }
+      ],
+      "frameGaps": {
+        "cellularToWifi": 7.333333333333371,
+        "wifiToBattery": 7.333333333333314
+      }
+    },
+    {
+      "model": "iPhone16,1",
+      "systemVersion": "17.4",
+      "screenSize": [
+        393,
+        852
+      ],
+      "scale": 3,
+      "case": "partial",
+      "icons": [
+        {
+          "class": "STUIStatusBarCellularSignalView",
+          "screenFrame": [
+            282,
+            23,
+            19.333333333333314,
+            12.333333333333336
+          ],
+          "intrinsicSize": [
+            19.333333333333336,
+            12.333333333333334
+          ],
+          "iconSize": 7,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 4,
+          "numberOfActiveBars": 2,
+          "activeColor": "UIExtendedGrayColorSpace 0 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 0 0.2",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              282,
+              23,
+              19.333333333333332,
+              12.333333333333334
+            ],
+            "bounds": [
+              0,
+              0,
+              19.333333333333332,
+              12.333333333333334
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  7.666666666666667,
+                  3.3333333333333335,
+                  4.666666666666667
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.3333333333333335,
+                  4.666666666666667
+                ],
+                "cornerRadius": 1.1666666666666667,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  5.333333333333334,
+                  5.333333333333334,
+                  3.3333333333333335,
+                  7
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.3333333333333335,
+                  7
+                ],
+                "cornerRadius": 1.1666666666666667,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  10.666666666666668,
+                  2.666666666666668,
+                  3.3333333333333335,
+                  9.666666666666666
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.3333333333333335,
+                  9.666666666666666
+                ],
+                "cornerRadius": 1.1666666666666667,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  0.2
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  16,
+                  0,
+                  3.3333333333333335,
+                  12.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.3333333333333335,
+                  12.333333333333334
+                ],
+                "cornerRadius": 1.1666666666666667,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  0.2
+                ],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarWifiSignalView",
+          "screenFrame": [
+            308.6666666666667,
+            23,
+            17,
+            12.333333333333336
+          ],
+          "intrinsicSize": [
+            17,
+            12.333333333333334
+          ],
+          "iconSize": 7,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 3,
+          "numberOfActiveBars": 1,
+          "activeColor": "UIExtendedGrayColorSpace 0 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 0 0.2",
+          "barCornerRadius": 0.6666666666666666,
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              308.6666666666667,
+              23,
+              17,
+              12.333333333333334
+            ],
+            "bounds": [
+              0,
+              0,
+              17,
+              12.333333333333334
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 0.20000000298023224,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 0.20000000298023224,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarStaticBatteryView",
+          "screenFrame": [
+            333,
+            22.666666666666686,
+            27.333333333333314,
+            13
+          ],
+          "intrinsicSize": [
+            27.333333333333332,
+            13
+          ],
+          "iconSize": 7,
+          "rounded": true,
+          "signalMode": null,
+          "numberOfBars": null,
+          "numberOfActiveBars": null,
+          "activeColor": null,
+          "inactiveColor": "UIExtendedSRGBColorSpace 0 0 0 0.3",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              333,
+              22.666666666666668,
+              27.333333333333332,
+              13
+            ],
+            "bounds": [
+              0,
+              0,
+              27.333333333333332,
+              13
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  27.333333333333332,
+                  13
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  27.333333333333332,
+                  13
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": [
+                  {
+                    "class": "CALayer",
+                    "frame": [
+                      2,
+                      2,
+                      21,
+                      9
+                    ],
+                    "bounds": [
+                      0,
+                      0,
+                      21,
+                      9
+                    ],
+                    "cornerRadius": 0,
+                    "cornerCurve": "circular",
+                    "opacity": 1,
+                    "backgroundColor": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  26,
+                  4.25,
+                  1.3333333333333333,
+                  4.5
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  1.3333333333333333,
+                  4.5
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarCellularSignalView",
+          "screenFrame": [
+            282,
+            23,
+            19.333333333333314,
+            12.333333333333336
+          ],
+          "intrinsicSize": [
+            19.333333333333336,
+            12.333333333333334
+          ],
+          "iconSize": 7,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 4,
+          "numberOfActiveBars": 2,
+          "activeColor": "UIExtendedGrayColorSpace 1 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 1 0.2",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              282,
+              23,
+              19.333333333333332,
+              12.333333333333334
+            ],
+            "bounds": [
+              0,
+              0,
+              19.333333333333332,
+              12.333333333333334
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  7.666666666666667,
+                  3.3333333333333335,
+                  4.666666666666667
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.3333333333333335,
+                  4.666666666666667
+                ],
+                "cornerRadius": 1.1666666666666667,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  5.333333333333334,
+                  5.333333333333334,
+                  3.3333333333333335,
+                  7
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.3333333333333335,
+                  7
+                ],
+                "cornerRadius": 1.1666666666666667,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  10.666666666666668,
+                  2.666666666666668,
+                  3.3333333333333335,
+                  9.666666666666666
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.3333333333333335,
+                  9.666666666666666
+                ],
+                "cornerRadius": 1.1666666666666667,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  0.2
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  16,
+                  0,
+                  3.3333333333333335,
+                  12.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.3333333333333335,
+                  12.333333333333334
+                ],
+                "cornerRadius": 1.1666666666666667,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  0.2
+                ],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarWifiSignalView",
+          "screenFrame": [
+            308.6666666666667,
+            23,
+            17,
+            12.333333333333336
+          ],
+          "intrinsicSize": [
+            17,
+            12.333333333333334
+          ],
+          "iconSize": 7,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 3,
+          "numberOfActiveBars": 1,
+          "activeColor": "UIExtendedGrayColorSpace 1 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 1 0.2",
+          "barCornerRadius": 0.6666666666666666,
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              308.6666666666667,
+              23,
+              17,
+              12.333333333333334
+            ],
+            "bounds": [
+              0,
+              0,
+              17,
+              12.333333333333334
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 0.20000000298023224,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  17,
+                  12.333333333333334
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 0.20000000298023224,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarStaticBatteryView",
+          "screenFrame": [
+            333,
+            22.666666666666668,
+            27.333333333333314,
+            13.000000000000004
+          ],
+          "intrinsicSize": [
+            27.333333333333332,
+            13
+          ],
+          "iconSize": 7,
+          "rounded": true,
+          "signalMode": null,
+          "numberOfBars": null,
+          "numberOfActiveBars": null,
+          "activeColor": null,
+          "inactiveColor": "UIExtendedSRGBColorSpace 1 1 1 0.5",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              333,
+              22.666666666666668,
+              27.333333333333332,
+              13
+            ],
+            "bounds": [
+              0,
+              0,
+              27.333333333333332,
+              13
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  27.333333333333332,
+                  13
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  27.333333333333332,
+                  13
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": [
+                  {
+                    "class": "CALayer",
+                    "frame": [
+                      2,
+                      2,
+                      21,
+                      9
+                    ],
+                    "bounds": [
+                      0,
+                      0,
+                      21,
+                      9
+                    ],
+                    "cornerRadius": 0,
+                    "cornerCurve": "circular",
+                    "opacity": 1,
+                    "backgroundColor": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  26,
+                  4.25,
+                  1.3333333333333333,
+                  4.5
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  1.3333333333333333,
+                  4.5
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        }
+      ],
+      "statusBars": [
+        {
+          "frame": [
+            0,
+            0,
+            393,
+            54
+          ],
+          "visualProvider": "<STUIStatusBarVisualProvider_DynamicSplitMedium>"
+        },
+        {
+          "frame": [
+            0,
+            0,
+            393,
+            54
+          ],
+          "visualProvider": "<STUIStatusBarVisualProvider_DynamicSplitMedium>"
+        }
+      ],
+      "styleEvents": [
+        {
+          "font": ".SFUI-Semibold",
+          "iconSize": 7,
+          "styleRounded": false,
+          "view": "STUIStatusBarWifiSignalView",
+          "viewRounded": false
+        },
+        {
+          "font": ".AppleSystemUIFontRounded-Medium",
+          "iconSize": 7,
+          "styleRounded": true,
+          "view": "STUIStatusBarStaticBatteryView",
+          "viewRounded": true
+        },
+        {
+          "font": ".SFUI-Semibold",
+          "iconSize": 7,
+          "styleRounded": false,
+          "view": "STUIStatusBarCellularSignalView",
+          "viewRounded": false
+        }
+      ],
+      "frameGaps": {
+        "cellularToWifi": 7.333333333333371,
+        "wifiToBattery": 7.333333333333314
+      }
+    },
+    {
+      "model": "iPhone16,2",
+      "systemVersion": "17.4",
+      "screenSize": [
+        430,
+        932
+      ],
+      "scale": 3,
+      "case": "full",
+      "icons": [
+        {
+          "class": "STUIStatusBarCellularSignalView",
+          "screenFrame": [
+            305.3333333333333,
+            22,
+            21.666666666666686,
+            13.666666666666664
+          ],
+          "intrinsicSize": [
+            21.666666666666664,
+            13.666666666666666
+          ],
+          "iconSize": 8,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 4,
+          "numberOfActiveBars": 4,
+          "activeColor": "UIExtendedGrayColorSpace 0 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 0 0.2",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              305.3333333333333,
+              22,
+              21.666666666666668,
+              13.666666666666666
+            ],
+            "bounds": [
+              0,
+              0,
+              21.666666666666668,
+              13.666666666666666
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  8.333333333333332,
+                  3.6666666666666665,
+                  5.333333333333333
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.6666666666666665,
+                  5.333333333333333
+                ],
+                "cornerRadius": 1.2,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  6,
+                  5.999999999999999,
+                  3.6666666666666665,
+                  7.666666666666667
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.6666666666666665,
+                  7.666666666666667
+                ],
+                "cornerRadius": 1.2,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  12,
+                  3,
+                  3.6666666666666665,
+                  10.666666666666666
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.6666666666666665,
+                  10.666666666666666
+                ],
+                "cornerRadius": 1.2,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  18,
+                  0,
+                  3.6666666666666665,
+                  13.666666666666666
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.6666666666666665,
+                  13.666666666666666
+                ],
+                "cornerRadius": 1.2,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarWifiSignalView",
+          "screenFrame": [
+            334.3333333333333,
+            21.666666666666686,
+            19.666666666666686,
+            14
+          ],
+          "intrinsicSize": [
+            19.666666666666668,
+            14
+          ],
+          "iconSize": 8,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 3,
+          "numberOfActiveBars": 3,
+          "activeColor": "UIExtendedGrayColorSpace 0 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 0 0.2",
+          "barCornerRadius": 0.6666666666666666,
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              334.3333333333333,
+              21.666666666666668,
+              19.666666666666668,
+              14
+            ],
+            "bounds": [
+              0,
+              0,
+              19.666666666666668,
+              14
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarStaticBatteryView",
+          "screenFrame": [
+            361.3333333333333,
+            21.666666666666686,
+            31,
+            14.333333333333336
+          ],
+          "intrinsicSize": [
+            31.166666666666668,
+            14.333333333333334
+          ],
+          "iconSize": 8,
+          "rounded": true,
+          "signalMode": null,
+          "numberOfBars": null,
+          "numberOfActiveBars": null,
+          "activeColor": null,
+          "inactiveColor": "UIExtendedSRGBColorSpace 0 0 0 0.3",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              361.3333333333333,
+              21.666666666666668,
+              31,
+              14.333333333333334
+            ],
+            "bounds": [
+              0,
+              0,
+              31,
+              14.333333333333334
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  31,
+                  14.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  31,
+                  14.333333333333334
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": [
+                  {
+                    "class": "CALayer",
+                    "frame": [
+                      2.333333333333334,
+                      2.333333333333333,
+                      23.666666666666668,
+                      9.666666666666666
+                    ],
+                    "bounds": [
+                      0,
+                      0,
+                      23.666666666666668,
+                      9.666666666666666
+                    ],
+                    "cornerRadius": 0,
+                    "cornerCurve": "circular",
+                    "opacity": 1,
+                    "backgroundColor": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  29.5,
+                  4.666666666666667,
+                  1.6666666666666667,
+                  5
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  1.6666666666666667,
+                  5
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarCellularSignalView",
+          "screenFrame": [
+            305.3333333333333,
+            22,
+            21.666666666666686,
+            13.666666666666664
+          ],
+          "intrinsicSize": [
+            21.666666666666664,
+            13.666666666666666
+          ],
+          "iconSize": 8,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 4,
+          "numberOfActiveBars": 4,
+          "activeColor": "UIExtendedGrayColorSpace 1 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 1 0.2",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              305.3333333333333,
+              22,
+              21.666666666666668,
+              13.666666666666666
+            ],
+            "bounds": [
+              0,
+              0,
+              21.666666666666668,
+              13.666666666666666
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  8.333333333333332,
+                  3.6666666666666665,
+                  5.333333333333333
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.6666666666666665,
+                  5.333333333333333
+                ],
+                "cornerRadius": 1.2,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  6,
+                  5.999999999999999,
+                  3.6666666666666665,
+                  7.666666666666667
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.6666666666666665,
+                  7.666666666666667
+                ],
+                "cornerRadius": 1.2,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  12,
+                  3,
+                  3.6666666666666665,
+                  10.666666666666666
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.6666666666666665,
+                  10.666666666666666
+                ],
+                "cornerRadius": 1.2,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  18,
+                  0,
+                  3.6666666666666665,
+                  13.666666666666666
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.6666666666666665,
+                  13.666666666666666
+                ],
+                "cornerRadius": 1.2,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarWifiSignalView",
+          "screenFrame": [
+            334.3333333333333,
+            21.666666666666668,
+            19.666666666666686,
+            14.000000000000004
+          ],
+          "intrinsicSize": [
+            19.666666666666668,
+            14
+          ],
+          "iconSize": 8,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 3,
+          "numberOfActiveBars": 3,
+          "activeColor": "UIExtendedGrayColorSpace 1 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 1 0.2",
+          "barCornerRadius": 0.6666666666666666,
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              334.3333333333333,
+              21.666666666666668,
+              19.666666666666668,
+              14
+            ],
+            "bounds": [
+              0,
+              0,
+              19.666666666666668,
+              14
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarStaticBatteryView",
+          "screenFrame": [
+            361.3333333333333,
+            21.666666666666668,
+            31,
+            14.333333333333332
+          ],
+          "intrinsicSize": [
+            31.166666666666668,
+            14.333333333333334
+          ],
+          "iconSize": 8,
+          "rounded": true,
+          "signalMode": null,
+          "numberOfBars": null,
+          "numberOfActiveBars": null,
+          "activeColor": null,
+          "inactiveColor": "UIExtendedSRGBColorSpace 1 1 1 0.5",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              361.3333333333333,
+              21.666666666666668,
+              31,
+              14.333333333333334
+            ],
+            "bounds": [
+              0,
+              0,
+              31,
+              14.333333333333334
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  31,
+                  14.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  31,
+                  14.333333333333334
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": [
+                  {
+                    "class": "CALayer",
+                    "frame": [
+                      2.333333333333334,
+                      2.333333333333333,
+                      23.666666666666668,
+                      9.666666666666666
+                    ],
+                    "bounds": [
+                      0,
+                      0,
+                      23.666666666666668,
+                      9.666666666666666
+                    ],
+                    "cornerRadius": 0,
+                    "cornerCurve": "circular",
+                    "opacity": 1,
+                    "backgroundColor": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  29.5,
+                  4.666666666666667,
+                  1.6666666666666667,
+                  5
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  1.6666666666666667,
+                  5
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        }
+      ],
+      "statusBars": [
+        {
+          "frame": [
+            0,
+            0,
+            430,
+            54
+          ],
+          "visualProvider": "<STUIStatusBarVisualProvider_DynamicSplit>"
+        },
+        {
+          "frame": [
+            0,
+            0,
+            430,
+            54
+          ],
+          "visualProvider": "<STUIStatusBarVisualProvider_DynamicSplit>"
+        }
+      ],
+      "styleEvents": [
+        {
+          "font": ".SFUI-Semibold",
+          "iconSize": 8,
+          "styleRounded": false,
+          "view": "STUIStatusBarWifiSignalView",
+          "viewRounded": false
+        },
+        {
+          "font": ".AppleSystemUIFontRounded-Medium",
+          "iconSize": 8,
+          "styleRounded": true,
+          "view": "STUIStatusBarStaticBatteryView",
+          "viewRounded": true
+        },
+        {
+          "font": ".SFUI-Semibold",
+          "iconSize": 8,
+          "styleRounded": false,
+          "view": "STUIStatusBarCellularSignalView",
+          "viewRounded": false
+        }
+      ],
+      "frameGaps": {
+        "cellularToWifi": 7.333333333333314,
+        "wifiToBattery": 7.333333333333314
+      }
+    },
+    {
+      "model": "iPhone16,2",
+      "systemVersion": "17.4",
+      "screenSize": [
+        430,
+        932
+      ],
+      "scale": 3,
+      "case": "partial",
+      "icons": [
+        {
+          "class": "STUIStatusBarCellularSignalView",
+          "screenFrame": [
+            305.3333333333333,
+            22,
+            21.666666666666686,
+            13.666666666666664
+          ],
+          "intrinsicSize": [
+            21.666666666666664,
+            13.666666666666666
+          ],
+          "iconSize": 8,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 4,
+          "numberOfActiveBars": 2,
+          "activeColor": "UIExtendedGrayColorSpace 0 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 0 0.2",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              305.3333333333333,
+              22,
+              21.666666666666668,
+              13.666666666666666
+            ],
+            "bounds": [
+              0,
+              0,
+              21.666666666666668,
+              13.666666666666666
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  8.333333333333332,
+                  3.6666666666666665,
+                  5.333333333333333
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.6666666666666665,
+                  5.333333333333333
+                ],
+                "cornerRadius": 1.2,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  6,
+                  5.999999999999999,
+                  3.6666666666666665,
+                  7.666666666666667
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.6666666666666665,
+                  7.666666666666667
+                ],
+                "cornerRadius": 1.2,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  12,
+                  3,
+                  3.6666666666666665,
+                  10.666666666666666
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.6666666666666665,
+                  10.666666666666666
+                ],
+                "cornerRadius": 1.2,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  0.2
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  18,
+                  0,
+                  3.6666666666666665,
+                  13.666666666666666
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.6666666666666665,
+                  13.666666666666666
+                ],
+                "cornerRadius": 1.2,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  0,
+                  0,
+                  0,
+                  0.2
+                ],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarWifiSignalView",
+          "screenFrame": [
+            334.3333333333333,
+            21.666666666666686,
+            19.666666666666686,
+            14
+          ],
+          "intrinsicSize": [
+            19.666666666666668,
+            14
+          ],
+          "iconSize": 8,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 3,
+          "numberOfActiveBars": 1,
+          "activeColor": "UIExtendedGrayColorSpace 0 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 0 0.2",
+          "barCornerRadius": 0.6666666666666666,
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              334.3333333333333,
+              21.666666666666668,
+              19.666666666666668,
+              14
+            ],
+            "bounds": [
+              0,
+              0,
+              19.666666666666668,
+              14
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 0.20000000298023224,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 0.20000000298023224,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarStaticBatteryView",
+          "screenFrame": [
+            361.3333333333333,
+            21.666666666666686,
+            31,
+            14.333333333333336
+          ],
+          "intrinsicSize": [
+            31.166666666666668,
+            14.333333333333334
+          ],
+          "iconSize": 8,
+          "rounded": true,
+          "signalMode": null,
+          "numberOfBars": null,
+          "numberOfActiveBars": null,
+          "activeColor": null,
+          "inactiveColor": "UIExtendedSRGBColorSpace 0 0 0 0.3",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              361.3333333333333,
+              21.666666666666668,
+              31,
+              14.333333333333334
+            ],
+            "bounds": [
+              0,
+              0,
+              31,
+              14.333333333333334
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  31,
+                  14.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  31,
+                  14.333333333333334
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": [
+                  {
+                    "class": "CALayer",
+                    "frame": [
+                      2.333333333333334,
+                      2.333333333333333,
+                      23.666666666666668,
+                      9.666666666666666
+                    ],
+                    "bounds": [
+                      0,
+                      0,
+                      23.666666666666668,
+                      9.666666666666666
+                    ],
+                    "cornerRadius": 0,
+                    "cornerCurve": "circular",
+                    "opacity": 1,
+                    "backgroundColor": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  29.5,
+                  4.666666666666667,
+                  1.6666666666666667,
+                  5
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  1.6666666666666667,
+                  5
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarCellularSignalView",
+          "screenFrame": [
+            305.3333333333333,
+            22,
+            21.666666666666686,
+            13.666666666666664
+          ],
+          "intrinsicSize": [
+            21.666666666666664,
+            13.666666666666666
+          ],
+          "iconSize": 8,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 4,
+          "numberOfActiveBars": 2,
+          "activeColor": "UIExtendedGrayColorSpace 1 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 1 0.2",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              305.3333333333333,
+              22,
+              21.666666666666668,
+              13.666666666666666
+            ],
+            "bounds": [
+              0,
+              0,
+              21.666666666666668,
+              13.666666666666666
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  8.333333333333332,
+                  3.6666666666666665,
+                  5.333333333333333
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.6666666666666665,
+                  5.333333333333333
+                ],
+                "cornerRadius": 1.2,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  6,
+                  5.999999999999999,
+                  3.6666666666666665,
+                  7.666666666666667
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.6666666666666665,
+                  7.666666666666667
+                ],
+                "cornerRadius": 1.2,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  12,
+                  3,
+                  3.6666666666666665,
+                  10.666666666666666
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.6666666666666665,
+                  10.666666666666666
+                ],
+                "cornerRadius": 1.2,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  0.2
+                ],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  18,
+                  0,
+                  3.6666666666666665,
+                  13.666666666666666
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  3.6666666666666665,
+                  13.666666666666666
+                ],
+                "cornerRadius": 1.2,
+                "cornerCurve": "continuous",
+                "opacity": 1,
+                "backgroundColor": [
+                  1,
+                  1,
+                  1,
+                  0.2
+                ],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarWifiSignalView",
+          "screenFrame": [
+            334.3333333333333,
+            21.666666666666668,
+            19.666666666666686,
+            14.000000000000004
+          ],
+          "intrinsicSize": [
+            19.666666666666668,
+            14
+          ],
+          "iconSize": 8,
+          "rounded": false,
+          "signalMode": 2,
+          "numberOfBars": 3,
+          "numberOfActiveBars": 1,
+          "activeColor": "UIExtendedGrayColorSpace 1 1",
+          "inactiveColor": "UIExtendedGrayColorSpace 1 0.2",
+          "barCornerRadius": 0.6666666666666666,
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              334.3333333333333,
+              21.666666666666668,
+              19.666666666666668,
+              14
+            ],
+            "bounds": [
+              0,
+              0,
+              19.666666666666668,
+              14
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 0.20000000298023224,
+                "backgroundColor": [],
+                "children": []
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  19.666666666666668,
+                  14
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 0.20000000298023224,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        },
+        {
+          "class": "STUIStatusBarStaticBatteryView",
+          "screenFrame": [
+            361.3333333333333,
+            21.666666666666668,
+            31,
+            14.333333333333332
+          ],
+          "intrinsicSize": [
+            31.166666666666668,
+            14.333333333333334
+          ],
+          "iconSize": 8,
+          "rounded": true,
+          "signalMode": null,
+          "numberOfBars": null,
+          "numberOfActiveBars": null,
+          "activeColor": null,
+          "inactiveColor": "UIExtendedSRGBColorSpace 1 1 1 0.5",
+          "layer": {
+            "class": "CALayer",
+            "frame": [
+              361.3333333333333,
+              21.666666666666668,
+              31,
+              14.333333333333334
+            ],
+            "bounds": [
+              0,
+              0,
+              31,
+              14.333333333333334
+            ],
+            "cornerRadius": 0,
+            "cornerCurve": "circular",
+            "opacity": 1,
+            "backgroundColor": [],
+            "children": [
+              {
+                "class": "CALayer",
+                "frame": [
+                  0,
+                  0,
+                  31,
+                  14.333333333333334
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  31,
+                  14.333333333333334
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": [
+                  {
+                    "class": "CALayer",
+                    "frame": [
+                      2.333333333333334,
+                      2.333333333333333,
+                      23.666666666666668,
+                      9.666666666666666
+                    ],
+                    "bounds": [
+                      0,
+                      0,
+                      23.666666666666668,
+                      9.666666666666666
+                    ],
+                    "cornerRadius": 0,
+                    "cornerCurve": "circular",
+                    "opacity": 1,
+                    "backgroundColor": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "class": "CALayer",
+                "frame": [
+                  29.5,
+                  4.666666666666667,
+                  1.6666666666666667,
+                  5
+                ],
+                "bounds": [
+                  0,
+                  0,
+                  1.6666666666666667,
+                  5
+                ],
+                "cornerRadius": 0,
+                "cornerCurve": "circular",
+                "opacity": 1,
+                "backgroundColor": [],
+                "children": []
+              }
+            ]
+          }
+        }
+      ],
+      "statusBars": [
+        {
+          "frame": [
+            0,
+            0,
+            430,
+            54
+          ],
+          "visualProvider": "<STUIStatusBarVisualProvider_DynamicSplit>"
+        },
+        {
+          "frame": [
+            0,
+            0,
+            430,
+            54
+          ],
+          "visualProvider": "<STUIStatusBarVisualProvider_DynamicSplit>"
+        }
+      ],
+      "styleEvents": [
+        {
+          "font": ".SFUI-Semibold",
+          "iconSize": 8,
+          "styleRounded": false,
+          "view": "STUIStatusBarWifiSignalView",
+          "viewRounded": false
+        },
+        {
+          "font": ".AppleSystemUIFontRounded-Medium",
+          "iconSize": 8,
+          "styleRounded": true,
+          "view": "STUIStatusBarStaticBatteryView",
+          "viewRounded": true
+        },
+        {
+          "font": ".SFUI-Semibold",
+          "iconSize": 8,
+          "styleRounded": false,
+          "view": "STUIStatusBarCellularSignalView",
+          "viewRounded": false
+        }
+      ],
+      "frameGaps": {
+        "cellularToWifi": 7.333333333333314,
+        "wifiToBattery": 7.333333333333314
+      }
+    }
+  ],
+  "verification": "Compared 84 images; max alpha delta=0.0; images with delta > 1/255=0"
+}

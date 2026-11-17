@@ -1,0 +1,97 @@
+Wifi-4-rounded0-layer01.png mean=0.000000 max=0.000 pixels>1=0
+Wifi-4-rounded0-layer02.png mean=0.000000 max=0.000 pixels>1=0
+Wifi-4-rounded0-layer03.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-4-rounded0-active0.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-4-rounded0-active1.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-4-rounded0-active2.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-4-rounded0-active3.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-4-rounded0-active4.png mean=0.000000 max=0.000 pixels>1=0
+Wifi-4-rounded1-layer01.png mean=0.000000 max=0.000 pixels>1=0
+Wifi-4-rounded1-layer02.png mean=0.000000 max=0.000 pixels>1=0
+Wifi-4-rounded1-layer03.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-4-rounded1-active0.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-4-rounded1-active1.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-4-rounded1-active2.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-4-rounded1-active3.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-4-rounded1-active4.png mean=0.000000 max=0.000 pixels>1=0
+Wifi-7-rounded0-layer01.png mean=0.000000 max=0.000 pixels>1=0
+Wifi-7-rounded0-layer02.png mean=0.000000 max=0.000 pixels>1=0
+Wifi-7-rounded0-layer03.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-7-rounded0-active0.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-7-rounded0-active1.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-7-rounded0-active2.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-7-rounded0-active3.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-7-rounded0-active4.png mean=0.000000 max=0.000 pixels>1=0
+Wifi-7-rounded1-layer01.png mean=0.000000 max=0.000 pixels>1=0
+Wifi-7-rounded1-layer02.png mean=0.000000 max=0.000 pixels>1=0
+Wifi-7-rounded1-layer03.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-7-rounded1-active0.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-7-rounded1-active1.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-7-rounded1-active2.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-7-rounded1-active3.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-7-rounded1-active4.png mean=0.000000 max=0.000 pixels>1=0
+Wifi-8-rounded0-layer01.png mean=0.000000 max=0.000 pixels>1=0
+Wifi-8-rounded0-layer02.png mean=0.000000 max=0.000 pixels>1=0
+Wifi-8-rounded0-layer03.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-8-rounded0-active0.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-8-rounded0-active1.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-8-rounded0-active2.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-8-rounded0-active3.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-8-rounded0-active4.png mean=0.000000 max=0.000 pixels>1=0
+Wifi-8-rounded1-layer01.png mean=0.000000 max=0.000 pixels>1=0
+Wifi-8-rounded1-layer02.png mean=0.000000 max=0.000 pixels>1=0
+Wifi-8-rounded1-layer03.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-8-rounded1-active0.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-8-rounded1-active1.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-8-rounded1-active2.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-8-rounded1-active3.png mean=0.000000 max=0.000 pixels>1=0
+Cellular-8-rounded1-active4.png mean=0.000000 max=0.000 pixels>1=0
+live/notch/full: 4 cellular frames and corner settings match
+live/notch/full/Wifi-4-rounded0-layer01.png mean=0.000000 max=0.000 pixels>1=0
+live/notch/full/Wifi-4-rounded0-layer02.png mean=0.000000 max=0.000 pixels>1=0
+live/notch/full/Wifi-4-rounded0-layer03.png mean=0.000000 max=0.000 pixels>1=0
+live/notch/full: 4 cellular frames and corner settings match
+live/notch/full/Wifi-4-rounded0-layer01.png mean=0.000000 max=0.000 pixels>1=0
+live/notch/full/Wifi-4-rounded0-layer02.png mean=0.000000 max=0.000 pixels>1=0
+live/notch/full/Wifi-4-rounded0-layer03.png mean=0.000000 max=0.000 pixels>1=0
+live/notch/partial: 4 cellular frames and corner settings match
+live/notch/partial/Wifi-4-rounded0-layer01.png mean=0.000000 max=0.000 pixels>1=0
+live/notch/partial/Wifi-4-rounded0-layer02.png mean=0.000000 max=0.000 pixels>1=0
+live/notch/partial/Wifi-4-rounded0-layer03.png mean=0.000000 max=0.000 pixels>1=0
+live/notch/partial: 4 cellular frames and corner settings match
+live/notch/partial/Wifi-4-rounded0-layer01.png mean=0.000000 max=0.000 pixels>1=0
+live/notch/partial/Wifi-4-rounded0-layer02.png mean=0.000000 max=0.000 pixels>1=0
+live/notch/partial/Wifi-4-rounded0-layer03.png mean=0.000000 max=0.000 pixels>1=0
+live/island/full: 4 cellular frames and corner settings match
+live/island/full/Wifi-7-rounded0-layer01.png mean=0.000000 max=0.000 pixels>1=0
+live/island/full/Wifi-7-rounded0-layer02.png mean=0.000000 max=0.000 pixels>1=0
+live/island/full/Wifi-7-rounded0-layer03.png mean=0.000000 max=0.000 pixels>1=0
+live/island/full: 4 cellular frames and corner settings match
+live/island/full/Wifi-7-rounded0-layer01.png mean=0.000000 max=0.000 pixels>1=0
+live/island/full/Wifi-7-rounded0-layer02.png mean=0.000000 max=0.000 pixels>1=0
+live/island/full/Wifi-7-rounded0-layer03.png mean=0.000000 max=0.000 pixels>1=0
+live/island/partial: 4 cellular frames and corner settings match
+live/island/partial/Wifi-7-rounded0-layer01.png mean=0.000000 max=0.000 pixels>1=0
+live/island/partial/Wifi-7-rounded0-layer02.png mean=0.000000 max=0.000 pixels>1=0
+live/island/partial/Wifi-7-rounded0-layer03.png mean=0.000000 max=0.000 pixels>1=0
+live/island/partial: 4 cellular frames and corner settings match
+live/island/partial/Wifi-7-rounded0-layer01.png mean=0.000000 max=0.000 pixels>1=0
+live/island/partial/Wifi-7-rounded0-layer02.png mean=0.000000 max=0.000 pixels>1=0
+live/island/partial/Wifi-7-rounded0-layer03.png mean=0.000000 max=0.000 pixels>1=0
+live/island-max/full: 4 cellular frames and corner settings match
+live/island-max/full/Wifi-8-rounded0-layer01.png mean=0.000000 max=0.000 pixels>1=0
+live/island-max/full/Wifi-8-rounded0-layer02.png mean=0.000000 max=0.000 pixels>1=0
+live/island-max/full/Wifi-8-rounded0-layer03.png mean=0.000000 max=0.000 pixels>1=0
+live/island-max/full: 4 cellular frames and corner settings match
+live/island-max/full/Wifi-8-rounded0-layer01.png mean=0.000000 max=0.000 pixels>1=0
+live/island-max/full/Wifi-8-rounded0-layer02.png mean=0.000000 max=0.000 pixels>1=0
+live/island-max/full/Wifi-8-rounded0-layer03.png mean=0.000000 max=0.000 pixels>1=0
+live/island-max/partial: 4 cellular frames and corner settings match
+live/island-max/partial/Wifi-8-rounded0-layer01.png mean=0.000000 max=0.000 pixels>1=0
+live/island-max/partial/Wifi-8-rounded0-layer02.png mean=0.000000 max=0.000 pixels>1=0
+live/island-max/partial/Wifi-8-rounded0-layer03.png mean=0.000000 max=0.000 pixels>1=0
+live/island-max/partial: 4 cellular frames and corner settings match
+live/island-max/partial/Wifi-8-rounded0-layer01.png mean=0.000000 max=0.000 pixels>1=0
+live/island-max/partial/Wifi-8-rounded0-layer02.png mean=0.000000 max=0.000 pixels>1=0
+live/island-max/partial/Wifi-8-rounded0-layer03.png mean=0.000000 max=0.000 pixels>1=0
+Compared 84 images; max alpha delta=0.0; images with delta > 1/255=0
